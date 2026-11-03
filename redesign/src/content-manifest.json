@@ -1,0 +1,398 @@
+[
+  {
+    "source": "research/ai-and-society-group.html",
+    "slug": "research--ai-and-society-group",
+    "title": "AI and Society Group",
+    "parent": "research"
+  },
+  {
+    "source": "research/artificial-intelligence-and-law-group.html",
+    "slug": "research--artificial-intelligence-and-law-group",
+    "title": "Artificial Intelligence and Law Group",
+    "parent": "research"
+  },
+  {
+    "source": "research/biomedical-informatics-group.html",
+    "slug": "research--biomedical-informatics-group",
+    "title": "Biomedical Informatics Group",
+    "parent": "research"
+  },
+  {
+    "source": "research/centers-and-institutions.html",
+    "slug": "research--centers-and-institutions",
+    "title": "Centers and Institutions",
+    "parent": "research"
+  },
+  {
+    "source": "research/computer-vision-group.html",
+    "slug": "research--computer-vision-group",
+    "title": "Computer Vision and Image Analysis Group",
+    "parent": "research"
+  },
+  {
+    "source": "research/intelligent-tutoring-systems-and-educational-technology-group.html",
+    "slug": "research--intelligent-tutoring-systems-and-educational-technology-group",
+    "title": "Intelligent Tutoring Systems and Educational Technology Group",
+    "parent": "research"
+  },
+  {
+    "source": "research/machine-learning-and-decision-making-group.html",
+    "slug": "research--machine-learning-and-decision-making-group",
+    "title": "Machine Learning and Decision Making Group",
+    "parent": "research"
+  },
+  {
+    "source": "research/natural-language-processing-and-information-retreival-group.html",
+    "slug": "research--natural-language-processing-and-information-retreival-group",
+    "title": "Natural Language Processing and Information Retreival Group",
+    "parent": "research"
+  },
+  {
+    "source": "news/adriana-kovashka-receives-nsf-career-award.html",
+    "slug": "news--adriana-kovashka-receives-nsf-career-award",
+    "title": "Adriana Kovashka Receives NSF CAREER Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/adriana-kovashka-selected-amazon-research-award.html",
+    "slug": "news--adriana-kovashka-selected-amazon-research-award",
+    "title": "Adriana Kovashka Selected for Amazon Research Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/empowering-smallholder-farmers-global-south-through-agriculture-chatbots.html",
+    "slug": "news--empowering-smallholder-farmers-global-south-through-agriculture-chatbots",
+    "title": "Empowering smallholder farmers in the Global South through agriculture chatbots",
+    "parent": "news"
+  },
+  {
+    "source": "news/fourth-edition-isp-yearly-newsletter-published.html",
+    "slug": "news--fourth-edition-isp-yearly-newsletter-published",
+    "title": "Fourth Edition of ISP Yearly Newsletter is Published",
+    "parent": "news"
+  },
+  {
+    "source": "news/intraface-research-receives-test-time-award-2026-ieee-conference.html",
+    "slug": "news--intraface-research-receives-test-time-award-2026-ieee-conference",
+    "title": "IntraFace Research Receives Test of Time Award at 2026 IEEE Conference",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-alum-and-isp-faculty-member-nominated-2019-amia-doctoral-dissertation-award.html",
+    "slug": "news--isp-alum-and-isp-faculty-member-nominated-2019-amia-doctoral-dissertation-award",
+    "title": "ISP Alum and ISP Faculty Member Nominated for 2019 AMIA Doctoral Dissertation Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-alumni-and-isp-faculty-member-receive-acl-test-time-award.html",
+    "slug": "news--isp-alumni-and-isp-faculty-member-receive-acl-test-time-award",
+    "title": "ISP Alumni and ISP Faculty Member Receive ACL Test-of-Time Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-alumnus-receives-fullbright-scholarship-further-educational-technology-chile.html",
+    "slug": "news--isp-alumnus-receives-fullbright-scholarship-further-educational-technology-chile",
+    "title": "ISP Alumnus Receives Fullbright Scholarship to Further Educational Technology in Chile",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-alumnus-vincent-aleven-receives-lrdcs-distinguished-alumni-award.html",
+    "slug": "news--isp-alumnus-vincent-aleven-receives-lrdcs-distinguished-alumni-award",
+    "title": "ISP Alumnus Vincent Aleven Receives LRDC's Distinguished Alumni Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-director-peter-brusilovsky-selected-2023-chancellors-distinguished-research-award.html",
+    "slug": "news--isp-director-peter-brusilovsky-selected-2023-chancellors-distinguished-research-award",
+    "title": "ISP Director Peter Brusilovsky Selected for 2023 Chancellor\u2019s Distinguished Research Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-director-peter-brusilovsky-speak-keynote-36th-acm-conference-hypertext-and-social-media.html",
+    "slug": "news--isp-director-peter-brusilovsky-speak-keynote-36th-acm-conference-hypertext-and-social-media",
+    "title": "ISP Director Peter Brusilovsky to Speak as a Keynote for 36th ACM Conference on Hypertext and Social Media",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-director-vanathi-gopalakrishnan-contributes-ai-magazine.html",
+    "slug": "news--isp-director-vanathi-gopalakrishnan-contributes-ai-magazine",
+    "title": "ISP Director Vanathi Gopalakrishnan Contributes to AI Magazine",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-emeritus-professor-received-sustained-accomplishment-award-icmi-2026.html",
+    "slug": "news--isp-emeritus-professor-received-sustained-accomplishment-award-icmi-2026",
+    "title": "ISP Emeritus Professor Received Sustained Accomplishment Award at ICMI 2026",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-and-isp-student-win-jurix-2019-best-student-paper-award.html",
+    "slug": "news--isp-faculty-member-and-isp-student-win-jurix-2019-best-student-paper-award",
+    "title": "ISP Faculty Member and ISP Student Win Jurix 2019 Best Student Paper Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-appointed-interim-chair-department-biomedical-informatics.html",
+    "slug": "news--isp-faculty-member-appointed-interim-chair-department-biomedical-informatics",
+    "title": "ISP Faculty Member Appointed Interim Chair of Department of Biomedical Informatics",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-appointed-nih-study-section.html",
+    "slug": "news--isp-faculty-member-appointed-nih-study-section",
+    "title": "ISP Faculty Member Appointed to NIH Study Section",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-be-inducted-acmi-fellow.html",
+    "slug": "news--isp-faculty-member-be-inducted-acmi-fellow",
+    "title": "ISP Faculty Member to be Inducted into the ACMI as a Fellow",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-dr-ahmad-p-tafti-contributes-scientific-efforts-cpace.html",
+    "slug": "news--isp-faculty-member-dr-ahmad-p-tafti-contributes-scientific-efforts-cpace",
+    "title": "ISP Faculty Member Dr. Ahmad P. Tafti Contributes to Scientific Efforts at CPACE",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-leming-zhou-promoted-full-professor.html",
+    "slug": "news--isp-faculty-member-leming-zhou-promoted-full-professor",
+    "title": "ISP Faculty Member Leming Zhou Promoted to Full Professor",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-receives-2026-ohdsi-titan-award.html",
+    "slug": "news--isp-faculty-member-receives-2026-ohdsi-titan-award",
+    "title": "ISP Faculty Member Receives 2026 OHDSI Titan Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-member-receives-oracle-2023-excellence-award.html",
+    "slug": "news--isp-faculty-member-receives-oracle-2023-excellence-award",
+    "title": "ISP Faculty Member Receives Oracle 2023 Excellence Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-members-ranked-among-top-2-scientists.html",
+    "slug": "news--isp-faculty-members-ranked-among-top-2-scientists",
+    "title": "ISP Faculty Members Ranked Among Top 2% of Scientists",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-faculty-receive-pitt-momentum-funds.html",
+    "slug": "news--isp-faculty-receive-pitt-momentum-funds",
+    "title": "ISP Faculty Receive Pitt Momentum Funds",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-founding-co-director-and-professor-emeritus-alan-lesgold-authors-book.html",
+    "slug": "news--isp-founding-co-director-and-professor-emeritus-alan-lesgold-authors-book",
+    "title": "ISP Founding Co-Director and Professor Emeritus Alan Lesgold Authors Book",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-phd-student-receives-best-poster-award-aied2023.html",
+    "slug": "news--isp-phd-student-receives-best-poster-award-aied2023",
+    "title": "ISP PhD Student Receives Best Poster Award at AIED2023",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-student-huao-lis-paper-accepted-neurips-2024.html",
+    "slug": "news--isp-student-huao-lis-paper-accepted-neurips-2024",
+    "title": "ISP Student Huao Li's paper accepted by NeurIPS 2024",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-student-receives-summer-research-internship-nlm.html",
+    "slug": "news--isp-student-receives-summer-research-internship-nlm",
+    "title": "ISP Student Receives Summer Research Internship with NLM",
+    "parent": "news"
+  },
+  {
+    "source": "news/isp-student-wins-magna-cum-laude-science-poster-award-rsna-2025-research-developing-advanced.html",
+    "slug": "news--isp-student-wins-magna-cum-laude-science-poster-award-rsna-2025-research-developing-advanced",
+    "title": "ISP Student Wins Magna Cum Laude Science Poster Award at RSNA 2025 for Research on Developing Advanced AI Models for Medical Imaging",
+    "parent": "news"
+  },
+  {
+    "source": "news/mahbaneh-torbati-and-khushboo-thaker-receive-provost-predoctoral-fellowships.html",
+    "slug": "news--mahbaneh-torbati-and-khushboo-thaker-receive-provost-predoctoral-fellowships",
+    "title": "Mahbaneh Torbati and Khushboo Thaker Receive Provost Predoctoral Fellowships",
+    "parent": "news"
+  },
+  {
+    "source": "news/meet-incoming-isp-student-anthony-sicilia.html",
+    "slug": "news--meet-incoming-isp-student-anthony-sicilia",
+    "title": "Meet Incoming ISP Student Anthony Sicilia",
+    "parent": "news"
+  },
+  {
+    "source": "news/mohammadamin-tajgardoon-and-omid-kashefi-win-provost-predoctoral-fellowships-2020.html",
+    "slug": "news--mohammadamin-tajgardoon-and-omid-kashefi-win-provost-predoctoral-fellowships-2020",
+    "title": "Mohammadamin Tajgardoon and Omid Kashefi Win Provost Predoctoral Fellowships for 2020",
+    "parent": "news"
+  },
+  {
+    "source": "news/peter-brusilovsky-director-isp-receives-nsf-grant-develop-learning-system-computer-science.html",
+    "slug": "news--peter-brusilovsky-director-isp-receives-nsf-grant-develop-learning-system-computer-science",
+    "title": "Peter Brusilovsky, Director of ISP, receives NSF grant to develop a learning system for computer science education",
+    "parent": "news"
+  },
+  {
+    "source": "news/peter-brusilovsky-elected-chair-acm-sigweb.html",
+    "slug": "news--peter-brusilovsky-elected-chair-acm-sigweb",
+    "title": "Peter Brusilovsky Elected Chair of ACM Sigweb",
+    "parent": "news"
+  },
+  {
+    "source": "news/peter-brusilovsky-receives-aminers-most-influential-scholar-award.html",
+    "slug": "news--peter-brusilovsky-receives-aminers-most-influential-scholar-award",
+    "title": "Peter Brusilovsky Receives AMiner's Most Influential Scholar Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/professor-diane-litman-receives-nsf-grant-reflection-informed-stem-learning-and-instruction.html",
+    "slug": "news--professor-diane-litman-receives-nsf-grant-reflection-informed-stem-learning-and-instruction",
+    "title": "Professor Diane Litman Receives NSF Grant for Reflection-Informed STEM Learning and Instruction",
+    "parent": "news"
+  },
+  {
+    "source": "news/recent-phd-graduate-sci-professor-receive-best-paper-award-edm-2026.html",
+    "slug": "news--recent-phd-graduate-sci-professor-receive-best-paper-award-edm-2026",
+    "title": "Recent PhD Graduate, SCI Professor Receive Best Paper Award at EDM 2026",
+    "parent": "news"
+  },
+  {
+    "source": "news/remembering-professor-janyce-wiebe.html",
+    "slug": "news--remembering-professor-janyce-wiebe",
+    "title": "Remembering Professor Janyce Wiebe",
+    "parent": "news"
+  },
+  {
+    "source": "news/sera-linardi-and-yu-ru-lin-receive-pitt-momentum-seed-grant.html",
+    "slug": "news--sera-linardi-and-yu-ru-lin-receive-pitt-momentum-seed-grant",
+    "title": "Sera Linardi and Yu-Ru Lin Receive Pitt Momentum Seed Grant",
+    "parent": "news"
+  },
+  {
+    "source": "news/sera-linardi-receives-pitt-partnerships-distinction-award.html",
+    "slug": "news--sera-linardi-receives-pitt-partnerships-distinction-award",
+    "title": "Sera Linardi Receives Pitt Partnerships of Distinction Award",
+    "parent": "news"
+  },
+  {
+    "source": "news/sera-linardi-recognized-harvard-center-research-and-computation-society.html",
+    "slug": "news--sera-linardi-recognized-harvard-center-research-and-computation-society",
+    "title": "Sera Linardi Recognized by Harvard Center for Research and Computation for Society",
+    "parent": "news"
+  },
+  {
+    "source": "news/three-isp-faculty-members-awarded-pitt-innovator-awards-innovation-institute.html",
+    "slug": "news--three-isp-faculty-members-awarded-pitt-innovator-awards-innovation-institute",
+    "title": "Three ISP Faculty Members Awarded Pitt Innovator Awards from the Innovation Institute",
+    "parent": "news"
+  },
+  {
+    "source": "news/tribute-professor-janyce-wiebe-her-nlp-family.html",
+    "slug": "news--tribute-professor-janyce-wiebe-her-nlp-family",
+    "title": "A Tribute to Professor Janyce Wiebe from her NLP Family",
+    "parent": "news"
+  },
+  {
+    "source": "news/two-isp-faculty-and-one-student-receive-pitt-cyber-accelerator-grants.html",
+    "slug": "news--two-isp-faculty-and-one-student-receive-pitt-cyber-accelerator-grants",
+    "title": "Two ISP Faculty and One Student Receive Pitt Cyber Accelerator Grants",
+    "parent": "news"
+  },
+  {
+    "source": "news/two-isp-faculty-win-provost-faculty-awards.html",
+    "slug": "news--two-isp-faculty-win-provost-faculty-awards",
+    "title": "Two ISP Faculty Win Provost Faculty Awards",
+    "parent": "news"
+  },
+  {
+    "source": "news/welcome-new-isp-students-fall-21.html",
+    "slug": "news--welcome-new-isp-students-fall-21",
+    "title": "Welcome New ISP Students for Fall '21",
+    "parent": "news"
+  },
+  {
+    "source": "news/what-will-2020s-bring-artificial-intelligence.html",
+    "slug": "news--what-will-2020s-bring-artificial-intelligence",
+    "title": "What Will the 2020s Bring for Artificial Intelligence?",
+    "parent": "news"
+  },
+  {
+    "source": "news/yanshan-wang-receives-6-million-nih-award-advance-generative-ai-healthcare.html",
+    "slug": "news--yanshan-wang-receives-6-million-nih-award-advance-generative-ai-healthcare",
+    "title": "Yanshan Wang Receives $6 Million NIH Award to Advance Generative AI in Healthcare",
+    "parent": "news"
+  },
+  {
+    "source": "news/yu-ru-lin-receives-funding-adobe-research.html",
+    "slug": "news--yu-ru-lin-receives-funding-adobe-research",
+    "title": "Yu-Ru Lin Receives Funding from Adobe Research",
+    "parent": "news"
+  },
+  {
+    "source": "past-events/past-events-2018.html",
+    "slug": "past-events--past-events-2018",
+    "title": "Past Events - 2018",
+    "parent": "events"
+  },
+  {
+    "source": "past-events/past-events-2019.html",
+    "slug": "past-events--past-events-2019",
+    "title": "Past Events - 2019",
+    "parent": "events"
+  },
+  {
+    "source": "past-events/past-events-2020.html",
+    "slug": "past-events--past-events-2020",
+    "title": "Past Events - 2020",
+    "parent": "events"
+  },
+  {
+    "source": "past-events/past-events-2021.html",
+    "slug": "past-events--past-events-2021",
+    "title": "Past Events - 2021",
+    "parent": "events"
+  },
+  {
+    "source": "past-events/past-events-2022.html",
+    "slug": "past-events--past-events-2022",
+    "title": "Past Events - 2022",
+    "parent": "events"
+  },
+  {
+    "source": "resources/2017-publications.html",
+    "slug": "resources--2017-publications",
+    "title": "2017 Publications",
+    "parent": "resources"
+  },
+  {
+    "source": "resources/2018-publications.html",
+    "slug": "resources--2018-publications",
+    "title": "2018 Publications",
+    "parent": "resources"
+  },
+  {
+    "source": "resources/2019-publications.html",
+    "slug": "resources--2019-publications",
+    "title": "2019 Publications",
+    "parent": "resources"
+  },
+  {
+    "source": "resources/isp-secondary-faculty-appointment.html",
+    "slug": "resources--isp-secondary-faculty-appointment",
+    "title": "ISP Secondary Faculty Appointment",
+    "parent": "resources"
+  },
+  {
+    "source": "resources/reading-and-research-groups.html",
+    "slug": "resources--reading-and-research-groups",
+    "title": "Reading and Research Groups",
+    "parent": "resources"
+  }
+]

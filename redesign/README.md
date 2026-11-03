@@ -41,3 +41,15 @@ The directory now includes 190 deduplicated people, 172 portraits (18 campus-pho
 Search matches names, roles, research interests, and biography text; category filters default to faculty when JavaScript is enabled. Without JavaScript, all records and source links remain accessible. Portraits are copied from the supplied website assets, with no new or AI-generated portraits.
 
 Directory validation: static lint and build pass, including local image paths and heading structure. Interactive browser verification of the directory was blocked by browser origin approval; search, category filters, and mobile layout still need a browser review.
+
+## Expanded local content
+
+The redesign now generates 77 pages: the original 11 redesigned pages plus 66 pages reproduced from the supplied local ISP snapshot. This includes 48 news stories, eight research group/center pages, five past-event archives (2018–2022), three publication archives (2017–2019), the secondary faculty appointment process, and reading/research groups. Research, News, Events, and Resources link to the local copies; matching original ISP links in page content are rewritten to local destinations. Other external links remain external.
+
+Historical stories, events, and publications are labeled as archives. Research activity, group membership, contacts, appointment procedures, and reading-group schedules require review. Each imported page links back to its original ISP source. These pages reproduce supplied content rather than asserting it is current. Source scripts, theme markup, and unreviewed images are not imported.
+
+The migration preserves the documented exceptions: no Dietrich handbook or COVID resources; no obsolete “Current ISP Research” page; no duplicate computer-vision page. Handbook policies, old admissions rules, approved elective lists, and unverified financial-aid/travel award terms were not republished as current guidance. Existing redesigned degree and advising guidance remains in place. People directory behavior is unchanged.
+
+Implementation: `redesign/scripts/snapshot_content.py` reads the supplied snapshot at build time; `redesign/src/content-manifest.json` records all 66 source-to-page mappings. Keep the snapshot beside `redesign/` when rebuilding. The generated `redesign/dist/` folder can be served independently without Python generation scripts or the snapshot.
+
+Validation after this expansion: `python3 redesign/scripts/build.py` passed for all 77 pages. Additional checks confirmed all 66 source mappings, preview/dist copies, section links, provenance notices, source links, and removal of executable source markup. External destinations and browser/mobile behavior remain unverified because of the saved browser origin restriction.
