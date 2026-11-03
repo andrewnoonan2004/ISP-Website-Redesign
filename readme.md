@@ -9,7 +9,7 @@ Requires Python 3. There is no npm install step, framework server, or third-part
 From a terminal:
 
 ```bash
-cd "/home/andrew/Documents/ISP Website Redesign"
+cd "ISP Website Redesign"
 python3 redesign/scripts/build.py
 python3 -m http.server 8000 --bind 127.0.0.1 --directory redesign
 ```
