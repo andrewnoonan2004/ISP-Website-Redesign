@@ -1,6 +1,6 @@
 # ISP website redesign
 
-Local static prototype for the University of Pittsburgh Intelligent Systems Program. The implementation lives in `redesign/`; the supplied website snapshot remains in `www.isp.pitt.edu/`. No deployment is configured.
+Local static prototype for the University of Pittsburgh Intelligent Systems Program. The implementation lives in `redesign/`; the supplied website snapshot remains in `www.isp.pitt.edu/`.[Website Here](https://andrewnoonan2004.github.io/ISP-Website-Redesign/index.html).
 
 ## Run locally
 
