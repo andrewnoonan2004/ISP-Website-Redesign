@@ -1,6 +1,6 @@
 # ISP website redesign
 
-Local static prototype for the University of Pittsburgh Intelligent Systems Program. The implementation lives in `redesign/`; the supplied website snapshot remains in `www.isp.pitt.edu/`.[Website Here](https://andrewnoonan2004.github.io/ISP-Website-Redesign/index.html).
+Local static prototype for the University of Pittsburgh Intelligent Systems Program. The implementation lives in `redesign/`; the supplied website snapshot remains in `www.isp.pitt.edu/`.[Website Here](https://andrewnoonan2004.github.io/ISP-Website-Redesign/index.html), Figma [here](https://www.figma.com/design/d5L8WzQhJIxe9maP7lPc2H/Untitled?node-id=0-1&t=mp9robhabRIZVE8I-1).
 
 ## Run locally
 
