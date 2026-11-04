@@ -29,8 +29,6 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory redesign/dist
 
 ## Edit and rebuild
 
-Read `AGENTS.md` and `BRAND.md` before changing the site.
-
 | File or folder | Purpose |
 | --- | --- |
 | `redesign/src/layout.html` | Shared page layout, header, and footer |
