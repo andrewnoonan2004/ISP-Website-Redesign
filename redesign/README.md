@@ -53,3 +53,11 @@ The migration preserves the documented exceptions: no Dietrich handbook or COVID
 Implementation: `redesign/scripts/snapshot_content.py` reads the supplied snapshot at build time; `redesign/src/content-manifest.json` records all 66 source-to-page mappings. Keep the snapshot beside `redesign/` when rebuilding. The generated `redesign/dist/` folder can be served independently without Python generation scripts or the snapshot.
 
 Validation after this expansion: `python3 redesign/scripts/build.py` passed for all 77 pages. Additional checks confirmed all 66 source mappings, preview/dist copies, section links, provenance notices, source links, and removal of executable source markup. External destinations and browser/mobile behavior remain unverified because of the saved browser origin restriction.
+
+## GitHub Pages deployment
+
+The `.github/workflows/pages.yml` workflow builds and lints the site on every push to `main`, then publishes only `redesign/dist/`. It can also be run manually from the GitHub Actions tab. Set the repository's Pages publishing source to **GitHub Actions**. No third-party Python packages or deployment secrets are needed.
+
+Published address: https://andrewnoonan2004.github.io/ISP-Website-Redesign/
+
+The generated site uses relative page and asset paths to support the repository URL prefix. The original website snapshot and Word documents are build inputs, not part of the Pages deployment artifact. Prototype notes and outstanding content/brand TODOs remain visible until resolved.
