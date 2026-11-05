@@ -61,3 +61,25 @@ The `.github/workflows/pages.yml` workflow builds and lints the site on every pu
 Published address: https://andrewnoonan2004.github.io/ISP-Website-Redesign/
 
 The generated site uses relative page and asset paths to support the repository URL prefix. The original website snapshot and Word documents are build inputs, not part of the Pages deployment artifact. Prototype notes and outstanding content/brand TODOs remain visible until resolved.
+
+
+## UX fixes — November 5, 2026
+
+The generator preserves official-source handoffs marked `data-source-link` while localizing ordinary browsing links. All 66 imported pages retain their original external source destination. Link arrows now reflect the final destination: horizontal for local navigation, diagonal for external web links, and none for email/telephone links. `scripts/test_navigation.py` runs seven regression tests during every build, covering generated source links, admissions/degree handoffs, topic shortcuts, and duplicate research navigation.
+
+The Academics page compares the degrees using existing program descriptions, and Admissions provides a task-based route to official requirements, procedures, and SCI's application portal. Homepage topic links go directly to group details; Research lists each group/center once. The mobile menu names its closing action and preserves Escape/focus behavior. Internal production wording has been replaced with visitor-facing notices while retaining the required institutional-mark placeholder and photo-permission label.
+
+Official sources checked November 5, 2026:
+- https://www.isp.pitt.edu/admissions
+- https://www.isp.pitt.edu/admissions/application-requirements
+- https://www.isp.pitt.edu/admissions/admissions-procedures
+- https://www.sci.pitt.edu/admissions (links to Apply to Graduate Programs)
+- https://www.isp.pitt.edu/academics/master-science-intelligent-systems
+- https://www.isp.pitt.edu/academics/doctor-philosophy-intelligent-systems
+- https://www.sci.pitt.edu/people/heidi-davis (ISP administrator)
+
+Remaining editorial TODOs: confirm entry-term deadlines, funding, catalog-year applicability, and policy details with ISP/SCI; resolve the source documents' conflicting MS committee membership rules. The student-facing page now directs students to their advisor and administrator before inviting committee members instead of presenting both rules as choices. Fixed-edition catalog buttons have been replaced with the official degree pages because the catalog returned HTTP 403 during review. No catalog year or committee rule was guessed. Official source URLs for all imported archives are preserved, but not all external destinations were independently checked. Brand asset, photo permission, and font approval TODOs above remain open.
+
+No dependencies, global stylesheet/token changes, primary navigation changes, or brand asset edits were made. GitHub Pages is updated only after these local changes are pushed through the existing deployment workflow.
+
+Validation for this UX pass: build, static lint (77 pages), seven navigation regression tests, and `git diff --check` passed. Browser checks covered desktop and 320px degree/admissions layouts, mobile open/close/Escape and focus return, direct research navigation, successful admissions and research handoffs to isp.pitt.edu, resource accordion deep-link expansion, and directory search/no-results/reset. No JavaScript console errors were observed in the tested local flow. Node is unavailable on this host, so standalone `node --check` could not run; JavaScript behavior was verified in the browser. This is not a full assistive-technology audit.

@@ -39,7 +39,7 @@ def load():
  for path in collect():
   tree=Tree(path.read_text()).root
   article=next((n for n in tree.walk() if n.tag=='article'),None)
-  title=next((n.text().strip() for n in tree.walk() if n.tag=='h1'),path.stem.replace('-',' ').title())
+  title=next((n.text().strip() for n in tree.walk() if n.tag=='h1'),path.stem.replace('-',' ').title()).replace('Retreival', 'Retrieval')
   if not article or not article.text().strip():raise ValueError(f'Missing article: {path}')
   rel=path.relative_to(SNAPSHOT).as_posix();slug=rel[:-5].replace('/','--')
   group=rel.split('/')[0];parent={'past-events':'events'}.get(group,group)
@@ -77,30 +77,46 @@ def render_node(n,source,state):
   if n.tag=='th':attrs+=' scope="col"'
   return f'<{n.tag}{attrs}>'+inside+f'</{n.tag}>'
  return inside
-EXPLANATION='Reproduced from the supplied ISP website snapshot. Roles, affiliations, contacts, and links may have changed.'
-def pages():return {r['slug']:(r['title'],'Content from the supplied ISP website snapshot.') for r in RECORDS}
+EXPLANATION='This reference copy may be out of date. Check the official ISP page linked below for updated information.'
+def pages():return {r['slug']:(r['title'],'Research group information.' if r['parent']=='research' else 'Archived ISP news and events.' if r['parent'] in {'news','events'} else 'ISP reference information.') for r in RECORDS}
 def parents():return {r['slug']:r['parent'] for r in RECORDS}
 def bodies():
  result={}
  for r in RECORDS:
   note=EXPLANATION
-  if r['parent'] in {'events','news'} or 'publications' in r['source']:note='Historical archive from the supplied ISP website snapshot. Dates and descriptions refer to the original publication; this is not a current announcement or live feed.'
-  if r['parent']=='research':note+=' Group membership and activity require program review.'
+  if r['parent'] in {'events','news'} or 'publications' in r['source']:note='Historical archive. Dates and descriptions refer to the original publication, not upcoming events or current announcements.'
+  if r['parent']=='research':note+=' Confirm current group membership and projects with the faculty listed below.'
   if r['source'].startswith('resources/'):note+=' Confirm group schedules and appointment procedures with ISP before acting on them.'
   body='\n'.join(line.rstrip() for line in render_node(r['article'],r['source'],[1]).splitlines())
-  result[r['slug']]=f'<section class="section wrap prose" style="overflow-wrap:anywhere"><p><a href="{r["parent"]}.html">Back to {html.escape(r["parent"])}</a></p><div class="notice">{note}</div>{body}<p><a href="{BASE+r["source"][:-5]}">View the original ISP source</a></p></section>'
+  result[r['slug']]=f'<section class="section wrap prose" style="overflow-wrap:anywhere"><p><a href="{r["parent"]}.html">Back to {html.escape(r["parent"])}</a></p><div class="notice">{note}</div>{body}<p><a data-source-link href="{BASE+r["source"][:-5]}">View the official ISP page <span aria-hidden="true">↗</span></a></p></section>'
  return result
 def rewrite_body(body):
- def replace(m):
-  raw=html.unescape(m.group(1));dest=link(raw,'index.html')
-  if raw.startswith(('https://www.isp.pitt.edu/','http://www.isp.pitt.edu/','https://isp.pitt.edu/')) and dest and not dest.startswith(('http:','https:')):return 'href="'+html.escape(dest,quote=True)+'"'
-  return m[0]
- return re.sub(r'href="([^"]+)"',replace,body)
+ """Localize browsing links while preserving explicitly marked official sources.
+
+ Run on the completed document so arrow conventions also cover shared navigation,
+ directory cards, and imported pages. Source links must never point to their copy.
+ """
+ def replace(match):
+  anchor=Tree(match.group(0)).root.children[0]
+  attrs=anchor.attrs
+  raw=attrs.get('href', '')
+  if 'data-source-link' not in attrs:
+   absolute=urlsplit(raw)
+   if absolute.hostname in {'www.isp.pitt.edu','isp.pitt.edu'}:
+    attrs['href']=link(raw,'index.html') or raw
+  destination=attrs.get('href','')
+  scheme=urlsplit(destination).scheme
+  arrow='↗' if scheme in {'http','https'} or destination.startswith('//') else '' if scheme in {'mailto','tel'} else '→'
+  content=match.group(2).replace('↗',arrow).replace('→',arrow)
+  attributes=''.join(' '+name+(f'="{html.escape(value,quote=True)}"' if value is not None else '') for name,value in attrs.items())
+  return f'<a{attributes}>{content}</a>'
+ return re.sub(r'<a\b([^>]*)>(.*?)</a>',replace,body,flags=re.S)
 def section(parent):
+ if parent=='research':return '' # One curated list already includes groups and centers.
  records=[r for r in RECORDS if r['parent']==parent]
  title={'research':'Research groups and centers','news':'News archive','events':'Past ISP events','resources':'Additional ISP resources'}[parent]
  links=''.join(f'<li><a href="{r["slug"]}.html">{html.escape(r["title"])}</a></li>' for r in records)
- return f'<section class="section wrap prose"><h2>{title}</h2><p>Explore content from the supplied ISP snapshot. Historical records are labeled on each page.</p><ul>{links}</ul></section>'
+ return f'<section class="section wrap prose"><h2>{title}</h2><p>Browse reference pages and historical records. Check dates and confirm guidance before acting on it.</p><ul>{links}</ul></section>'
 def manifest():
  return [{k:r[k] for k in ['source','slug','title','parent']} for r in RECORDS]
 if __name__=='__main__':print(json.dumps(manifest(),indent=2))

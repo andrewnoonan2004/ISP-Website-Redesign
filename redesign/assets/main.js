@@ -1,14 +1,17 @@
 const menu = document.querySelector('.menu');
 const navigation = document.querySelector('#main-navigation');
+function setMenuExpanded(expanded) {
+  menu.setAttribute('aria-expanded', String(expanded));
+  menu.textContent = expanded ? 'Close menu' : 'Menu';
+  navigation.classList.toggle('open', expanded);
+}
 menu.addEventListener('click', () => {
   const expanded = menu.getAttribute('aria-expanded') === 'true';
-  menu.setAttribute('aria-expanded', String(!expanded));
-  navigation.classList.toggle('open', !expanded);
+  setMenuExpanded(!expanded);
 });
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
-    menu.setAttribute('aria-expanded', 'false');
-    navigation.classList.remove('open');
+    setMenuExpanded(false);
     menu.focus();
   }
 });

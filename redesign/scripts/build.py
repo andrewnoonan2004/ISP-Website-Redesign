@@ -30,10 +30,10 @@ for slug,(title,description) in PAGES.items():
  heading='' if slug=='index' else f'<section class="page-heading"><div class="wrap"><div class="breadcrumb"><a href="index.html">Home</a> / {title}</div><h1>{title}</h1><p>{description}</p></div></section>'
  body=IMPORTED_BODIES[slug] if slug in IMPORTED_BODIES else render() if slug=='people' else (ROOT/'src/pages'/f'{slug}.html').read_text()
  if slug in ('research','news','events','resources'):body+=snapshot_content.section(slug)
- body=snapshot_content.rewrite_body(body)
  template=(ROOT/'src/layout.html').read_text()
  for key,value in {'title':html.escape(title),'description':html.escape(description or 'Graduate education and research in applied artificial intelligence at the University of Pittsburgh.'),'nav':nav,'heading':heading,'body':body,'page_assets':'<link rel="stylesheet" href="assets/people.css"><script src="assets/people.js" defer></script>' if slug=='people' else ''}.items(): template=template.replace('{{'+key+'}}',value)
- (ROOT/f'{slug}.html').write_text(template)
+ (ROOT/f'{slug}.html').write_text(snapshot_content.rewrite_body(template))
+subprocess.run([sys.executable,str(ROOT/'scripts/test_navigation.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/check.py')],check=True)
 dist=ROOT/'dist'
 dist.mkdir(exist_ok=True)
