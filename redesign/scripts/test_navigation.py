@@ -1,5 +1,6 @@
 """Regression tests for source handoffs and generated navigation; no dependencies."""
 import unittest
+import hashlib
 from pathlib import Path
 from urllib.parse import urlsplit
 import snapshot_content as content
@@ -59,6 +60,31 @@ class NavigationTests(unittest.TestCase):
         for record in content.manifest():
             if record['parent'] == 'research':
                 self.assertEqual(destinations.count(record['slug'] + '.html'), 1)
+
+    def test_detail_breadcrumb_returns_to_its_section(self):
+        cases = [(r['slug'], r['parent']) for r in content.manifest()]
+        cases += [('ms', 'academics'), ('phd', 'academics')]
+        for slug, parent in cases:
+            with self.subTest(page=slug):
+                nodes = list(content.Tree((ROOT / f'{slug}.html').read_text()).root.walk())
+                breadcrumb = next(n for n in nodes if n.attrs.get('aria-label') == 'Breadcrumb')
+                destinations = [n.attrs['href'] for n in breadcrumb.walk() if n.tag == 'a']
+                self.assertEqual(destinations, ['index.html', parent + '.html'])
+                self.assertTrue(any(n.attrs.get('aria-current') == 'page' for n in breadcrumb.walk()))
+
+    def test_live_news_link_does_not_loop_back_to_archive(self):
+        links = anchors((ROOT / 'news.html').read_text())
+        live = next(a for a in links if 'Visit the live ISP news site' in a.text())
+        self.assertEqual(live.attrs['href'], 'https://www.isp.pitt.edu/news')
+        self.assertIn('data-source-link', live.attrs)
+
+    def test_generated_pages_reference_current_asset_versions(self):
+        for path in ROOT.glob('*.html'):
+            markup = path.read_text()
+            for asset in ('styles.css', 'main.js', *(['people.css', 'people.js'] if path.stem == 'people' else [])):
+                with self.subTest(page=path.name, asset=asset):
+                    version = hashlib.sha256((ROOT / 'assets' / asset).read_bytes()).hexdigest()[:12]
+                    self.assertIn(f'assets/{asset}?v={version}', markup)
 
     def test_arrow_convention_and_contact_links(self):
         markup = '<a href="resources.html#permissions">Help ↗</a><a href="https://example.org">External →</a><a href="mailto:sciadmit@pitt.edu">Email ↗</a>'

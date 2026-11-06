@@ -39,3 +39,9 @@
 @media(max-width:560px){.people-grid{grid-template-columns:1fr}.directory-controls{padding:16px;gap:12px}.directory-controls button{grid-column:1/-1}.person-card{padding:16px}.directory-intro h2{font-size:32px}}
 
 @media(min-width:1200px){.directory-controls{grid-template-columns:minmax(0,1.5fr) minmax(0,1.2fr) minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr) auto;gap:12px}.directory-controls button{padding-inline:14px}}
+
+#people-filter-help,#people-feedback{font-size:13px;max-width:none;margin:10px 0}
+#people-feedback{border-left:4px solid var(--pitt-royal);padding:12px;background:var(--pitt-new-sky)}
+.directory-controls select:disabled{background:var(--pitt-new-sky);cursor:not-allowed}
+.directory-status p{overflow-wrap:anywhere;min-width:0}
+#people-empty button{font:inherit;font-size:14px;min-height:44px;margin:4px 8px 4px 0;padding:10px 14px;cursor:pointer;border:1px solid var(--pitt-royal);background:var(--pitt-royal);color:var(--pitt-white)}

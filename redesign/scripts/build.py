@@ -4,6 +4,7 @@ import shutil
 import subprocess
 import sys
 import html
+import hashlib
 from render_people import render
 import snapshot_content
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,11 +28,17 @@ NAV = ['about','academics','admissions','people','research','events','news','res
 for slug,(title,description) in PAGES.items():
  active='academics' if slug in ('ms','phd') else IMPORTED_PARENTS.get(slug,slug)
  nav=''.join(f'<a href="{s}.html"'+(' aria-current="page"' if s==active else '')+f'>{"Resources" if s=="resources" else PAGES[s][0].replace(" ISP", "")}</a>' for s in NAV)
- heading='' if slug=='index' else f'<section class="page-heading"><div class="wrap"><div class="breadcrumb"><a href="index.html">Home</a> / {title}</div><h1>{title}</h1><p>{description}</p></div></section>'
+ parent='academics' if slug in ('ms','phd') else IMPORTED_PARENTS.get(slug)
+ parent_link=f' / <a href="{parent}.html">{html.escape(PAGES[parent][0])}</a>' if parent else ''
+ heading='' if slug=='index' else f'<section class="page-heading"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a>{parent_link} / <span aria-current="page">{html.escape(title)}</span></nav><h1>{html.escape(title)}</h1><p>{html.escape(description)}</p></div></section>'
  body=IMPORTED_BODIES[slug] if slug in IMPORTED_BODIES else render() if slug=='people' else (ROOT/'src/pages'/f'{slug}.html').read_text()
  if slug in ('research','news','events','resources'):body+=snapshot_content.section(slug)
  template=(ROOT/'src/layout.html').read_text()
  for key,value in {'title':html.escape(title),'description':html.escape(description or 'Graduate education and research in applied artificial intelligence at the University of Pittsburgh.'),'nav':nav,'heading':heading,'body':body,'page_assets':'<link rel="stylesheet" href="assets/people.css"><script src="assets/people.js" defer></script>' if slug=='people' else ''}.items(): template=template.replace('{{'+key+'}}',value)
+ # Keep returning visitors on matching markup, behavior and styles after a build.
+ for asset in ('styles.css','main.js','people.css','people.js'):
+  version=hashlib.sha256((ROOT/'assets'/asset).read_bytes()).hexdigest()[:12]
+  template=template.replace(f'"assets/{asset}"',f'"assets/{asset}?v={version}"')
  (ROOT/f'{slug}.html').write_text(snapshot_content.rewrite_body(template))
 subprocess.run([sys.executable,str(ROOT/'scripts/test_navigation.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/test_people.py')],check=True)
