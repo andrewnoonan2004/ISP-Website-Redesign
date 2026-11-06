@@ -1,1 +1,41 @@
-.people-directory .directory-controls{display:flex;flex-wrap:wrap;gap:20px;align-items:end;background:var(--pitt-new-sky);padding:24px;margin-top:30px}.people-directory [hidden]{display:none!important}.directory-controls>div:first-child{flex:2 1 280px}.directory-controls>div{flex:1 1 180px;min-width:0}.directory-controls label{display:block;font-size:14px;font-weight:600;margin-bottom:8px}.directory-controls input,.directory-controls select,.directory-controls button{font:inherit;color:var(--pitt-medium-blue);background:var(--pitt-white);border:1px solid var(--pitt-royal);border-radius:0;padding:12px;width:100%;min-height:48px}.directory-controls button{width:auto;cursor:pointer;background:var(--pitt-royal);color:var(--pitt-white);font-weight:600}.people-directory :is(input,select,button):focus-visible{outline:3px solid var(--pitt-royal);outline-offset:4px}.people-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 28px;align-items:start}.person-card{min-width:0;border:1px solid var(--pitt-gray);border-top:4px solid var(--pitt-royal)}.person-card>img{width:100%;height:auto;aspect-ratio:680/600;object-fit:cover;object-position:center top;background:var(--pitt-new-sky)}.person-content{padding:23px}.person-category{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin:0 0 12px}.person-card h3{font-size:34px;overflow-wrap:anywhere;margin-bottom:14px}.person-role{font-size:14px;margin:0 0 18px}.person-links{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;font-weight:600}.person-card details{margin-top:20px;padding-bottom:0}.person-card summary{font-size:14px}.person-card details p{font-size:14px;overflow-wrap:anywhere}.directory-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.portrait-missing{padding:50px 20px;background:var(--pitt-new-sky)}@media(max-width:1000px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.people-grid{grid-template-columns:1fr}.directory-controls button{width:100%}.people-directory .directory-controls{padding:18px}.person-content{padding:20px}}
+/* Compact overview first, research and contact details on demand. */
+.people-directory [hidden]{display:none!important}
+.directory-intro{display:flex;align-items:start;justify-content:space-between;gap:32px;margin-bottom:20px}
+.directory-intro h2{font-size:36px;margin:0}
+.directory-intro .eyebrow{margin-bottom:8px}
+.directory-intro>p{max-width:55ch;margin:0;font-size:15px}
+.directory-controls{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:14px 18px;align-items:end;background:var(--pitt-new-sky);padding:20px}
+.directory-controls>div{min-width:0}
+.directory-controls label{display:block;font-size:13px;font-weight:600;margin-bottom:5px}
+.directory-controls input,.directory-controls select,.directory-controls button{font:inherit;font-size:14px;color:var(--pitt-medium-blue);background:var(--pitt-white);border:1px solid var(--pitt-royal);border-radius:0;padding:10px;width:100%;min-height:44px}
+.directory-controls button{cursor:pointer;background:var(--pitt-royal);color:var(--pitt-white);font-weight:600}
+.people-directory :is(input,select,button):focus-visible{outline:3px solid var(--pitt-royal);outline-offset:3px}
+.directory-status{display:flex;justify-content:space-between;gap:20px;align-items:baseline;font-size:13px;margin:14px 0}
+.directory-status p{margin:0;max-width:none;font-weight:600}
+.directory-status a{flex-shrink:0}
+.people-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.person-card{min-width:0;border:1px solid var(--pitt-gray);border-top:3px solid var(--pitt-royal);padding:18px;scroll-margin-top:20px}
+.person-overview{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-items:start}
+.person-overview img{width:72px;height:80px;object-fit:cover;object-position:center top;background:var(--pitt-new-sky)}
+.person-category{font-size:10px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin:0 0 6px}
+.person-card h3{font-size:28px;overflow-wrap:anywhere;margin:0 0 6px}
+.person-role{font-size:13px;line-height:1.45;margin:0}
+.person-school{font-size:12px;font-weight:600;line-height:1.5;margin:14px 0 10px}
+.person-topics{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0 0 14px}
+.person-topics li{font-size:12px;line-height:1.4;padding:4px 7px;background:var(--pitt-new-sky)}
+.person-unlisted{font-size:12px;margin:0 0 14px}
+.person-links{display:flex;flex-wrap:wrap;gap:12px 16px;font-size:13px;font-weight:600;margin-top:16px}
+.person-card details{margin-top:14px;padding:12px 0 0}
+.person-card summary{font-size:14px}
+.person-card details p{font-size:14px;overflow-wrap:anywhere}
+.person-sources{font-size:12px!important}
+.directory-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.portrait-missing{width:72px;min-height:80px;padding:20px 8px;text-align:center;font-size:12px;background:var(--pitt-new-sky)}
+#directory-notes{margin-top:28px;font-size:14px}
+#directory-notes summary{font-size:16px}
+#people-empty{border-left:4px solid var(--pitt-royal);background:var(--pitt-new-sky);padding:20px}
+@media(max-width:1100px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.directory-intro{display:block}.directory-intro>p{margin-top:10px}.directory-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.directory-search{grid-column:1/-1}.directory-status{display:block}.directory-status a{display:inline-block;margin-top:8px}}
+@media(max-width:560px){.people-grid{grid-template-columns:1fr}.directory-controls{padding:16px;gap:12px}.directory-controls button{grid-column:1/-1}.person-card{padding:16px}.directory-intro h2{font-size:32px}}
+
+@media(min-width:1200px){.directory-controls{grid-template-columns:minmax(0,1.5fr) minmax(0,1.2fr) minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr) auto;gap:12px}.directory-controls button{padding-inline:14px}}

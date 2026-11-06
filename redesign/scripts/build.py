@@ -34,6 +34,7 @@ for slug,(title,description) in PAGES.items():
  for key,value in {'title':html.escape(title),'description':html.escape(description or 'Graduate education and research in applied artificial intelligence at the University of Pittsburgh.'),'nav':nav,'heading':heading,'body':body,'page_assets':'<link rel="stylesheet" href="assets/people.css"><script src="assets/people.js" defer></script>' if slug=='people' else ''}.items(): template=template.replace('{{'+key+'}}',value)
  (ROOT/f'{slug}.html').write_text(snapshot_content.rewrite_body(template))
 subprocess.run([sys.executable,str(ROOT/'scripts/test_navigation.py')],check=True)
+subprocess.run([sys.executable,str(ROOT/'scripts/test_people.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/check.py')],check=True)
 dist=ROOT/'dist'
 dist.mkdir(exist_ok=True)

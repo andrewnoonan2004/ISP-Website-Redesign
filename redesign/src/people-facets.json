@@ -1,0 +1,607 @@
+{
+  "description": "Editorial browsing labels for existing ISP faculty. Topics summarize source research interests; schools group the listed departments, not a complete appointment history. No Grapevine records have been imported.",
+  "people": {
+    "kevin-ashley": {
+      "schools": [
+        "School of Law"
+      ],
+      "departments": [
+        "Law"
+      ],
+      "topics": [
+        "AI and law",
+        "Learning and education",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/kevin-ashley",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "richard-boyce": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [
+        "Health and biomedicine",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/richard-boyce",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "peter-brusilovsky": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Informatics and Networked Systems"
+      ],
+      "topics": [
+        "Human-computer interaction",
+        "Learning and education",
+        "Recommender systems"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/peter-brusilovsky",
+          "basis": "Supplied ISP snapshot"
+        },
+        {
+          "label": "Additional profile source",
+          "url": "https://www.sci.pitt.edu/people/department-informatics-networked-systems-faculty",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    "raquel-coelho": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Informatics and Networked Systems"
+      ],
+      "topics": [
+        "Learning and education",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/raquel-coelho",
+          "basis": "Supplied ISP snapshot"
+        },
+        {
+          "label": "Additional profile source",
+          "url": "https://www.sci.pitt.edu/people/raquel-coelho",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    "michael-colaresi": {
+      "schools": [
+        "Dietrich School of Arts and Sciences"
+      ],
+      "departments": [
+        "Political Science"
+      ],
+      "topics": [
+        "Social computing",
+        "Machine learning and reasoning",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/michael-colaresi",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "na-du": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Informatics and Networked Systems"
+      ],
+      "topics": [
+        "Human-computer interaction"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/na-du",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "madhavi-ganapathiraju": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [
+        "Machine learning and reasoning",
+        "Health and biomedicine"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/madhavi-ganapathiraju",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "milos-hauskrecht": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Computer Science"
+      ],
+      "topics": [
+        "Machine learning and reasoning",
+        "Health and biomedicine"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/milos-hauskrecht",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "daqing-he": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Informatics and Networked Systems"
+      ],
+      "topics": [
+        "Language and information retrieval",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/daqing-he",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "harry-hochheiser": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [
+        "Human-computer interaction",
+        "Health and biomedicine",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/harry-hochheiser",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "yufei-huang": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Medicine"
+      ],
+      "topics": [
+        "Health and biomedicine"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/yufei-huang",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "adriana-kovashka": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Computer Science"
+      ],
+      "topics": [
+        "Computer vision",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/adriana-kovashka",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "michael-lewis": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Informatics and Networked Systems"
+      ],
+      "topics": [
+        "Human-computer interaction",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/michael-lewis",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "lorraine-xiang-li": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Computer Science"
+      ],
+      "topics": [
+        "Language and information retrieval",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/lorraine-xiang-li",
+          "basis": "Supplied ISP snapshot"
+        },
+        {
+          "label": "Additional profile source",
+          "url": "https://www.cs.pitt.edu/people",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    "yu-ru-lin": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Informatics and Networked Systems"
+      ],
+      "topics": [
+        "Social computing"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/yu-ru-lin",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "diane-litman": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Computer Science"
+      ],
+      "topics": [
+        "Language and information retrieval",
+        "Learning and education"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/diane-litman",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "janet-liu": {
+      "schools": [
+        "Dietrich School of Arts and Sciences"
+      ],
+      "departments": [
+        "Linguistics"
+      ],
+      "topics": [
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/janet-liu",
+          "basis": "Supplied ISP snapshot"
+        },
+        {
+          "label": "Additional profile source",
+          "url": "https://janetlauyeung.github.io/",
+          "checked": "2026-11-05"
+        }
+      ]
+    },
+    "xinghua-lu": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [
+        "Health and biomedicine",
+        "Language and information retrieval"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/xinghua-lu",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "hatice-osmanbeyoglu": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/hatice-osmanbeyoglu",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "hyung-jung-hj-park": {
+      "schools": [
+        "School of Public Health"
+      ],
+      "departments": [
+        "Human Genetics"
+      ],
+      "topics": [
+        "Health and biomedicine",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/hyung-jung-hj-park",
+          "basis": "Supplied ISP snapshot"
+        },
+        {
+          "label": "Additional profile source",
+          "url": "https://www.isp.pitt.edu/people/hyung-jung-hj-park",
+          "checked": "2026-11-05"
+        }
+      ],
+      "research_summary": "Develops machine learning and causal inference for precision medicine, computational models of RNA regulation, and methods for exposome and multi-omics analysis."
+    },
+    "amin-rahimian": {
+      "schools": [
+        "Swanson School of Engineering"
+      ],
+      "departments": [
+        "Industrial Engineering"
+      ],
+      "topics": [
+        "Machine learning and reasoning",
+        "Social computing"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/amin-rahimian",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "christian-schunn": {
+      "schools": [
+        "Dietrich School of Arts and Sciences"
+      ],
+      "departments": [
+        "Psychology"
+      ],
+      "topics": [
+        "Learning and education",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/christian-schunn",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "ryan-shi": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Computer Science"
+      ],
+      "topics": [
+        "Social computing",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/ryan-shi",
+          "basis": "Supplied ISP snapshot"
+        },
+        {
+          "label": "Additional profile source",
+          "url": "https://www.sci.pitt.edu/people/ryan-shi",
+          "checked": "2026-11-05"
+        }
+      ],
+      "research_summary": "Uses AI to address food security, conservation, and public health with nonprofit organizations; studies game theory and online and reinforcement learning."
+    },
+    "ahmad-p-tafti": {
+      "schools": [
+        "School of Health and Rehabilitation Sciences"
+      ],
+      "departments": [
+        "Health Information Management"
+      ],
+      "topics": [
+        "Computer vision",
+        "Health and biomedicine",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/ahmad-p-tafti",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "dana-l-tudorascu": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Psychiatry"
+      ],
+      "topics": [
+        "Health and biomedicine"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/dana-l-tudorascu",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "shyam-visweswaran": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [
+        "Health and biomedicine",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/shyam-visweswaran",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "erin-walker": {
+      "schools": [
+        "School of Computing and Information"
+      ],
+      "departments": [
+        "Computer Science"
+      ],
+      "topics": [
+        "Learning and education",
+        "Human-computer interaction"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/erin-walker",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "yanshan-wang": {
+      "schools": [
+        "School of Medicine"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "topics": [
+        "Health and biomedicine",
+        "Language and information retrieval",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/yanshan-wang",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "shandong-wu": {
+      "schools": [
+        "School of Medicine",
+        "Swanson School of Engineering"
+      ],
+      "departments": [
+        "Radiology, Biomedical Informatics, and Bioengineering"
+      ],
+      "topics": [
+        "Computer vision",
+        "Health and biomedicine",
+        "Machine learning and reasoning"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/shandong-wu",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    },
+    "leming-zhou": {
+      "schools": [
+        "School of Health and Rehabilitation Sciences"
+      ],
+      "departments": [
+        "Health Information Management"
+      ],
+      "topics": [
+        "Machine learning and reasoning",
+        "Security and privacy"
+      ],
+      "sources": [
+        {
+          "label": "ISP profile",
+          "url": "https://www.isp.pitt.edu/people/leming-zhou",
+          "basis": "Supplied ISP snapshot"
+        }
+      ]
+    }
+  }
+}

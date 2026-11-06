@@ -33,8 +33,9 @@ for name,doc in docs.items():
   target=ROOT/unquote(u.path) if u.path else ROOT/name
   if not target.exists(): errors.append(f'{name}: missing local target {link}')
   if u.fragment and target.name in docs and u.fragment not in docs[target.name].ids: errors.append(f'{name}: missing anchor {link}')
-css=(ROOT/'assets/styles.css').read_text()
-if re.search(r'#[0-9a-fA-F]{3,8}\b|rgba?\(',css): errors.append('Component CSS contains raw color values')
+for stylesheet in (ROOT/'assets').glob('*.css'):
+ if stylesheet.name=='tokens.css':continue
+ if re.search(r'#[0-9a-fA-F]{3,8}\b|rgba?\(',stylesheet.read_text()): errors.append(f'{stylesheet.name}: component CSS contains raw color values')
 # Verify contrast of every foreground/background pairing used in the theme.
 colors=dict(re.findall(r'--(pitt-[\w-]+):\s*(#[0-9A-Fa-f]{6})',(ROOT/'assets/tokens.css').read_text()))
 def lum(h):
