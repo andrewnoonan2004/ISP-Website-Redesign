@@ -1,20 +1,88 @@
+"""Render an accessible explorer from the ISP directory and curated browse labels."""
 from pathlib import Path
-import json,html
-ROOT=Path(__file__).resolve().parents[1]
+import html
+import json
+
+ROOT = Path(__file__).resolve().parents[1]
+e = html.escape
+
+
+def load_people():
+    people = json.loads((ROOT / 'src/people.json').read_text())
+    facets = json.loads((ROOT / 'src/people-facets.json').read_text())['people']
+    slugs = {person['slug'] for person in people}
+    if set(facets) - slugs:
+        raise ValueError('Browse labels must match an existing ISP person')
+    for person in people:
+        person = {**person, **facets.get(person['slug'], {})}
+        for key in ('schools', 'departments', 'topics'):
+            person.setdefault(key, [])
+        yield person
+
+
+def options(values, default):
+    return '<option value="">' + e(default) + '</option>' + ''.join(
+        f'<option value="{e(value)}">{e(value)}</option>' for value in values)
+
+
 def render():
- people=json.loads((ROOT/'src/people.json').read_text());e=html.escape
- cards=[]
- for r in people:
-  tags=' · '.join(r['categories'])
-  image=f'<img src="{e(r["image"])}" alt="{e(r["name"])}" width="680" height="600" loading="lazy">' if r.get('image') else '<div class="portrait-missing">Portrait unavailable</div>'
-  links=[f'<a href="{e(r["source"])}">ISP profile<span class="directory-sr"> for {e(r["name"])}</span> ↗</a>']
-  for key,label in [('scholar','Google Scholar'),('website','Personal website'),('email','Email')]:
-   if r.get(key):links.append(f'<a href="{e(r[key])}">{label}<span class="directory-sr"> for {e(r["name"])}</span> ↗</a>')
-  details=''
-  if r.get('interests') or r.get('bio'):
-   content=(f'<p><strong>Research interests</strong><br>{e(r["interests"])}</p>' if r.get('interests') else '')+(f'<p><strong>From the ISP profile</strong><br>{e(r["bio"])}</p>' if r.get('bio') else '')
-   details=f'<details><summary>About {e(r["name"])}</summary>{content}</details>'
-  search=' '.join(str(r.get(k,'')) for k in ['name','role','interests','bio'])
-  cards.append(f'<article class="person-card" data-categories="{e("|".join(r["categories"]))}" data-search="{e(search)}">{image}<div class="person-content"><p class="person-category">{e(tags)}</p><h3>{e(r["name"])}</h3><p class="person-role">{e(r.get("role", ""))}</p><div class="person-links">{"".join(links)}</div>{details}</div></article>')
- options=''.join(f'<option value="{e(c)}">{e(c)}</option>' for c in ['All people','Faculty','Graduate students','Staff','Alumni','Emeriti faculty'])
- return f'''<section class="section wrap people-directory"><div class="section-title"><div><p class="eyebrow">The ISP community</p><h2>Find your people.</h2></div><p>Explore faculty research, meet graduate students, and connect with staff and alumni.</p></div><p>Directory information may be out of date. Open a person’s official ISP profile to check their role, research, and contact details.</p><div class="directory-controls" hidden><div><label for="people-search">Search names, roles, or research interests</label><input type="search" id="people-search" placeholder="Try a name or machine learning" autocomplete="off"></div><div><label for="people-category">Directory</label><select id="people-category">{options}</select></div><button type="button" id="people-reset">Reset filters</button></div><p id="people-count" role="status" aria-live="polite" aria-atomic="true">{len(people)} people in the directory</p><noscript><p>All profiles are listed below. Use your browser’s Find command to search for a name.</p></noscript><p id="people-empty" hidden>No people match your search. Try another name, research topic, or directory.</p><div class="people-grid">{''.join(cards)}</div><p>Google Scholar and personal website links are included only where present in the source profile.</p></section>'''
+    people = list(load_people())
+    cards = []
+    for person in people:
+        name, slug = person['name'], person['slug']
+        image = (f'<img src="{e(person["image"])}" alt="{e(name)}" width="88" height="88" loading="lazy">'
+                 if person.get('image') else '<div class="portrait-missing" aria-hidden="true">No photo</div>')
+        links = [f'<a href="{e(person["source"])}">ISP profile<span class="directory-sr"> for {e(name)}</span> ↗</a>']
+        for key, label in [('scholar', 'Google Scholar'), ('website', 'Personal website'), ('email', 'Email')]:
+            if person.get(key):
+                links.append(f'<a href="{e(person[key])}">{label}<span class="directory-sr"> for {e(name)}</span> ↗</a>')
+        details = []
+        if person['departments']:
+            details.append('<p><strong>Department / unit</strong><br>' + e('; '.join(person['departments'])) + '</p>')
+        if person.get('interests'):
+            details.append(f'<p><strong>Research interests</strong><br>{e(person["interests"])}</p>')
+        if person.get('research_summary'):
+            details.append(f'<p><strong>Research overview</strong><br>{e(person["research_summary"])}</p>')
+        if person.get('bio'):
+            details.append(f'<p><strong>From the ISP profile</strong><br>{e(person["bio"])}</p>')
+        sources = person.get('sources', [])
+        if sources:
+            source_links = ' · '.join(f'<a data-source-link href="{e(s["url"])}">{e(s["label"])} ↗</a>' for s in sources)
+            details.append(f'<p class="person-sources"><strong>Information sources</strong><br>{source_links}</p>')
+        details.append('<div class="person-links">' + ''.join(links) + '</div>')
+        topics = ''.join(f'<li>{e(topic)}</li>' for topic in person['topics'])
+        is_faculty = 'Faculty' in person['categories']
+        topics = f'<ul class="person-topics" aria-label="Research topics">{topics}</ul>' if topics else '<p class="person-unlisted">Research topics not listed</p>' if is_faculty else ''
+        school = '; '.join(person['schools']) or ('School / department not listed' if is_faculty else '')
+        school_markup = f'<p class="person-school">{e(school)}</p>' if school else ''
+        search = ' '.join([person.get(k, '') for k in ('name', 'role', 'interests', 'bio', 'research_summary')] + person['schools'] + person['departments'] + person['topics'])
+        attrs = {'categories': '|'.join(person['categories']), 'schools': '|'.join(person['schools']),
+                 'topics': '|'.join(person['topics']), 'search': search,
+                 'name': name, 'sort-name': name.split()[-1] + ' ' + name}
+        data = ' '.join(f'data-{key}="{e(value)}"' for key, value in attrs.items())
+        cards.append(f'''<article class="person-card" id="person-{e(slug)}" {data}>
+<div class="person-overview">{image}<div><p class="person-category">{e(' · '.join(person['categories']))}</p>
+<h3>{e(name)}</h3><p class="person-role">{e(person.get('role', ''))}</p></div></div>
+{school_markup}{topics}
+<details><summary>Profile and contacts<span class="directory-sr"> for {e(name)}</span></summary>{''.join(details)}</details></article>''')
+    schools = sorted({school for person in people for school in person['schools']})
+    topics = sorted({topic for person in people for topic in person['topics']})
+    categories = ['Faculty', 'Graduate students', 'Staff', 'Alumni', 'Emeriti faculty']
+    return f'''<section class="section wrap people-directory" aria-labelledby="explorer-title">
+<div class="directory-intro"><div><h2 id="explorer-title">Find people and research</h2></div>
+<p>Find faculty, students, staff, and alumni. Choose a directory, narrow your search, then open a profile for details and contacts.</p></div>
+<p id="people-feedback" role="status" hidden></p>
+<form class="directory-controls" role="search" aria-label="People directory" hidden>
+<div class="directory-search"><label for="people-search">Name or keyword</label><input type="search" id="people-search" placeholder="Try language, learning, or a name" autocomplete="off"></div>
+<div><label for="people-category">Directory</label><select id="people-category">{options(categories, 'All people')}</select></div>
+<div><label for="people-topic">Research topic</label><select id="people-topic" aria-describedby="people-filter-help">{options(topics, 'All topics')}</select></div>
+<div><label for="people-school">School</label><select id="people-school" aria-describedby="people-filter-help">{options(schools, 'All schools')}<option value="unlisted">School not listed</option></select></div>
+<div><label for="people-sort">Sort by name</label><select id="people-sort"><option value="last">Last name A–Z</option><option value="first">First name A–Z</option></select></div>
+<button type="button" id="people-reset">Show all people</button></form>
+<p id="people-filter-help">Topic and school labels currently cover faculty profiles only.</p>
+<div class="directory-status"><p id="people-count" role="status" aria-live="polite" aria-atomic="true">{len(people)} people in the directory</p><a href="#directory-notes">About this information ↓</a></div>
+<noscript><p>All profiles are listed below. Use your browser’s Find command to search for a name; profile details and links work without JavaScript.</p></noscript>
+<div id="people-empty" hidden><p><strong>No people match these filters.</strong> Check the spelling or remove a filter. Missing topic or school information does not mean a person has no expertise or affiliation.</p><button type="button" id="people-clear-search">Clear name or keyword</button> <button type="button" id="people-empty-reset">Show all people</button></div>
+<div class="people-grid">{''.join(cards)}</div>
+<details id="directory-notes"><summary>About the directory information</summary><p>School and research-topic labels currently cover the faculty directory. Topic labels summarize the listed research interests; they are a browsing aid, not a complete research history. Unlisted fields do not mean a person has no affiliation or expertise.</p><p>Profiles come from the ISP directory, with selected additions from linked Pitt and faculty pages. The listed schools group departments and may not include every appointment. Check the linked sources and contact faculty about current research and advising availability.</p></details>
+</section>'''
