@@ -36,10 +36,12 @@
 #people-empty{border-left:4px solid var(--pitt-royal);background:var(--pitt-new-sky);padding:20px}
 @media(max-width:1100px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.directory-intro{display:block}.directory-intro>p{margin-top:10px}.directory-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.directory-search{grid-column:1/-1}.directory-status{display:block}.directory-status a{display:inline-block;margin-top:8px}}
-@media(max-width:560px){.people-grid{grid-template-columns:1fr}.directory-controls{padding:16px;gap:12px}.directory-controls button{grid-column:1/-1}.person-card{padding:16px}.directory-intro h2{font-size:32px}}
+@media(max-width:560px){.people-grid,.directory-controls{grid-template-columns:1fr}.directory-controls{padding:16px;gap:12px}.directory-controls button{grid-column:1/-1}.person-card{padding:16px}.directory-intro h2{font-size:32px}}
 
 @media(min-width:1200px){.directory-controls{grid-template-columns:minmax(0,1.5fr) minmax(0,1.2fr) minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr) auto;gap:12px}.directory-controls button{padding-inline:14px}}
 
+.person-card:target{border-color:var(--pitt-royal);background:var(--pitt-new-sky)}
+.person-card:target .person-topics li{background:var(--pitt-white)}
 #people-filter-help,#people-feedback{font-size:13px;max-width:none;margin:10px 0}
 #people-feedback{border-left:4px solid var(--pitt-royal);padding:12px;background:var(--pitt-new-sky)}
 .directory-controls select:disabled{background:var(--pitt-new-sky);cursor:not-allowed}

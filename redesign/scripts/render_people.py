@@ -30,9 +30,9 @@ def render():
     cards = []
     for person in people:
         name, slug = person['name'], person['slug']
-        image = (f'<img src="{e(person["image"])}" alt="{e(name)}" width="88" height="88" loading="lazy">'
+        image = (f'<img src="{e(person["image"])}" alt="{e(name)}" width="72" height="80" loading="lazy">'
                  if person.get('image') else '<div class="portrait-missing" aria-hidden="true">No photo</div>')
-        links = [f'<a href="{e(person["source"])}">ISP profile<span class="directory-sr"> for {e(name)}</span> ↗</a>']
+        links = [f'<a data-source-link href="{e(person["source"])}">ISP profile<span class="directory-sr"> for {e(name)}</span> ↗</a>']
         for key, label in [('scholar', 'Google Scholar'), ('website', 'Personal website'), ('email', 'Email')]:
             if person.get(key):
                 links.append(f'<a href="{e(person[key])}">{label}<span class="directory-sr"> for {e(name)}</span> ↗</a>')
@@ -82,7 +82,7 @@ def render():
 <p id="people-filter-help">Topic and school labels currently cover faculty profiles only.</p>
 <div class="directory-status"><p id="people-count" role="status" aria-live="polite" aria-atomic="true">{len(people)} people in the directory</p><a href="#directory-notes">About this information ↓</a></div>
 <noscript><p>All profiles are listed below. Use your browser’s Find command to search for a name; profile details and links work without JavaScript.</p></noscript>
-<div id="people-empty" hidden><p><strong>No people match these filters.</strong> Check the spelling or remove a filter. Missing topic or school information does not mean a person has no expertise or affiliation.</p><button type="button" id="people-clear-search">Clear name or keyword</button> <button type="button" id="people-empty-reset">Show all people</button></div>
+<div id="people-empty" hidden><p id="people-empty-message"><strong>No people match these filters.</strong> Check the spelling or remove a filter. Missing topic or school information does not mean a person has no expertise or affiliation.</p><button type="button" id="people-search-all" hidden>Show matching people across all directories</button><button type="button" id="people-clear-search">Clear name or keyword</button> <button type="button" id="people-empty-reset">Show all people</button></div>
 <div class="people-grid">{''.join(cards)}</div>
 <details id="directory-notes"><summary>About the directory information</summary><p>School and research-topic labels currently cover the faculty directory. Topic labels summarize the listed research interests; they are a browsing aid, not a complete research history. Unlisted fields do not mean a person has no affiliation or expertise.</p><p>Profiles come from the ISP directory, with selected additions from linked Pitt and faculty pages. The listed schools group departments and may not include every appointment. Check the linked sources and contact faculty about current research and advising availability.</p></details>
 </section>'''

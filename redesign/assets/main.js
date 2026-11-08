@@ -18,6 +18,11 @@ document.addEventListener('keydown', (event) => {
     menu.focus();
   }
 });
+document.addEventListener('click', (event) => {
+  if (menu.getAttribute('aria-expanded') === 'true' && !event.target.closest('header')) {
+    setMenuExpanded(false);
+  }
+});
 // Open a linked resource so its instructions are immediately available.
 function revealResource() {
   let id;
@@ -33,3 +38,21 @@ function revealResource() {
 }
 window.addEventListener('hashchange', revealResource);
 revealResource();
+
+const toggleResources = document.getElementById('toggle-resources');
+if (toggleResources) {
+  const detailsList = [...document.querySelectorAll('main details')];
+  const syncLabel = () => {
+    const allOpen = detailsList.every(d => d.open);
+    toggleResources.textContent = allOpen ? 'Collapse all sections' : 'Expand all sections';
+    toggleResources.setAttribute('aria-expanded', String(allOpen));
+  };
+  toggleResources.hidden = false;
+  syncLabel();
+  toggleResources.addEventListener('click', () => {
+    const nextOpen = !detailsList.every(d => d.open);
+    detailsList.forEach(d => { d.open = nextOpen; });
+    syncLabel();
+  });
+  detailsList.forEach(d => d.addEventListener('toggle', syncLabel));
+}

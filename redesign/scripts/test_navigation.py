@@ -94,6 +94,21 @@ class NavigationTests(unittest.TestCase):
         self.assertIn('↗', external.text())
         self.assertNotIn('↗', email.text())
 
+    def test_known_people_links_resolve_to_local_directory_and_strip_external_html(self):
+        markup = '''<a href="https://www.isp.pitt.edu/people/kevin-ashley.html">Kevin Ashley</a>
+        <a href="https://www.isp.pitt.edu/people/mustafa-cagri-gungor.html">Mustafa Cagri Gungor</a>
+        <a data-source-link href="https://www.isp.pitt.edu/people/kevin-ashley">ISP profile ↗</a>'''
+        known, external_person, official = anchors(content.rewrite_body(markup))
+        self.assertEqual(known.attrs['href'], 'people.html#person-kevin-ashley')
+        self.assertEqual(external_person.attrs['href'], 'https://www.isp.pitt.edu/people/mustafa-cagri-gungor')
+        self.assertEqual(official.attrs['href'], 'https://www.isp.pitt.edu/people/kevin-ashley')
+        for path in ROOT.glob('*.html'):
+            for a in anchors(path.read_text()):
+                href = a.attrs.get('href', '')
+                u = urlsplit(href)
+                if u.hostname in {'www.isp.pitt.edu', 'isp.pitt.edu'}:
+                    self.assertFalse(u.path.endswith('.html'), f'{path.name}: {href}')
+
 
 if __name__ == '__main__':
     unittest.main()

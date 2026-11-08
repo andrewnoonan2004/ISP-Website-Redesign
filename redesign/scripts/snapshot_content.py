@@ -47,12 +47,30 @@ def load():
  return records
 RECORDS=load()
 ROUTES={**CORE,**{key(r['source']):r['slug'] for r in RECORDS}}
+PEOPLE_SLUGS={p['slug'] for p in json.loads((ROOT/'src/people.json').read_text())}
+def _news_order():
+ order=[]
+ for fn in ['news.html','news_page=0.html','news_page=1.html','news_page=2.html','news_page=3.html','news_page=4.html']:
+  p=SNAPSHOT/fn
+  if not p.exists():continue
+  for m in re.finditer(r'href="(?:https://www\.isp\.pitt\.edu/)?news/([^"?#]+?)(?:\.html)?"',p.read_text()):
+   slug='news--'+m.group(1)
+   if slug not in order:order.append(slug)
+ return {slug:i for i,slug in enumerate(order)}
+NEWS_ORDER=_news_order()
 def link(value,source):
  absolute=urljoin(BASE+source,value);u=urlsplit(absolute)
  if u.scheme not in {'http','https','mailto','tel'}:return None
- if u.hostname in {'www.isp.pitt.edu','isp.pitt.edu'} and key(absolute) in ROUTES:
-  # Source fragment identifiers do not survive semantic content conversion.
-  return ROUTES[key(absolute)]+'.html'
+ if u.hostname in {'www.isp.pitt.edu','isp.pitt.edu'}:
+  k=key(absolute)
+  if k in ROUTES:
+   # Source fragment identifiers do not survive semantic content conversion.
+   return ROUTES[k]+'.html'
+  if k.startswith('people/'):
+   slug=k.split('/',1)[1]
+   if slug in PEOPLE_SLUGS:return f'people.html#person-{slug}'
+  if u.path.endswith('.html'):
+   return u._replace(path=u.path[:-5]).geturl()
  return absolute
 def render_node(n,source,state):
  if isinstance(n,str):return html.escape(n)
@@ -78,7 +96,14 @@ def render_node(n,source,state):
   return f'<{n.tag}{attrs}>'+inside+f'</{n.tag}>'
  return inside
 EXPLANATION='This reference copy may be out of date. Check the official ISP page linked below for updated information.'
-def pages():return {r['slug']:(r['title'],'Research group information.' if r['parent']=='research' else 'Archived ISP news and events.' if r['parent'] in {'news','events'} else 'ISP reference information.') for r in RECORDS}
+def _desc(r):
+ if r['slug']=='research--centers-and-institutions':return 'Affiliated research centers, departments, and schools across Pitt and Carnegie Mellon.'
+ if r['parent']=='research':return 'Research focus areas and affiliated ISP faculty.'
+ if r['parent']=='events':return f'Archived ISP forum talks and event abstracts ({r["title"].split("-")[-1].strip()}).'
+ if r['parent']=='news':return 'Archived ISP community and research news story.'
+ if 'publications' in r['slug']:return f'Archived ISP faculty and student publications ({r["title"].split()[0]}).'
+ return 'ISP reference information and program procedures.'
+def pages():return {r['slug']:(r['title'],_desc(r)) for r in RECORDS}
 def parents():return {r['slug']:r['parent'] for r in RECORDS}
 def bodies():
  result={}
@@ -88,7 +113,7 @@ def bodies():
   if r['parent']=='research':note+=' Confirm current group membership and projects with the faculty listed below.'
   if r['source'].startswith('resources/'):note+=' Confirm group schedules and appointment procedures with ISP before acting on them.'
   body='\n'.join(line.rstrip() for line in render_node(r['article'],r['source'],[1]).splitlines())
-  result[r['slug']]=f'<section class="section wrap prose" style="overflow-wrap:anywhere"><p><a href="{r["parent"]}.html">Back to {html.escape(r["parent"])}</a></p><div class="notice">{note}</div>{body}<p><a data-source-link href="{BASE+r["source"][:-5]}">View the official ISP page <span aria-hidden="true">↗</span></a></p></section>'
+  result[r['slug']]=f'<section class="section wrap prose" style="overflow-wrap:anywhere"><p><a href="{r["parent"]}.html">Back to {html.escape(r["parent"])}</a></p><div class="notice">{note}</div>{body}<p><a data-source-link href="{BASE+r["source"][:-5]}">View the official ISP page <span aria-hidden="true">↗</span></a> · <a href="#main">Back to top ↑</a></p></section>'
  return result
 def rewrite_body(body):
  """Localize browsing links while preserving explicitly marked official sources.
@@ -114,7 +139,10 @@ def rewrite_body(body):
 def section(parent):
  if parent=='research':return '' # One curated list already includes groups and centers.
  records=[r for r in RECORDS if r['parent']==parent]
- title={'research':'Research groups and centers','news':'News archive','events':'Past ISP events','resources':'Additional ISP resources'}[parent]
+ if parent=='news':records.sort(key=lambda r:(NEWS_ORDER.get(r['slug'],999),r['title']))
+ elif parent=='events':records.sort(key=lambda r:r['slug'],reverse=True)
+ elif parent=='resources':records.sort(key=lambda r:(0 if not r['slug'].startswith('resources--20') else 1,-int(re.search(r'\d{4}',r['slug']).group(0)) if re.search(r'\d{4}',r['slug']) else 0,r['title']))
+ title={'research':'Research groups and centers','news':'News archive (newest first)','events':'Past ISP events (2022–2018)','resources':'Additional ISP resources'}[parent]
  links=''.join(f'<li><a href="{r["slug"]}.html">{html.escape(r["title"])}</a></li>' for r in records)
  return f'<section class="section wrap prose"><h2>{title}</h2><p>Browse reference pages and historical records. Check dates and confirm guidance before acting on it.</p><ul>{links}</ul></section>'
 def manifest():

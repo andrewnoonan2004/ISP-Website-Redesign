@@ -41,14 +41,17 @@ if (directory) {
       : 'Topic and school filters are cleared for this directory because its profiles have not been classified. You can still search by name or keyword.';
     const terms = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     let visible = 0;
+    let allMatches = 0;
     cards.forEach(card => {
       const categories = card.dataset.categories.split('|');
       const topics = card.dataset.topics.split('|');
       const schools = card.dataset.schools.split('|').filter(Boolean);
+      const termMatch = terms.every(term => searchable.get(card).includes(term));
+      if (termMatch) allMatches++;
       const matches = (!category.value || categories.includes(category.value)) &&
         (!topic.value || topics.includes(topic.value)) &&
         (!school.value || (school.value === 'unlisted' ? schools.length === 0 : schools.includes(school.value))) &&
-        terms.every(term => searchable.get(card).includes(term));
+        termMatch;
       card.hidden = !matches;
       if (matches) visible++;
     });
@@ -59,6 +62,20 @@ if (directory) {
       search.value.trim() ? `Search: “${search.value.trim()}”` : '', sort.selectedOptions[0].textContent].filter(Boolean);
     count.textContent = `${visible} ${visible === 1 ? 'person' : 'people'} shown · ${active.join(' · ')}`;
     directory.querySelector('#people-empty').hidden = visible !== 0;
+    const emptyMsg = directory.querySelector('#people-empty-message');
+    const searchAllBtn = directory.querySelector('#people-search-all');
+    if (visible === 0 && terms.length && allMatches > 0) {
+      const strong = document.createElement('strong');
+      strong.textContent = `No people match in ${category.value || 'the current filters'}.`;
+      emptyMsg.replaceChildren(strong, ` However, ${allMatches} ${allMatches === 1 ? 'person matches' : 'people match'} across All people.`);
+      searchAllBtn.textContent = `Show ${allMatches} matching ${allMatches === 1 ? 'person' : 'people'} in All people`;
+      searchAllBtn.hidden = false;
+    } else {
+      const strong = document.createElement('strong');
+      strong.textContent = 'No people match these filters.';
+      emptyMsg.replaceChildren(strong, ' Check the spelling or remove a filter. Missing topic or school information does not mean a person has no expertise or affiliation.');
+      searchAllBtn.hidden = true;
+    }
     directory.querySelector('#people-clear-search').hidden = !search.value;
     if (historyMode) {
       const url = new URL(location.href);
@@ -70,6 +87,23 @@ if (directory) {
       }
       if (url.href !== location.href) history[historyMode](null, '', url);
     }
+  }
+  function revealPerson() {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); }
+    catch { return; }
+    if (!id.startsWith('person-')) return;
+    const target = document.getElementById(id);
+    if (!target || !target.classList.contains('person-card')) return;
+    if (target.hidden) {
+      const categories = target.dataset.categories.split('|');
+      if (category.value && !categories.includes(category.value)) category.value = '';
+      topic.value = school.value = search.value = '';
+      filterPeople();
+    }
+    const details = target.querySelector('details');
+    if (details) details.open = true;
+    target.scrollIntoView({block: 'nearest'});
   }
   const form = directory.querySelector('.directory-controls');
   form.hidden = false;
@@ -95,6 +129,11 @@ if (directory) {
   }
   directory.querySelector('#people-reset').addEventListener('click', showEveryone);
   directory.querySelector('#people-empty-reset').addEventListener('click', showEveryone);
+  directory.querySelector('#people-search-all').addEventListener('click', () => {
+    category.value = topic.value = school.value = '';
+    changeFilters();
+    search.focus();
+  });
   directory.querySelector('#people-clear-search').addEventListener('click', () => {
     search.value = '';
     changeFilters();
@@ -104,7 +143,10 @@ if (directory) {
     editingSearch = false;
     readUrl();
     filterPeople();
+    revealPerson();
   });
+  window.addEventListener('hashchange', revealPerson);
   readUrl();
   filterPeople();
+  revealPerson();
 }
