@@ -142,9 +142,9 @@ def section(parent):
  if parent=='news':records.sort(key=lambda r:(NEWS_ORDER.get(r['slug'],999),r['title']))
  elif parent=='events':records.sort(key=lambda r:r['slug'],reverse=True)
  elif parent=='resources':records.sort(key=lambda r:(0 if not r['slug'].startswith('resources--20') else 1,-int(re.search(r'\d{4}',r['slug']).group(0)) if re.search(r'\d{4}',r['slug']) else 0,r['title']))
- title={'research':'Research groups and centers','news':'News archive (newest first)','events':'Past ISP events (2022–2018)','resources':'Additional ISP resources'}[parent]
+ title={'research':'Research groups and centers','news':f'News archive ({len(records)} stories, newest first)','events':'Past ISP events (2022–2018)','resources':f'Additional ISP resources ({len(records)} reference pages)'}[parent]
  links=''.join(f'<li><a href="{r["slug"]}.html">{html.escape(r["title"])}</a></li>' for r in records)
- return f'<section class="section wrap prose"><h2>{title}</h2><p>Browse reference pages and historical records. Check dates and confirm guidance before acting on it.</p><ul>{links}</ul></section>'
+ return f'<section class="section wrap prose" id="archive"><h2>{title}</h2><p>Browse reference pages and historical records. Check dates and confirm guidance before acting on it.</p><ul>{links}</ul></section>'
 def manifest():
  return [{k:r[k] for k in ['source','slug','title','parent']} for r in RECORDS]
 if __name__=='__main__':print(json.dumps(manifest(),indent=2))

@@ -60,7 +60,26 @@ if (directory) {
       .forEach(card => grid.append(card));
     const active = [category.value || 'All people', topic.value, school.value === 'unlisted' ? 'School not listed' : school.value,
       search.value.trim() ? `Search: “${search.value.trim()}”` : '', sort.selectedOptions[0].textContent].filter(Boolean);
-    count.textContent = `${visible} ${visible === 1 ? 'person' : 'people'} shown · ${active.join(' · ')}`;
+    const hiddenCount = cards.length - visible;
+    count.textContent = `${visible} of ${cards.length} ${visible === 1 ? 'person' : 'people'} shown · ${active.join(' · ')}`;
+    const hiddenBanner = directory.querySelector('#people-hidden-banner');
+    const hiddenText = directory.querySelector('#people-hidden-text');
+    if (hiddenBanner && hiddenText) {
+      if (visible > 0 && hiddenCount > 0) {
+        const strong = document.createElement('strong');
+        strong.textContent = `${hiddenCount} additional ${hiddenCount === 1 ? 'profile is' : 'profiles are'} hidden by the current view.`;
+        const detail = category.value === 'Faculty' && !topic.value && !school.value && !terms.length
+          ? ' The default view filters to Faculty only. Select another directory below to view Graduate students, Alumni, Emeriti faculty, or Staff:'
+          : ' Switch directories or show all people to view hidden profiles:';
+        hiddenText.replaceChildren(strong, detail);
+        hiddenBanner.hidden = false;
+        hiddenBanner.querySelectorAll('[data-switch-category]').forEach(btn => {
+          btn.hidden = btn.dataset.switchCategory !== '' && btn.dataset.switchCategory === category.value;
+        });
+      } else {
+        hiddenBanner.hidden = true;
+      }
+    }
     directory.querySelector('#people-empty').hidden = visible !== 0;
     const emptyMsg = directory.querySelector('#people-empty-message');
     const searchAllBtn = directory.querySelector('#people-search-all');
@@ -129,6 +148,13 @@ if (directory) {
   }
   directory.querySelector('#people-reset').addEventListener('click', showEveryone);
   directory.querySelector('#people-empty-reset').addEventListener('click', showEveryone);
+  directory.querySelectorAll('[data-switch-category]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      category.value = btn.dataset.switchCategory;
+      topic.value = school.value = '';
+      changeFilters();
+    });
+  });
   directory.querySelector('#people-search-all').addEventListener('click', () => {
     category.value = topic.value = school.value = '';
     changeFilters();

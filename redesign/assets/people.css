@@ -26,14 +26,23 @@
 .person-unlisted{font-size:12px;margin:0 0 14px}
 .person-links{display:flex;flex-wrap:wrap;gap:12px 16px;font-size:13px;font-weight:600;margin-top:16px}
 .person-card details{margin-top:14px;padding:12px 0 0}
-.person-card summary{font-size:14px}
+.person-card details[open]{padding-left:12px}
+.person-card summary{font-size:13px;align-items:flex-start}
+.person-card summary::after{content:"+ Expand";padding:2px 8px;font-size:11px}
+.person-card details[open]>summary::after{content:"− Collapse"}
+.summary-meta{display:block;font-size:11px;font-weight:400;color:var(--pitt-medium-blue);margin-top:2px}
 .person-card details p{font-size:14px;overflow-wrap:anywhere}
 .person-sources{font-size:12px!important}
 .directory-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .portrait-missing{width:72px;min-height:80px;padding:20px 8px;text-align:center;font-size:12px;background:var(--pitt-new-sky)}
 #directory-notes{margin-top:28px;font-size:14px}
 #directory-notes summary{font-size:16px}
-#people-empty{border-left:4px solid var(--pitt-royal);background:var(--pitt-new-sky);padding:20px}
+#people-empty,#people-hidden-banner{border-left:4px solid var(--pitt-royal);background:var(--pitt-new-sky);padding:14px 18px;margin:12px 0;font-size:13px}
+#people-hidden-banner p{margin:0 0 10px;max-width:none}
+.hidden-category-pills{display:flex;flex-wrap:wrap;gap:8px}
+.hidden-category-pills button{font:inherit;font-size:12px;font-weight:600;padding:6px 12px;cursor:pointer;border:1px solid var(--pitt-royal);background:var(--pitt-white);color:var(--pitt-royal);min-height:34px}
+.hidden-category-pills button:hover{background:var(--pitt-royal);color:var(--pitt-white)}
+.hidden-category-pills button.show-all-pill{background:var(--pitt-royal);color:var(--pitt-white)}
 @media(max-width:1100px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.directory-intro{display:block}.directory-intro>p{margin-top:10px}.directory-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.directory-search{grid-column:1/-1}.directory-status{display:block}.directory-status a{display:inline-block;margin-top:8px}}
 @media(max-width:560px){.people-grid,.directory-controls{grid-template-columns:1fr}.directory-controls{padding:16px;gap:12px}.directory-controls button{grid-column:1/-1}.person-card{padding:16px}.directory-intro h2{font-size:32px}}

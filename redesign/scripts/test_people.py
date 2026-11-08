@@ -60,6 +60,35 @@ class PeopleTests(unittest.TestCase):
         self.assertEqual(len(links), 4)
         self.assertTrue(all(link.removeprefix('#') in targets for link in links))
 
+    def test_all_core_pages_have_on_this_page_jump_indicators_pointing_to_valid_ids(self):
+        core_pages = [
+            'index', 'about', 'academics', 'admissions', 'ms', 'phd',
+            'people', 'research', 'events', 'news', 'resources',
+        ]
+        for slug in core_pages:
+            with self.subTest(page=slug):
+                nodes = list(Tree((ROOT / f'{slug}.html').read_text()).root.walk())
+                jump_nav = next((n for n in nodes if n.attrs.get('aria-label') == 'On this page'), None)
+                self.assertIsNotNone(jump_nav, f'{slug}.html is missing On this page jump bar')
+                ids = {n.attrs['id'] for n in nodes if 'id' in n.attrs}
+                links = [n.attrs.get('href', '') for n in jump_nav.walk() if n.tag == 'a']
+                self.assertGreaterEqual(len(links), 2, f'{slug}.html should have at least 2 jump links')
+                for link in links:
+                    self.assertTrue(link.startswith('#'), f'{slug}.html jump link {link} must be a fragment')
+                    self.assertIn(link.removeprefix('#'), ids, f'{slug}.html missing target {link}')
+
+    def test_people_directory_has_hidden_content_indicators_and_category_counts(self):
+        markup = render()
+        nodes = list(Tree(markup).root.walk())
+        self.assertTrue(any(n.attrs.get('id') == 'people-hidden-banner' for n in nodes))
+        cat_select = next(n for n in nodes if n.attrs.get('id') == 'people-category')
+        options = [n.text() for n in cat_select.walk() if n.tag == 'option']
+        self.assertTrue(any('All people (' in opt for opt in options))
+        self.assertTrue(any('Faculty (' in opt for opt in options))
+        summaries = [n for n in nodes if n.tag == 'span' and n.attrs.get('class') == 'summary-meta']
+        self.assertEqual(len(summaries), len(list(load_people())))
+        self.assertTrue(all(s.text().startswith('Includes:') for s in summaries))
+
 
 if __name__ == '__main__':
     unittest.main()
