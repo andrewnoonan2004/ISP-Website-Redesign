@@ -21,3 +21,11 @@ No visitor assignment or conversion analytics are configured; no measured A/B im
 Confirmed in Chrome: pressing Enter on Staff (1) hid the shortcut and left document.activeElement on BODY. Commit 67beaab18eb6c8abddbb65e57db577e636c956df moves focus to the Directory selector immediately after shortcut filtering. Hypothesis: retaining a visible, relevant control prevents keyboard users losing their position.
 
 Validation: 77-page lint and production build passed, including all 18 existing tests; JavaScript syntax check passed. GitHub Pages run 42562193276 succeeded. Live browser regression checks passed: Staff via Enter selects Staff with focus on people-category; Graduate students via Space selects 32 profiles with focus on people-category; subsequent Tab reaches people-sort (disabled faculty-only filters are skipped); Back restores Staff. Mobile viewport-specific testing remains outstanding. No measured A/B gain is claimed. Original comparison repository was not changed.
+
+## 2026-11-09 — Admissions task-flow review; no new experiment
+
+Reviewed current AGENTS.md, BRAND.md, admissions and academics source, responsive styles and previous evaluation. Latest deployment for d53ddbe6cd6072ed9544c27c85ee4a47ca4f8725 succeeded (run 42562308130).
+
+Live Chrome checks at 1363px: Admissions loads; keyboard activation of Skip to main content focuses main; no horizontal document overflow; Enter on Compare the MS and PhD programs reaches the Academics comparison with both degrees and a return link to application steps. The four application steps and explicit admissions contact are exposed in the accessibility tree. No new defect was demonstrated in this scoped flow, so no implementation change or overlapping experiment was introduced.
+
+Responsive source review: navigation collapses below 760px; directory controls and cards become a single column below 560px; focus-visible rules and reduced-motion handling are present. This is not a mobile rendered-layout test. Outstanding: 320px visual/keyboard checks, external application-destination verification, and a broader accessibility audit. Existing directory focus regression evidence remains recorded above. No visitor-outcome claims.
