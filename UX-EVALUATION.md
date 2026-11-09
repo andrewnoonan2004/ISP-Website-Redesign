@@ -15,3 +15,9 @@ Pending hypothesis: category shortcut buttons in people.js hide the selected cat
 Validation blocker: local Playwright is available but Chromium is absent. Chromium downloads returned invalid/truncated archives (End of central directory record signature not found). No implementation fix has been committed or published without browser validation. Mobile/desktop rendered layout and keyboard behavior still require browser testing.
 
 No visitor assignment or conversion analytics are configured; no measured A/B improvements are claimed.
+
+## 2026-11-08 — Directory shortcut focus fix published
+
+Confirmed in Chrome: pressing Enter on Staff (1) hid the shortcut and left document.activeElement on BODY. Commit 67beaab18eb6c8abddbb65e57db577e636c956df moves focus to the Directory selector immediately after shortcut filtering. Hypothesis: retaining a visible, relevant control prevents keyboard users losing their position.
+
+Validation: 77-page lint and production build passed, including all 18 existing tests; JavaScript syntax check passed. GitHub Pages run 42562193276 succeeded. Live browser regression checks passed: Staff via Enter selects Staff with focus on people-category; Graduate students via Space selects 32 profiles with focus on people-category; subsequent Tab reaches people-sort (disabled faculty-only filters are skipped); Back restores Staff. Mobile viewport-specific testing remains outstanding. No measured A/B gain is claimed. Original comparison repository was not changed.
