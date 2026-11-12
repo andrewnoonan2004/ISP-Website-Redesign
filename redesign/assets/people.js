@@ -153,6 +153,8 @@ if (directory) {
       category.value = btn.dataset.switchCategory;
       topic.value = school.value = '';
       changeFilters();
+      // The activated shortcut may now be hidden; retain a visible focus target.
+      category.focus();
     });
   });
   directory.querySelector('#people-search-all').addEventListener('click', () => {
