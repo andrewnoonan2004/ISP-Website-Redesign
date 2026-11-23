@@ -754,7 +754,7 @@ describe('Tier 3: Cross-Feature Pairwise Combinations', () => {
     const changesText = fs.readFileSync(changesPath, 'utf8');
     assert.ok(changesText.trim().length >= 500, 'Expected comprehensive content in CHANGES.md');
 
-    const pngLinkRe = /(?:docs\/screenshots\/(?:before|after)\/[A-Za-z0-9._/-]+\.png)/g;
+    const pngLinkRe = /(?:docs\/screenshots\/(?:before|after(?:-\d{4}-\d{2}-\d{2})?)\/[A-Za-z0-9._/-]+\.png)/g;
     const allLinkedPngs = [...new Set(changesText.match(pngLinkRe) || [])];
     const beforeLinkedPngs = allLinkedPngs.filter((p) => p.startsWith('docs/screenshots/before/'));
 

@@ -1802,7 +1802,7 @@ describe('Tier 1: Isolated Feature Coverage (F1–F8)', () => {
       }
     }
 
-    const rawPathRe = /\b(docs\/screenshots\/(?:before|after)\/[A-Za-z0-9._-]+\.png)\b/g;
+    const rawPathRe = /\b(docs\/screenshots\/(?:before|after(?:-\d{4}-\d{2}-\d{2})?)\/[A-Za-z0-9._-]+\.png)\b/g;
     while ((m = rawPathRe.exec(content)) !== null) {
       pngPaths.add(m[1]);
     }
