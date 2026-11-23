@@ -38,7 +38,7 @@ class NavigationTests(unittest.TestCase):
                 self.assertIn(expected, [a.attrs['href'] for a in sources])
 
     def test_generated_admissions_and_degree_handoffs_are_external(self):
-        for slug in ['admissions', 'academics', 'ms', 'phd']:
+        for slug in ['admissions', 'academics', 'ms', 'phd', 'courses', 'funding']:
             with self.subTest(page=slug):
                 sources = [a for a in anchors((ROOT / f'{slug}.html').read_text()) if 'data-source-link' in a.attrs]
                 self.assertTrue(sources)
@@ -63,7 +63,7 @@ class NavigationTests(unittest.TestCase):
 
     def test_detail_breadcrumb_returns_to_its_section(self):
         cases = [(r['slug'], r['parent']) for r in content.manifest()]
-        cases += [('ms', 'academics'), ('phd', 'academics')]
+        cases += [('ms', 'academics'), ('phd', 'academics'), ('courses', 'academics')]
         for slug, parent in cases:
             with self.subTest(page=slug):
                 nodes = list(content.Tree((ROOT / f'{slug}.html').read_text()).root.walk())
@@ -81,7 +81,14 @@ class NavigationTests(unittest.TestCase):
     def test_generated_pages_reference_current_asset_versions(self):
         for path in ROOT.glob('*.html'):
             markup = path.read_text()
-            for asset in ('styles.css', 'main.js', *(['people.css', 'people.js'] if path.stem == 'people' else [])):
+            extra = (
+                ['people.css', 'people.js']
+                if path.stem == 'people'
+                else ['courses.js']
+                if path.stem == 'courses'
+                else []
+            )
+            for asset in ('styles.css', 'main.js', 'search.js', 'search-index.json', *extra):
                 with self.subTest(page=path.name, asset=asset):
                     version = hashlib.sha256((ROOT / 'assets' / asset).read_bytes()).hexdigest()[:12]
                     self.assertIn(f'assets/{asset}?v={version}', markup)

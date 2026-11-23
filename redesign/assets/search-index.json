@@ -1,0 +1,2931 @@
+{
+  "version": "2026-2027",
+  "count": 325,
+  "items": [
+    {
+      "id": "page-academics-requirements",
+      "title": "Academics & Degree Requirements Overview (MS 30 credits & PhD 72 credits)",
+      "url": "academics.html#requirements",
+      "category": "Pages & Requirements",
+      "keywords": "academics degree requirements ms phd 30 credits 72 credits B- 3.0 QPA general track biomedical informatics track catoid=242 curriculum",
+      "snippet": "Compare the 30-credit Master of Science (MS) and 72-credit Doctor of Philosophy (PhD) degree requirements, General and Biomedical Informatics tracks, core and theory courses, and milestones.",
+      "priority": 100
+    },
+    {
+      "id": "page-ms-requirements",
+      "title": "Master of Science (MS) Degree Requirements & 2026\u20132027 Curriculum (30 Credits)",
+      "url": "ms.html#requirements",
+      "category": "Pages & Requirements",
+      "keywords": "ms master of science degree requirements 30 credits 10 courses B- 3.0 QPA INFSCI 2440 ISSP 2071 human language technologies BIOST 2142 ms project ISSP 2000 catoid=242",
+      "snippet": "30-credit MS requirements: 3 Core courses (9 cr.), 3 Theory courses in Statistics and Computation/Algorithms (9 cr.), 4 Approved Advanced Courses (12 cr.), B-/3.0 QPA, and faculty-advised MS Project.",
+      "priority": 98
+    },
+    {
+      "id": "page-phd-requirements",
+      "title": "Doctor of Philosophy (PhD) Degree Requirements & 2026\u20132027 Curriculum (72 Credits)",
+      "url": "phd.html#requirements",
+      "category": "Pages & Requirements",
+      "keywords": "phd doctor of philosophy degree requirements 72 credits B- 3.0 QPA ISSP 2020 ISSP 2030 INFSCI 3005 ISSP 2160 preliminary exam comprehensive exam dissertation FTDJ SMSJ catoid=242",
+      "snippet": "72-credit PhD requirements: first-year research sequence (ISSP 2020, INFSCI 3005, ISSP 2030), Core and Theory courses, Preliminary Exam, Comprehensive Exam, Dissertation, and ISP Forum attendance.",
+      "priority": 98
+    },
+    {
+      "id": "page-courses-explorer",
+      "title": "2026\u20132027 ISP Courses, Prerequisites & Live PeopleSoft Schedule Verification",
+      "url": "courses.html",
+      "category": "Courses",
+      "keywords": "courses prerequisites classes offered peoplesoft highpoint cx sci schedule catoid=242 permission numbers ISSP 2071 BIOST 2142 ISSP 2170 INFSCI 2440",
+      "snippet": "Filter all 47 required and elective ISP courses for 2026\u20132027, review verified PREQ/PLAN rules, and check live term offerings and open seats in the SCI Schedule and PeopleSoft.",
+      "priority": 100
+    },
+    {
+      "id": "page-funding-overview",
+      "title": "Scholarships, Fellowships & Funding \u2014 Graduate Financial Aid & Travel Grants",
+      "url": "funding.html",
+      "category": "Funding & Aid",
+      "keywords": "scholarships funding financial aid fellowships assistantships phd ms pitt2pitt gsr gsa sci predoctoral provost baranger dbmi travel grant stipend tuition",
+      "snippet": "Explore PhD fellowships (SCI Predoctoral, Provost, GSR, Summer GSA, Baranger, DBMI), MS scholarships (Pitt2Pitt up to $7,500/yr, SCI King/Howard/Smith, PittFund$Me), and $750\u2013$1,000 travel grants.",
+      "priority": 100
+    },
+    {
+      "id": "page-funding-phd",
+      "title": "PhD Fellowships, Graduate Research Assistantships (GSR) & Training Grants",
+      "url": "funding.html#phd-funding",
+      "category": "Funding & Aid",
+      "keywords": "phd funding sci predoctoral fellowship provost predoctoral fellowship gsr graduate research assistantship summer gsa elizabeth baranger dissertation completion dbmi training grant",
+      "snippet": "Incoming PhD applicants are automatically considered for SCI Predoctoral Fellowships. Learn about GSR appointments with ISP faculty PIs, Provost Fellowships, Summer GSA, Baranger, and DBMI funding.",
+      "priority": 96
+    },
+    {
+      "id": "page-funding-ms",
+      "title": "MS Scholarships, Pitt2Pitt ($7,500/year) & SCI Graduate Awards",
+      "url": "funding.html#ms-funding",
+      "category": "Funding & Aid",
+      "keywords": "ms funding scholarships pitt2pitt $7,500 $3,750 sci graduate scholarships barbara king rusty howard jerry cathy smith pittfund$me master of science financial aid",
+      "snippet": "MSISP participates in the Pitt2Pitt Scholarship (up to $7,500/year full-time or $3,750/year part-time for Pitt alumni), plus SCI endowed scholarships (King, Howard, Smith) and PittFund$Me.",
+      "priority": 96
+    },
+    {
+      "id": "page-funding-travel",
+      "title": "ISP Student Conference Travel Grants ($750\u2013$1,000/year)",
+      "url": "funding.html#travel-grants",
+      "category": "Funding & Aid",
+      "keywords": "travel grant conference travel $750 $1,000 reimbursement bobbie coyne bjc134 paper poster acceptance supplemental travel",
+      "snippet": "Active MS and PhD students presenting an accepted paper or poster at an AI conference can apply at least 1 month in advance for $750\u2013$1,000 per academic year in travel support.",
+      "priority": 96
+    },
+    {
+      "id": "page-faculty-explorer",
+      "title": "Faculty Explorer \u2014 Search ISP Faculty & Researchers by Name or Topic (AI, NLP, ML, CV, HCI)",
+      "url": "people.html",
+      "category": "Faculty & People",
+      "keywords": "faculty explorer people directory artificial intelligence ai machine learning ml natural language processing nlp computer vision cv human computer interaction hci biomedical informatics advisors",
+      "snippet": "Search ISP faculty, graduate students, staff, and alumni by partial name or research area (AI, NLP, ML, Computer Vision, HCI, Biomedical Informatics, Education, Law).",
+      "priority": 99
+    },
+    {
+      "id": "page-admissions",
+      "title": "Graduate Admissions & Application Steps (MS & PhD)",
+      "url": "admissions.html",
+      "category": "Pages & Requirements",
+      "keywords": "admissions apply application deadlines requirements materials sciadmit@pitt.edu january 15 financial aid",
+      "snippet": "Step-by-step application guide for prospective MS and PhD students in Intelligent Systems, including materials, funding deadlines, and SCI admissions contact information.",
+      "priority": 92
+    },
+    {
+      "id": "page-resources",
+      "title": "Student Resources, Registration, Advising Holds & Policies",
+      "url": "resources.html",
+      "category": "Student Guides",
+      "keywords": "student resources registration advising hold permission numbers peoplesoft aar academic advising report substitutions transfer credits pche graduation heidi davis",
+      "snippet": "Practical guides for lifting advising holds, requesting SCI and outside-SCI permission numbers, retrieving your AAR in PeopleSoft, PCHE cross-registration, and graduation.",
+      "priority": 94
+    },
+    {
+      "id": "guide-registration-hold",
+      "title": "How to Lift an Advising Hold Before Registration",
+      "url": "resources.html#registration",
+      "category": "Student Guides",
+      "keywords": "lift advising hold registration enroll classes advisor approval heidi davis hld46@pitt.edu peoplesoft",
+      "snippet": "Discuss your term course selection with your ISP faculty advisor and email Heidi Davis (hld46@pitt.edu) with your advisor\u2019s written approval to lift your advising hold.",
+      "priority": 90
+    },
+    {
+      "id": "guide-permission-numbers",
+      "title": "How to Request a Course Permission Number (SCI & Outside-SCI Courses)",
+      "url": "resources.html#permissions",
+      "category": "Student Guides",
+      "keywords": "permission number instructor approval 7-digit peoplesoft id 5-digit class number courses.sci.pitt.edu/permission qualtrics bioinformatics statistics linguistics law FTDJ SMSJ",
+      "snippet": "Obtain written instructor approval first, then submit your 7-digit PeopleSoft ID and 5-digit class number through the SCI Permission portal or outside-SCI department contact.",
+      "priority": 91
+    },
+    {
+      "id": "guide-aar",
+      "title": "Retrieve Your Academic Advising Report (AAR) in PeopleSoft / HighPoint CX",
+      "url": "resources.html#aar",
+      "category": "Student Guides",
+      "keywords": "academic advising report aar peoplesoft highpoint cx my pitt degree progress view pdf graduation review",
+      "snippet": "Sign in to My Pitt, open PeopleSoft / HighPoint CX \u2192 Academics \u2192 Degree Progress \u2192 View PDF to check your Academic Advising Report.",
+      "priority": 88
+    },
+    {
+      "id": "guide-substitutions",
+      "title": "Course Substitutions and Transfer Credits",
+      "url": "resources.html#substitutions",
+      "category": "Student Guides",
+      "keywords": "course substitution waiver transfer credits transfer request form peter brusilovsky heidi davis scirecords@pitt.edu",
+      "snippet": "Obtain written permission from your advisor and ISP Director Peter Brusilovsky before registering for a substitute course, or submit the Transfer Request Form for transfer credits.",
+      "priority": 86
+    },
+    {
+      "id": "guide-travel-grants",
+      "title": "Student Resources: Travel Grants ($750\u2013$1,000) and Research Computing (CRCD)",
+      "url": "resources.html#travel-grants",
+      "category": "Student Guides",
+      "keywords": "travel grant $750 $1,000 conference reimbursement bobbie coyne research computing crcd scitech@pitt.edu",
+      "snippet": "Apply at least 1 month before an AI conference for $750\u2013$1,000 in travel support, or request a sponsored account with Pitt\u2019s Center for Research Computing and Data (CRCD).",
+      "priority": 89
+    },
+    {
+      "id": "guide-change-advisor",
+      "title": "How to Change Your ISP Faculty Advisor",
+      "url": "resources.html#change-advisor",
+      "category": "Student Guides",
+      "keywords": "change advisor graduate change of advisor form pdf faculty advisor heidi davis",
+      "snippet": "Obtain approval from your prospective ISP faculty advisor and submit the Graduate Change of Advisor form (PDF), copying Heidi Davis.",
+      "priority": 85
+    },
+    {
+      "id": "guide-pche",
+      "title": "Take a Course at CMU or Another University (PCHE Cross-Registration)",
+      "url": "resources.html#pche",
+      "category": "Student Guides",
+      "keywords": "pche cross-registration carnegie mellon university cmu duquesne regional universities",
+      "snippet": "Full-time graduate students can cross-register at Carnegie Mellon University (CMU) and other PCHE institutions with prior approval from their advisor and the ISP Director.",
+      "priority": 87
+    },
+    {
+      "id": "page-about",
+      "title": "About the Intelligent Systems Program (ISP)",
+      "url": "about.html",
+      "category": "Pages & Requirements",
+      "keywords": "about isp history multidisciplinary artificial intelligence school of computing and information sennott square contacts",
+      "snippet": "Learn about the Intelligent Systems Program at the University of Pittsburgh, a multidisciplinary graduate community uniting AI and biomedical informatics.",
+      "priority": 82
+    },
+    {
+      "id": "page-research",
+      "title": "ISP Research Areas & Multidisciplinary AI Labs",
+      "url": "research.html",
+      "category": "Research",
+      "keywords": "research areas labs machine learning natural language processing biomedical informatics intelligent tutoring computer vision",
+      "snippet": "Explore applied artificial intelligence research groups across machine learning, natural language processing, biomedical informatics, intelligent tutoring, and computer vision.",
+      "priority": 88
+    },
+    {
+      "id": "page-events",
+      "title": "ISP Events, Seminars & Alternating Friday Forums",
+      "url": "events.html",
+      "category": "Research",
+      "keywords": "events isp forum seminars talks 5317 sennott square fridays",
+      "snippet": "Research talks, ISP Forums (alternating Fridays, 12:30\u20131:30 p.m. in 5317 Sennott Square), and opportunities to connect.",
+      "priority": 80
+    },
+    {
+      "id": "page-news",
+      "title": "ISP News, Awards & Community Updates",
+      "url": "news.html",
+      "category": "Research",
+      "keywords": "news awards publications fellowships announcements community updates",
+      "snippet": "Recent faculty and graduate student research highlights, fellowship awards, and community news from the Intelligent Systems Program.",
+      "priority": 80
+    },
+    {
+      "id": "course-infsci-2440",
+      "title": "INFSCI 2440: Artificial Intelligence (Cross-listed: ISSP 2440)",
+      "url": "courses.html#course-infsci-2440",
+      "category": "Courses",
+      "keywords": "INFSCI 2440 INFSCI2440 INFSCI-2440 ISSP 2440 ISSP-2440 Artificial Intelligence SCI Core MS General PREQ: INFSCI 2591; PROG: School of Computing and Information SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) Required MS General Track core course (2026\u20132027 catalog catoid=242). course prerequisite schedule peoplesoft",
+      "snippet": "MS (General Track) \u00b7 Core. Prerequisites: PREQ: INFSCI 2591; PROG: School of Computing and Information",
+      "priority": 90
+    },
+    {
+      "id": "course-issp-2071",
+      "title": "ISSP 2071: Human Language Technologies",
+      "url": "courses.html#course-issp-2071",
+      "category": "Courses",
+      "keywords": "ISSP 2071 ISSP2071 ISSP-2071 Human Language Technologies SCI Core MS General Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS General Track Core ('choose two' option; 2026\u20132027 catoid=242 update replacing the prior MS General Core NLP listing). course prerequisite schedule peoplesoft",
+      "snippet": "MS (General Track) \u00b7 Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 90
+    },
+    {
+      "id": "course-infsci-2595",
+      "title": "INFSCI 2595: Machine Learning",
+      "url": "courses.html#course-infsci-2595",
+      "category": "Courses",
+      "keywords": "INFSCI 2595 INFSCI2595 INFSCI-2595 Machine Learning SCI Core MS General Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS General Track Core ('choose two' option). course prerequisite schedule peoplesoft",
+      "snippet": "MS (General Track) \u00b7 Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 90
+    },
+    {
+      "id": "course-issp-2130",
+      "title": "ISSP 2130: Information Storage and Retrieval (Cross-listed: INFSCI 2140)",
+      "url": "courses.html#course-issp-2130",
+      "category": "Courses",
+      "keywords": "ISSP 2130 ISSP2130 ISSP-2130 INFSCI 2140 INFSCI-2140 Information Storage and Retrieval SCI Core MS PhD General PROG: School of Information Science or School of Computing and Information (INFSCI 2140) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS General Track Core ('choose two' option) and Approved Advanced Course for MS & PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General Track) \u00b7 Core. Prerequisites: PROG: School of Information Science or School of Computing and Information (INFSCI 2140)",
+      "priority": 90
+    },
+    {
+      "id": "course-infsci-2160",
+      "title": "INFSCI 2160: Data Mining",
+      "url": "courses.html#course-infsci-2160",
+      "category": "Courses",
+      "keywords": "INFSCI 2160 INFSCI2160 INFSCI-2160 Data Mining SCI Core MS PhD General PREQ: INFSCI 2020 (B or greater) or INFSCI 2725 (B or greater) or INFSCI Exemption-Analytics Component (Test Score 6 or higher) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS General Track Core ('choose two' option) and Approved Advanced Course for MS & PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General Track) \u00b7 Core. Prerequisites: PREQ: INFSCI 2020 (B or greater) or INFSCI 2725 (B or greater) or INFSCI Exemption-Analytics Component (Test Score 6 or higher)",
+      "priority": 90
+    },
+    {
+      "id": "course-issp-2160",
+      "title": "ISSP 2160: Foundations of Artificial Intelligence (Cross-listed: CS 2710)",
+      "url": "courses.html#course-issp-2160",
+      "category": "Courses",
+      "keywords": "ISSP 2160 ISSP2160 ISSP-2160 CS 2710 CS-2710 Foundations of Artificial Intelligence SCI Core PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) Required PhD Core course for both General and Biomedical Informatics tracks. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 90
+    },
+    {
+      "id": "course-issp-2170",
+      "title": "ISSP 2170: Machine Learning (Cross-listed: CS 2750)",
+      "url": "courses.html#course-issp-2170",
+      "category": "Courses",
+      "keywords": "ISSP 2170 ISSP2170 ISSP-2170 CS 2750 CS-2750 Machine Learning SCI Core MS PhD General Biomedical Informatics PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) PhD General Core ('choose two' option, TODO: confirm against catoid=242), MS/PhD BMI Core ('choose one' ML/NLP/CV option), and Approved Advanced Course. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Core. Prerequisites: PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 90
+    },
+    {
+      "id": "course-issp-2180",
+      "title": "ISSP 2180: Computer Vision (Cross-listed: CS 2770)",
+      "url": "courses.html#course-issp-2180",
+      "category": "Courses",
+      "keywords": "ISSP 2180 ISSP2180 ISSP-2180 CS 2770 CS-2770 Computer Vision SCI Core MS PhD General Biomedical Informatics PLAN: Intelligent Systems (PhD) \u2014 verify current MS plan eligibility in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) MS General Core ('choose two'), PhD General Core ('choose two', TODO: confirm), BMI Core ('choose one' ML/NLP/CV), and Approved Advanced Course. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Core. Prerequisites: PLAN: Intelligent Systems (PhD) \u2014 verify current MS plan eligibility in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 90
+    },
+    {
+      "id": "course-biost-2041",
+      "title": "BIOST 2041: Introduction to Statistical Methods 1",
+      "url": "courses.html#course-biost-2041",
+      "category": "Courses",
+      "keywords": "BIOST 2041 BIOST2041 BIOST-2041 Introduction to Statistical Methods 1 Biostatistics (School of Public Health) Theory \u2014 Statistics MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 contact Biostatistics / School of Public Health student services with instructor approval, 7-digit PeopleSoft ID, and 5-digit class number 2026\u20132027 MS & PhD Theory \u2014 Statistics ('choose one' option for General and BMI tracks). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Statistics. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-biost-2142",
+      "title": "BIOST 2142: Applied Regression Analysis",
+      "url": "courses.html#course-biost-2142",
+      "category": "Courses",
+      "keywords": "BIOST 2142 BIOST2142 BIOST-2142 Applied Regression Analysis Biostatistics (School of Public Health) Theory \u2014 Statistics MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 contact Biostatistics / School of Public Health student services with instructor approval, 7-digit PeopleSoft ID, and 5-digit class number 2026\u20132027 MS & PhD Theory \u2014 Statistics ('choose one' option; 2026\u20132027 catoid=242 update replacing the prior Introductory Statistical Methods 2 listing). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Statistics. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-2118",
+      "title": "BIOINF 2118: Statistical Foundations of Biomedical Informatics",
+      "url": "courses.html#course-bioinf-2118",
+      "category": "Courses",
+      "keywords": "BIOINF 2118 BIOINF2118 BIOINF-2118 Statistical Foundations of Biomedical Informatics Biomedical Informatics (School of Medicine) Theory \u2014 Statistics MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Bioinformatics contact: Toni Porterfield (attach instructor email approval, 7-digit PeopleSoft ID, and 5-digit class number) 2026\u20132027 MS & PhD Theory \u2014 Statistics ('choose one' option for General and BMI tracks). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Statistics. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-stat-2131",
+      "title": "STAT 2131: Applied Statistical Methods 1",
+      "url": "courses.html#course-stat-2131",
+      "category": "Courses",
+      "keywords": "STAT 2131 STAT2131 STAT-2131 Applied Statistical Methods 1 Statistics (Dietrich School of Arts and Sciences) Theory \u2014 Statistics MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Department of Statistics website permission form (select 'Department Consent Required' and attach instructor approval email) 2026\u20132027 MS & PhD Theory \u2014 Statistics ('choose one' option for General and BMI tracks). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Statistics. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-stat-2132",
+      "title": "STAT 2132: Applied Statistical Methods 2",
+      "url": "courses.html#course-stat-2132",
+      "category": "Courses",
+      "keywords": "STAT 2132 STAT2132 STAT-2132 Applied Statistical Methods 2 Statistics (Dietrich School of Arts and Sciences) Theory \u2014 Statistics MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Department of Statistics website permission form (select 'Department Consent Required' and attach instructor approval email) 2026\u20132027 MS & PhD Theory \u2014 Statistics ('choose one' option for General and BMI tracks). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Statistics. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-cs-1511",
+      "title": "CS 1511: Introduction to Theory of Computation",
+      "url": "courses.html#course-cs-1511",
+      "category": "Courses",
+      "keywords": "CS 1511 CS1511 CS-1511 Introduction to Theory of Computation SCI Theory \u2014 Computation & Algorithms MS General Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS General Track Theory \u2014 Computation & Algorithms ('choose one' option). course prerequisite schedule peoplesoft",
+      "snippet": "MS (General Track) \u00b7 Theory \u2014 Computation & Algorithms. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-cs-2110",
+      "title": "CS 2110: Theory of Computation",
+      "url": "courses.html#course-cs-2110",
+      "category": "Courses",
+      "keywords": "CS 2110 CS2110 CS-2110 Theory of Computation SCI Theory \u2014 Computation & Algorithms MS PhD General Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS & PhD General Track Theory \u2014 Computation & Algorithms ('choose one' option). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General Track) \u00b7 Theory \u2014 Computation & Algorithms. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-cs-2150",
+      "title": "CS 2150: Design and Analysis of Algorithms",
+      "url": "courses.html#course-cs-2150",
+      "category": "Courses",
+      "keywords": "CS 2150 CS2150 CS-2150 Design and Analysis of Algorithms SCI Theory \u2014 Computation & Algorithms MS PhD General Biomedical Informatics PLAN: Computer Science or Computer Engineering (ISP students request an SCI permission number with instructor approval) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS & PhD Theory \u2014 Computation & Algorithms (General and BMI tracks). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Computation & Algorithms. Prerequisites: PLAN: Computer Science or Computer Engineering (ISP students request an SCI permission number with instructor approval)",
+      "priority": 84
+    },
+    {
+      "id": "course-infsci-2591",
+      "title": "INFSCI 2591: Algorithm Design (Cross-listed: CS 2012)",
+      "url": "courses.html#course-infsci-2591",
+      "category": "Courses",
+      "keywords": "INFSCI 2591 INFSCI2591 INFSCI-2591 CS 2012 CS-2012 Algorithm Design SCI Theory \u2014 Computation & Algorithms MS General Biomedical Informatics PREQ: INFSCI 2500 or INFSCI 2500 Exemption (Test Score=1); PROG: School of Computing and Information (CS 2012 PLAN: Computer Science or Computer Engineering) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 MS Theory \u2014 Computation & Algorithms (General Track and BMI Track via cross-listed CS 2012). course prerequisite schedule peoplesoft",
+      "snippet": "MS (General, Biomedical Informatics Track) \u00b7 Theory \u2014 Computation & Algorithms. Prerequisites: PREQ: INFSCI 2500 or INFSCI 2500 Exemption (Test Score=1); PROG: School of Computing and Information (CS 2012 PLAN: Computer Science or Computer Engineering)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2083",
+      "title": "ISSP 2083: Biomedical Informatics Journal Club (Cross-listed: BIOINF 2032)",
+      "url": "courses.html#course-issp-2083",
+      "category": "Courses",
+      "keywords": "ISSP 2083 ISSP2083 ISSP-2083 BIOINF 2032 BIOINF-2032 Biomedical Informatics Journal Club SCI Biomedical Informatics Core MS PhD Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI / cross-listed \u2014 Bioinformatics contact: Toni Porterfield, or SCI permission request for ISSP section Required MS & PhD Biomedical Informatics Track Core course. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2016",
+      "title": "ISSP 2016: Foundations of Biomedical Informatics 1 (Cross-listed: BIOINF 2070)",
+      "url": "courses.html#course-issp-2016",
+      "category": "Courses",
+      "keywords": "ISSP 2016 ISSP2016 ISSP-2016 BIOINF 2070 BIOINF-2070 Foundations of Biomedical Informatics 1 SCI Biomedical Informatics Core MS PhD Biomedical Informatics PLAN: Biomedical Informatics (ISP students request permission via Bioinformatics / SCI) Outside SCI / cross-listed \u2014 Bioinformatics contact: Toni Porterfield, or SCI permission request for ISSP section Required MS & PhD Biomedical Informatics Track Core course. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: PLAN: Biomedical Informatics (ISP students request permission via Bioinformatics / SCI)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-2105",
+      "title": "BIOINF 2105: Artificial Intelligence for Biomedical Informatics",
+      "url": "courses.html#course-bioinf-2105",
+      "category": "Courses",
+      "keywords": "BIOINF 2105 BIOINF2105 BIOINF-2105 Artificial Intelligence for Biomedical Informatics Biomedical Informatics (School of Medicine) Biomedical Informatics Core MS Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Bioinformatics contact: Toni Porterfield (attach instructor email approval, 7-digit PeopleSoft ID, and 5-digit class number) Required 2026\u20132027 MS Biomedical Informatics Track Core course. course prerequisite schedule peoplesoft",
+      "snippet": "MS (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2017",
+      "title": "ISSP 2017: Foundations of Biomedical Informatics 2 (Cross-listed: BIOINF 2071)",
+      "url": "courses.html#course-issp-2017",
+      "category": "Courses",
+      "keywords": "ISSP 2017 ISSP2017 ISSP-2017 BIOINF 2071 BIOINF-2071 Foundations of Biomedical Informatics 2 SCI Biomedical Informatics Core MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI / cross-listed \u2014 Bioinformatics contact: Toni Porterfield, or SCI permission request for ISSP section MS & PhD Biomedical Informatics Track ('choose two' core selection) and 2026\u20132027 Approved Advanced Course. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2240",
+      "title": "ISSP 2240: Decision Analysis and Decision Support Systems (Cross-listed: INFSCI 2130)",
+      "url": "courses.html#course-issp-2240",
+      "category": "Courses",
+      "keywords": "ISSP 2240 ISSP2240 ISSP-2240 INFSCI 2130 INFSCI-2130 Decision Analysis and Decision Support Systems SCI Biomedical Informatics Core MS PhD Biomedical Informatics PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) MS & PhD Biomedical Informatics Track ('choose two' core selection). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-2121",
+      "title": "BIOINF 2121: Human-Computer Interaction and Evaluation Methods",
+      "url": "courses.html#course-bioinf-2121",
+      "category": "Courses",
+      "keywords": "BIOINF 2121 BIOINF2121 BIOINF-2121 Human-Computer Interaction and Evaluation Methods Biomedical Informatics (School of Medicine) Biomedical Informatics Core MS PhD Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Bioinformatics contact: Toni Porterfield (attach instructor email approval, 7-digit PeopleSoft ID, and 5-digit class number) MS & PhD Biomedical Informatics Track ('choose two' core selection). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-2117",
+      "title": "BIOINF 2117: Applied Medical Informatics",
+      "url": "courses.html#course-bioinf-2117",
+      "category": "Courses",
+      "keywords": "BIOINF 2117 BIOINF2117 BIOINF-2117 Applied Medical Informatics Biomedical Informatics (School of Medicine) Biomedical Informatics Core MS PhD Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Bioinformatics contact: Toni Porterfield (attach instructor email approval, 7-digit PeopleSoft ID, and 5-digit class number) MS & PhD Biomedical Informatics Track ('choose two' core selection). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-2016",
+      "title": "BIOINF 2016: Foundations of Translational Informatics",
+      "url": "courses.html#course-bioinf-2016",
+      "category": "Courses",
+      "keywords": "BIOINF 2016 BIOINF2016 BIOINF-2016 Foundations of Translational Informatics Biomedical Informatics (School of Medicine) Biomedical Informatics Core MS PhD Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Bioinformatics contact: Toni Porterfield (attach instructor email approval, 7-digit PeopleSoft ID, and 5-digit class number) MS & PhD Biomedical Informatics Track ('choose two' core selection). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-2124",
+      "title": "BIOINF 2124: Principles of Global Health Informatics",
+      "url": "courses.html#course-bioinf-2124",
+      "category": "Courses",
+      "keywords": "BIOINF 2124 BIOINF2124 BIOINF-2124 Principles of Global Health Informatics Biomedical Informatics (School of Medicine) Biomedical Informatics Core MS PhD Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) Outside SCI \u2014 Bioinformatics contact: Toni Porterfield (attach instructor email approval, 7-digit PeopleSoft ID, and 5-digit class number) MS & PhD Biomedical Informatics Track ('choose two' core selection). course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-bioinf-3998",
+      "title": "BIOINF 3998: Doctoral Teaching Practicum",
+      "url": "courses.html#course-bioinf-3998",
+      "category": "Courses",
+      "keywords": "BIOINF 3998 BIOINF3998 BIOINF-3998 Doctoral Teaching Practicum Biomedical Informatics (School of Medicine) Biomedical Informatics Core PhD Biomedical Informatics Special enrollment permission from Biomedical Informatics training program coordinator required (3 credits) Outside SCI \u2014 Bioinformatics training program coordinator / Toni Porterfield Required 3-credit PhD Biomedical Informatics Track teaching practicum (TA requirement). course prerequisite schedule peoplesoft",
+      "snippet": "PhD (Biomedical Informatics Track) \u00b7 Biomedical Informatics Core. Prerequisites: Special enrollment permission from Biomedical Informatics training program coordinator required (3 credits)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2020",
+      "title": "ISSP 2020: Topics in Intelligent Systems",
+      "url": "courses.html#course-issp-2020",
+      "category": "Courses",
+      "keywords": "ISSP 2020 ISSP2020 ISSP-2020 Topics in Intelligent Systems SCI First-Year & Research MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) Required for first-year PhD students (preliminary exam project design); encouraged for first-year MS students. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2030",
+      "title": "ISSP 2030: Advanced Topics in Intelligent Systems",
+      "url": "courses.html#course-issp-2030",
+      "category": "Courses",
+      "keywords": "ISSP 2030 ISSP2030 ISSP-2030 Advanced Topics in Intelligent Systems SCI First-Year & Research MS PhD General Biomedical Informatics PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) Required for first-year PhD students (includes 30-minute Spring ISP Forum preliminary project presentation); encouraged for first-year MS students. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 84
+    },
+    {
+      "id": "course-infsci-3005",
+      "title": "INFSCI 3005: Introduction to the Doctoral Program (Cross-listed: CS 2001)",
+      "url": "courses.html#course-infsci-3005",
+      "category": "Courses",
+      "keywords": "INFSCI 3005 INFSCI3005 INFSCI-3005 CS 2001 CS-2001 Introduction to the Doctoral Program SCI First-Year & Research PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) Required for first-year PhD students in both General and Biomedical Informatics tracks. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2000",
+      "title": "ISSP 2000: MS Research",
+      "url": "courses.html#course-issp-2000",
+      "category": "Courses",
+      "keywords": "ISSP 2000 ISSP2000 ISSP-2000 MS Research SCI First-Year & Research MS General Biomedical Informatics PLAN: Intelligent Systems (MS); advisor agreement required (optional project credit; does not count as an advanced elective) SCI permission request with ISP faculty advisor approval Optional MS project credit registration (recommended alongside no more than 2 lecture courses in an intensive project semester; does not count as one of the 4 advanced electives). course prerequisite schedule peoplesoft",
+      "snippet": "MS (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: PLAN: Intelligent Systems (MS); advisor agreement required (optional project credit; does not count as an advanced elective)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-3000",
+      "title": "ISSP 3000: Dissertation Research",
+      "url": "courses.html#course-issp-3000",
+      "category": "Courses",
+      "keywords": "ISSP 3000 ISSP3000 ISSP-3000 Dissertation Research SCI First-Year & Research PhD General Biomedical Informatics PLAN: Intelligent Systems (PhD); doctoral advisor approval required SCI permission request with ISP doctoral advisor approval Doctoral dissertation research credits toward the 72-credit PhD requirement. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: PLAN: Intelligent Systems (PhD); doctoral advisor approval required",
+      "priority": 84
+    },
+    {
+      "id": "course-ftdj-0000",
+      "title": "FTDJ 0000: Full-Time Dissertation Study",
+      "url": "courses.html#course-ftdj-0000",
+      "category": "Courses",
+      "keywords": "FTDJ 0000 FTDJ0000 FTDJ-0000 Full-Time Dissertation Study SCI First-Year & Research PhD General Biomedical Informatics PREQ: Completion of 72 degree credits, all required curriculum courses, and active work toward Comprehensive Examination; SCI permission number required SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form after advisor & ISP administrator confirm eligibility) Provides full-time doctoral status at reduced fee levels after completing 72 credits and all required coursework. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: PREQ: Completion of 72 degree credits, all required curriculum courses, and active work toward Comprehensive Examination; SCI permission number required",
+      "priority": 84
+    },
+    {
+      "id": "course-smsj-0000",
+      "title": "SMSJ 0000: Summer Milestone Study",
+      "url": "courses.html#course-smsj-0000",
+      "category": "Courses",
+      "keywords": "SMSJ 0000 SMSJ0000 SMSJ-0000 Summer Milestone Study SCI First-Year & Research PhD General Biomedical Informatics PLAN: Intelligent Systems (PhD); for doctoral students working on summer milestones not yet eligible for FTDJ; SCI permission number required SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form after advisor & ISP administrator confirm eligibility) Supports PhD students completing summer milestones at reduced fee levels before reaching FTDJ eligibility. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 First-Year & Research. Prerequisites: PLAN: Intelligent Systems (PhD); for doctoral students working on summer milestones not yet eligible for FTDJ; SCI permission number required",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2230",
+      "title": "ISSP 2230: Introduction to Natural Language Processing (Cross-listed: CS 2731)",
+      "url": "courses.html#course-issp-2230",
+      "category": "Courses",
+      "keywords": "ISSP 2230 ISSP2230 ISSP-2230 CS 2731 CS-2731 Introduction to Natural Language Processing SCI Approved Advanced Courses MS PhD General Biomedical Informatics PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course for MS & PhD; also listed in PhD General Core ('choose two', TODO: confirm against catoid=242) and BMI Core ML/NLP/CV option. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2078",
+      "title": "ISSP 2078: Introduction to Deep Learning",
+      "url": "courses.html#course-issp-2078",
+      "category": "Courses",
+      "keywords": "ISSP 2078 ISSP2078 ISSP-2078 Introduction to Deep Learning SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) New 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2125",
+      "title": "ISSP 2125: Network Science and Analysis (Cross-listed: INFSCI 2125)",
+      "url": "courses.html#course-issp-2125",
+      "category": "Courses",
+      "keywords": "ISSP 2125 ISSP2125 ISSP-2125 INFSCI 2125 INFSCI-2125 Network Science and Analysis SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) New 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2185",
+      "title": "ISSP 2185: FATE: Fairness, Accountability, Transparency, and Ethics in AI",
+      "url": "courses.html#course-issp-2185",
+      "category": "Courses",
+      "keywords": "ISSP 2185 ISSP2185 ISSP-2185 FATE: Fairness, Accountability, Transparency, and Ethics in AI SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) New 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2419",
+      "title": "ISSP 2419: Applied Legal Data Analytics and AI",
+      "url": "courses.html#course-issp-2419",
+      "category": "Courses",
+      "keywords": "ISSP 2419 ISSP2419 ISSP-2419 Applied Legal Data Analytics and AI SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request or Law School contact (Jaime Horensky) with instructor email approval New 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2756",
+      "title": "ISSP 2756: Principles of Data Mining",
+      "url": "courses.html#course-issp-2756",
+      "category": "Courses",
+      "keywords": "ISSP 2756 ISSP2756 ISSP-2756 Principles of Data Mining SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) New 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2165",
+      "title": "ISSP 2165: Advanced Topics in Data Mining: Social and Heterogeneous Graph Mining",
+      "url": "courses.html#course-issp-2165",
+      "category": "Courses",
+      "keywords": "ISSP 2165 ISSP2165 ISSP-2165 Advanced Topics in Data Mining: Social and Heterogeneous Graph Mining SCI Approved Advanced Courses PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) New 2026\u20132027 Approved Advanced Course in catoid=242 for PhD. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2221",
+      "title": "ISSP 2221: Human Information Processing (Cross-listed: INFSCI 2300)",
+      "url": "courses.html#course-issp-2221",
+      "category": "Courses",
+      "keywords": "ISSP 2221 ISSP2221 ISSP-2221 INFSCI 2300 INFSCI-2300 Human Information Processing SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2280",
+      "title": "ISSP 2280: Adaptive Information Systems (Cross-listed: INFSCI 2480)",
+      "url": "courses.html#course-issp-2280",
+      "category": "Courses",
+      "keywords": "ISSP 2280 ISSP2280 ISSP-2280 INFSCI 2480 INFSCI-2480 Adaptive Information Systems SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-2430",
+      "title": "ISSP 2430: Social Computing (Cross-listed: INFSCI 2430)",
+      "url": "courses.html#course-issp-2430",
+      "category": "Courses",
+      "keywords": "ISSP 2430 ISSP2430 ISSP-2430 INFSCI 2430 INFSCI-2430 Social Computing SCI Approved Advanced Courses MS PhD General Biomedical Informatics Verify in SCI Course Catalog & PeopleSoft (TODO: confirm) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course in catoid=242 for MS and PhD. course prerequisite schedule peoplesoft",
+      "snippet": "MS, PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: Verify in SCI Course Catalog & PeopleSoft (TODO: confirm)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-3120",
+      "title": "ISSP 3120: Advanced Topics in Natural Language Processing (Cross-listed: CS 3730)",
+      "url": "courses.html#course-issp-3120",
+      "category": "Courses",
+      "keywords": "ISSP 3120 ISSP3120 ISSP-3120 CS 3730 CS-3730 Advanced Topics in Natural Language Processing SCI Approved Advanced Courses PhD General Biomedical Informatics PREQ: ISSP 2230 or CS 2731 or INFSCI 2420; PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course in catoid=242 for PhD. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: PREQ: ISSP 2230 or CS 2731 or INFSCI 2420; PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-3535",
+      "title": "ISSP 3535: Advanced Topics in Machine Learning",
+      "url": "courses.html#course-issp-3535",
+      "category": "Courses",
+      "keywords": "ISSP 3535 ISSP3535 ISSP-3535 Advanced Topics in Machine Learning SCI Approved Advanced Courses PhD General Biomedical Informatics PREQ: ISSP 2170 or CS 2750; PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course in catoid=242 for PhD. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: PREQ: ISSP 2170 or CS 2750; PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 84
+    },
+    {
+      "id": "course-issp-3565",
+      "title": "ISSP 3565: Advanced Topics in Artificial Intelligence",
+      "url": "courses.html#course-issp-3565",
+      "category": "Courses",
+      "keywords": "ISSP 3565 ISSP3565 ISSP-3565 Advanced Topics in Artificial Intelligence SCI Approved Advanced Courses PhD General Biomedical Informatics PREQ: ISSP 2160 or CS 2710; PLAN: Intelligent Systems (MS, PHD) SCI permission request (https://courses.sci.pitt.edu/permission or SCI Qualtrics form with instructor email approval) 2026\u20132027 Approved Advanced Course in catoid=242 for PhD. course prerequisite schedule peoplesoft",
+      "snippet": "PhD (General, Biomedical Informatics Track) \u00b7 Approved Advanced Courses. Prerequisites: PREQ: ISSP 2160 or CS 2710; PLAN: Intelligent Systems (MS, PHD)",
+      "priority": 84
+    },
+    {
+      "id": "person-raphael-adewale",
+      "title": "Raphael Adewale \u2014 Graduate students",
+      "url": "people.html#person-raphael-adewale",
+      "category": "Faculty & People",
+      "keywords": "Raphael Adewale Graduate students Master's Student I study how people and computers work together to make learning more personal. My research uses Artificial Intelligence and Social Robotics to build smart tools that adapt to each student\u2019s needs. I am especially interested in taking these tools beyond the classroom to help people learn better in the real world.",
+      "snippet": "Graduate students. Master's Student I study how people and computers work together to make learning more personal. My research uses Artificial Intelligence and Social Robotics to build smart tools that adapt to each student\u2019s needs. I am especially interested ",
+      "priority": 64
+    },
+    {
+      "id": "person-hua-ai",
+      "title": "Hua Ai \u2014 Alumni",
+      "url": "people.html#person-hua-ai",
+      "category": "Faculty & People",
+      "keywords": "Hua Ai Alumni General Manager of Predictive Modeling, Delta Airlines (PhD '09) Natural Language Processing; User Modeling; and ; Machine Learning Artificial Intelligence Application in Education and Health Information",
+      "snippet": "Alumni. General Manager of Predictive Modeling, Delta Airlines (PhD '09) Natural Language Processing; User Modeling; and ; Machine Learning Artificial Intelligence Application in Education and Health Information",
+      "priority": 64
+    },
+    {
+      "id": "person-bamidele-ajisogun",
+      "title": "Bamidele Ajisogun \u2014 Graduate students",
+      "url": "people.html#person-bamidele-ajisogun",
+      "category": "Faculty & People",
+      "keywords": "Bamidele Ajisogun Graduate students PhD Student I'm interested in exploring deep learning and machine learning algorithms using symbolic, probabilistic, and hybrid approaches to solve bioinformatics problems including genomics, biomarker discovery and disease classification for pattern recognition and biomedical evidence in precision medicine. Interests: My interests are in building computational algorithms in Machine Learning / Artificial Intelligence in Cardiovascular genetics and diseases, Cancer Research, Human-Computer Interaction (HCI), and Natural Language Processing (NLP) in Biomedical informatics. Likes: I love to read and play soccer on my PS5, I love good food and I also love\u2026",
+      "snippet": "Graduate students. PhD Student I'm interested in exploring deep learning and machine learning algorithms using symbolic, probabilistic, and hybrid approaches to solve bioinformatics problems including genomics, biomarker discovery and disease classification fo",
+      "priority": 64
+    },
+    {
+      "id": "person-uma-sisira-akella",
+      "title": "Uma Sisira Akella \u2014 Graduate students",
+      "url": "people.html#person-uma-sisira-akella",
+      "category": "Faculty & People",
+      "keywords": "Uma Sisira Akella Graduate students Master's Student",
+      "snippet": "Graduate students. Master's Student",
+      "priority": 64
+    },
+    {
+      "id": "person-cem-akkaya",
+      "title": "Cem Akkaya \u2014 Alumni",
+      "url": "people.html#person-cem-akkaya",
+      "category": "Faculty & People",
+      "keywords": "Cem Akkaya Alumni Machine Learning Engineer, Facebook (PhD '14) Natural Language Processing and Machine Learning; Application of Word Sense Disambiguation to Subjectivity/Sentiment Analysis; and Active Learning and Semi-Supervised Learning Methods.",
+      "snippet": "Alumni. Machine Learning Engineer, Facebook (PhD '14) Natural Language Processing and Machine Learning; Application of Word Sense Disambiguation to Subjectivity/Sentiment Analysis; and Active Learning and Semi-Supervised Learning Methods.",
+      "priority": 64
+    },
+    {
+      "id": "person-simon-bin-akter",
+      "title": "Simon Bin Akter \u2014 Graduate students",
+      "url": "people.html#person-simon-bin-akter",
+      "category": "Faculty & People",
+      "keywords": "Simon Bin Akter Graduate students PhD Student Clinical Natural Language Processing, Large Language Model, and Trustworthy Machine Learning",
+      "snippet": "Graduate students. PhD Student Clinical Natural Language Processing, Large Language Model, and Trustworthy Machine Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-patricia-albacete",
+      "title": "Patricia Albacete \u2014 Alumni",
+      "url": "people.html#person-patricia-albacete",
+      "category": "Faculty & People",
+      "keywords": "Patricia Albacete Alumni Research Associate, Learning Research and Development Center (PhD '99)",
+      "snippet": "Alumni. Research Associate, Learning Research and Development Center (PhD '99)",
+      "priority": 64
+    },
+    {
+      "id": "person-vincent-aleven",
+      "title": "Vincent Aleven \u2014 Alumni",
+      "url": "people.html#person-vincent-aleven",
+      "category": "Faculty & People",
+      "keywords": "Vincent Aleven Alumni Professor, Carnegie Mellon University (PhD '97)",
+      "snippet": "Alumni. Professor, Carnegie Mellon University (PhD '97)",
+      "priority": 64
+    },
+    {
+      "id": "person-constantin-aliferis",
+      "title": "Constantin Aliferis \u2014 Alumni",
+      "url": "people.html#person-constantin-aliferis",
+      "category": "Faculty & People",
+      "keywords": "Constantin Aliferis Alumni (PhD '98)",
+      "snippet": "Alumni. (PhD '98)",
+      "priority": 64
+    },
+    {
+      "id": "person-saeed-amizadeh",
+      "title": "Saeed Amizadeh \u2014 Alumni",
+      "url": "people.html#person-saeed-amizadeh",
+      "category": "Faculty & People",
+      "keywords": "Saeed Amizadeh Alumni Senior Machine Learning Researcher, Microsoft (PhD '13) Statistical Machine Learning; and Data Mining",
+      "snippet": "Alumni. Senior Machine Learning Researcher, Microsoft (PhD '13) Statistical Machine Learning; and Data Mining",
+      "priority": 64
+    },
+    {
+      "id": "person-saman-amirpour-amraii",
+      "title": "Saman Amirpour Amraii \u2014 Alumni",
+      "url": "people.html#person-saman-amirpour-amraii",
+      "category": "Faculty & People",
+      "keywords": "Saman Amirpour Amraii Alumni Co-Founder, xSeer.io Cognitive Science, Consciousness; Social Systems, Memetics and Emergence;Evolutionary Algorithms, Genetic Algorithms; and Robotics and Multi-agent Systems, Cooperation",
+      "snippet": "Alumni. Co-Founder, xSeer.io Cognitive Science, Consciousness; Social Systems, Memetics and Emergence;Evolutionary Algorithms, Genetic Algorithms; and Robotics and Multi-agent Systems, Cooperation",
+      "priority": 64
+    },
+    {
+      "id": "person-seshan-ananthasubramanian",
+      "title": "Seshan Ananthasubramanian \u2014 Alumni",
+      "url": "people.html#person-seshan-ananthasubramanian",
+      "category": "Faculty & People",
+      "keywords": "Seshan Ananthasubramanian Alumni Data Scientist, Google (MS '12) Active and Proactive Learning; Probabilistic Graphical Models; Multi-Sensor Fusion; One-Class Learning; and Protein-Protein Interaction Prediction",
+      "snippet": "Alumni. Data Scientist, Google (MS '12) Active and Proactive Learning; Probabilistic Graphical Models; Multi-Sensor Fusion; One-Class Learning; and Protein-Protein Interaction Prediction",
+      "priority": 64
+    },
+    {
+      "id": "person-joshua-w-anderson",
+      "title": "Joshua W Anderson \u2014 Graduate students",
+      "url": "people.html#person-joshua-w-anderson",
+      "category": "Faculty & People",
+      "keywords": "Joshua W Anderson Graduate students PhD Student Causal Inference, Interpretable AI, Computer Vision, and AI in Medicine",
+      "snippet": "Graduate students. PhD Student Causal Inference, Interpretable AI, Computer Vision, and AI in Medicine",
+      "priority": 64
+    },
+    {
+      "id": "person-bryan-andrews",
+      "title": "Bryan Andrews \u2014 Alumni",
+      "url": "people.html#person-bryan-andrews",
+      "category": "Faculty & People",
+      "keywords": "Bryan Andrews Alumni Machine Learning; Causal Discovery",
+      "snippet": "Alumni. Alumni Machine Learning; Causal Discovery",
+      "priority": 64
+    },
+    {
+      "id": "person-annanya",
+      "title": "Annanya \u2014 Alumni",
+      "url": "people.html#person-annanya",
+      "category": "Faculty & People",
+      "keywords": "Annanya Alumni Master's Student Deep learning, Neural network, and computer vision",
+      "snippet": "Alumni. Master's Student Deep learning, Neural network, and computer vision",
+      "priority": 64
+    },
+    {
+      "id": "person-john-aronis",
+      "title": "John Aronis \u2014 Alumni",
+      "url": "people.html#person-john-aronis",
+      "category": "Faculty & People",
+      "keywords": "John Aronis Alumni (PhD '93)",
+      "snippet": "Alumni. (PhD '93)",
+      "priority": 64
+    },
+    {
+      "id": "person-yuya-asano",
+      "title": "Yuya Asano \u2014 Graduate students",
+      "url": "people.html#person-yuya-asano",
+      "category": "Faculty & People",
+      "keywords": "Yuya Asano Graduate students PhD Student Natural Language Processing; AI in Education; and Human-Computer Interaction",
+      "snippet": "Graduate students. PhD Student Natural Language Processing; AI in Education; and Human-Computer Interaction",
+      "priority": 64
+    },
+    {
+      "id": "person-kevin-ashley",
+      "title": "Kevin Ashley \u2014 Faculty",
+      "url": "people.html#person-kevin-ashley",
+      "category": "Faculty & People",
+      "keywords": "Kevin Ashley Faculty Professor School of Law School of Law Law AI and law Learning and education Language and information retrieval Case-Based Reasoning; Intelligent Tutoring Systems; Legal Information Management and Retrieval Professor Kevin D. Ashley is an expert on computer modeling of legal reasoning and cyberspace legal issues. In 2002 he was selected as a Fellow of the American Association of Artificial Intelligence \u201cfor significant contributions in computationally modeling case-based and analogical reasoning in law and practical ethics.\u201d He has reported his\u2026",
+      "snippet": "Faculty. Professor School of Law Schools: School of Law. Research topics: AI and law, Learning and education, Language and information retrieval. Case-Based Reasoning; Intelligent Tutoring Systems; Legal Information Management and Retrieval",
+      "priority": 88
+    },
+    {
+      "id": "person-jeya-balaji-balasubramanian",
+      "title": "Jeya Balaji Balasubramanian \u2014 Alumni",
+      "url": "people.html#person-jeya-balaji-balasubramanian",
+      "category": "Faculty & People",
+      "keywords": "Jeya Balaji Balasubramanian Alumni Postdoctoral Researcher, National Cancer Institute (PhD '19)",
+      "snippet": "Alumni. Postdoctoral Researcher, National Cancer Institute (PhD '19)",
+      "priority": 64
+    },
+    {
+      "id": "person-maneesh-bilalpur",
+      "title": "Maneesh Bilalpur \u2014 Alumni",
+      "url": "people.html#person-maneesh-bilalpur",
+      "category": "Faculty & People",
+      "keywords": "Maneesh Bilalpur Alumni PhD Student",
+      "snippet": "Alumni. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-barry-blumenfeld",
+      "title": "Barry Blumenfeld \u2014 Alumni",
+      "url": "people.html#person-barry-blumenfeld",
+      "category": "Faculty & People",
+      "keywords": "Barry Blumenfeld Alumni (MS '89)",
+      "snippet": "Alumni. (MS '89)",
+      "priority": 64
+    },
+    {
+      "id": "person-richard-boyce",
+      "title": "Richard Boyce \u2014 Faculty",
+      "url": "people.html#person-richard-boyce",
+      "category": "Faculty & People",
+      "keywords": "Richard Boyce Faculty Associate Professor Department of Biomedical Informatics School of Medicine Biomedical Informatics Health and biomedicine Machine learning and reasoning The intersection and synergy of knowledge-bases and generative models applied to patient safety, intelligent clinical decision support interventions, advanced pharmacovigilance signal generation and investigation, development and evaluation of large reasoning models and knowledge representation for pharmacovigilance and patient safety.",
+      "snippet": "Faculty. Associate Professor Department of Biomedical Informatics Schools: School of Medicine. Research topics: Health and biomedicine, Machine learning and reasoning. The intersection and synergy of knowledge-bases and generative models applied to patient saf",
+      "priority": 88
+    },
+    {
+      "id": "person-peter-brusilovsky",
+      "title": "Peter Brusilovsky \u2014 Faculty",
+      "url": "people.html#person-peter-brusilovsky",
+      "category": "Faculty & People",
+      "keywords": "Peter Brusilovsky Faculty Director, Intelligent Systems Program School of Computing and Information School of Computing and Information Informatics and Networked Systems Human-computer interaction Learning and education Recommender systems Adaptive Web-Based Systems; Adaptive Hypermedia; Adaptive and Intelligent Interfaces; Personalized Learning systems; Recommender Systems; Social Information Access Peter Brusilovsky is a Professor of Information Science and Intelligent Systems and the director of Personalized Adaptive Web Systems (PAWS) lab. Peter has been working in the field of personalized learning, student and user modeling, recommender systems, and intelligent user interfaces for over 30 years. He has published numerous papers and\u2026",
+      "snippet": "Faculty. Director, Intelligent Systems Program School of Computing and Information Schools: School of Computing and Information. Research topics: Human-computer interaction, Learning and education, Recommender systems. Adaptive Web-Based Systems; Adaptive Hype",
+      "priority": 88
+    },
+    {
+      "id": "person-bruce-buchanan",
+      "title": "Bruce Buchanan \u2014 Emeriti faculty",
+      "url": "people.html#person-bruce-buchanan",
+      "category": "Faculty & People",
+      "keywords": "Bruce Buchanan Emeriti faculty Professor Emeritus Department of Computer Science Expert Systems; Hypothesis Formation; Medical Decision Making; Machine Learning",
+      "snippet": "Emeriti faculty. Professor Emeritus Department of Computer Science Expert Systems; Hypothesis Formation; Medical Decision Making; Machine Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-kyle-buettner",
+      "title": "Kyle Buettner \u2014 Alumni",
+      "url": "people.html#person-kyle-buettner",
+      "category": "Faculty & People",
+      "keywords": "Kyle Buettner Alumni PhD Student Computer Vision, AI Robustness, Multimodal Learning, Self-Supervised Learning",
+      "snippet": "Alumni. PhD Student Computer Vision, AI Robustness, Multimodal Learning, Self-Supervised Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-giuseppe-carenini",
+      "title": "Giuseppe Carenini \u2014 Alumni",
+      "url": "people.html#person-giuseppe-carenini",
+      "category": "Faculty & People",
+      "keywords": "Giuseppe Carenini Alumni Professor, Department of Computer Science, University of British Columbia (PhD '01)",
+      "snippet": "Alumni. Professor, Department of Computer Science, University of British Columbia (PhD '01)",
+      "priority": 64
+    },
+    {
+      "id": "person-steve-casner",
+      "title": "Steve Casner \u2014 Alumni",
+      "url": "people.html#person-steve-casner",
+      "category": "Faculty & People",
+      "keywords": "Steve Casner Alumni Research Psychologist, NASA (PhD '90)",
+      "snippet": "Alumni. Research Psychologist, NASA (PhD '90)",
+      "priority": 64
+    },
+    {
+      "id": "person-violetta-cavalli-sforza",
+      "title": "Violetta Cavalli-Sforza \u2014 Alumni",
+      "url": "people.html#person-violetta-cavalli-sforza",
+      "category": "Faculty & People",
+      "keywords": "Violetta Cavalli-Sforza Alumni Associate Professor, Al Akhawayn University, Morocco (PhD '98)",
+      "snippet": "Alumni. Associate Professor, Al Akhawayn University, Morocco (PhD '98)",
+      "priority": 64
+    },
+    {
+      "id": "person-min-chi",
+      "title": "Min Chi \u2014 Alumni",
+      "url": "people.html#person-min-chi",
+      "category": "Faculty & People",
+      "keywords": "Min Chi Alumni Associate Professor, North Carolina State University",
+      "snippet": "Alumni. Associate Professor, North Carolina State University",
+      "priority": 64
+    },
+    {
+      "id": "person-gil-citro",
+      "title": "Gil Citro \u2014 Alumni",
+      "url": "people.html#person-gil-citro",
+      "category": "Faculty & People",
+      "keywords": "Gil Citro Alumni Psychiatrist, Private Practice (PhD '04)",
+      "snippet": "Alumni. Psychiatrist, Private Practice (PhD '04)",
+      "priority": 64
+    },
+    {
+      "id": "person-raquel-coelho",
+      "title": "Raquel Coelho \u2014 Faculty",
+      "url": "people.html#person-raquel-coelho",
+      "category": "Faculty & People",
+      "keywords": "Raquel Coelho Faculty Assistant Professor School of Computing and Information Informatics and Networked Systems Learning and education Language and information retrieval technology and education, learning sciences, design-based research, artificial intelligence, natural language processing, quantum information science Raquel Coelho is jointly appointed as a Research Scientist at the Learning Research and Development Center (LRDC). She holds a PhD in Learning Sciences and Technology Design combined with Education Data Science from Stanford University. Her research - grounded in learning sciences principles and human-centered frameworks - is focused on theorizing\u2026",
+      "snippet": "Faculty. Assistant Professor Schools: School of Computing and Information. Research topics: Learning and education, Language and information retrieval. technology and education, learning sciences, design-based research, artificial intelligence, natural languag",
+      "priority": 88
+    },
+    {
+      "id": "person-michael-colaresi",
+      "title": "Michael Colaresi \u2014 Faculty",
+      "url": "people.html#person-michael-colaresi",
+      "category": "Faculty & People",
+      "keywords": "Michael Colaresi Faculty William S. Dietrich II Professor Department of Political Science Dietrich School of Arts and Sciences Political Science Social computing Machine learning and reasoning Language and information retrieval Computational Social Science; Bayesian Inference; Applied Machine Learning; Natural Language Processing; National Security Secrecy and Oversight; International and Intrastate Violence; and the Measurement of Human Rights Protections and Violations I am the William S. Dietrich II Chair of Political Science and currently the Research and Academic Director at the Institute for Cyber Law, Policy and Security at the University of Pittsburgh. I am also an affiliate scholar in the Intelligent Systems Program at the School of Computing and Information.",
+      "snippet": "Faculty. William S. Dietrich II Professor Department of Political Science Schools: Dietrich School of Arts and Sciences. Research topics: Social computing, Machine learning and reasoning, Language and information retrieval. Computational Social Science; Bayesi",
+      "priority": 88
+    },
+    {
+      "id": "person-christina-conati",
+      "title": "Christina Conati \u2014 Alumni",
+      "url": "people.html#person-christina-conati",
+      "category": "Faculty & People",
+      "keywords": "Christina Conati Alumni Professor, Department of Computer Science, University of British Columbia (PhD '99)",
+      "snippet": "Alumni. Professor, Department of Computer Science, University of British Columbia (PhD '99)",
+      "priority": 64
+    },
+    {
+      "id": "person-saba-dadsetan",
+      "title": "Saba Dadsetan \u2014 Alumni",
+      "url": "people.html#person-saba-dadsetan",
+      "category": "Faculty & People",
+      "keywords": "Saba Dadsetan Alumni PhD Student",
+      "snippet": "Alumni. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-denver-dash",
+      "title": "Denver Dash \u2014 Alumni",
+      "url": "people.html#person-denver-dash",
+      "category": "Faculty & People",
+      "keywords": "Denver Dash Alumni Principal Applied Scientist in Robotics and AI, Amazon",
+      "snippet": "Alumni. Principal Applied Scientist in Robotics and AI, Amazon",
+      "priority": 64
+    },
+    {
+      "id": "person-heidi-davis",
+      "title": "Heidi Davis \u2014 Staff",
+      "url": "people.html#person-heidi-davis",
+      "category": "Faculty & People",
+      "keywords": "Heidi Davis Staff Intelligent Systems Program Administrator & Finance Assistant",
+      "snippet": "Staff. Intelligent Systems Program Administrator & Finance Assistant",
+      "priority": 64
+    },
+    {
+      "id": "person-arthur-decillis",
+      "title": "Arthur DeCillis \u2014 Alumni",
+      "url": "people.html#person-arthur-decillis",
+      "category": "Faculty & People",
+      "keywords": "Arthur DeCillis Alumni President, DeCillis Consulting LLC (MS '94)",
+      "snippet": "Alumni. President, DeCillis Consulting LLC (MS '94)",
+      "priority": 64
+    },
+    {
+      "id": "person-christopher-deitrick",
+      "title": "Christopher Deitrick \u2014 Graduate students",
+      "url": "people.html#person-christopher-deitrick",
+      "category": "Faculty & People",
+      "keywords": "Christopher Deitrick Graduate students Master's Student Imaging Analysis and tool creation",
+      "snippet": "Graduate students. Master's Student Imaging Analysis and tool creation",
+      "priority": 64
+    },
+    {
+      "id": "person-lingjia-deng",
+      "title": "Lingjia Deng \u2014 Alumni",
+      "url": "people.html#person-lingjia-deng",
+      "category": "Faculty & People",
+      "keywords": "Lingjia Deng Alumni NLP Research Scientist, Bloomberg (PhD '16) Opinion Mining and Sentiment Analysis; Natural Language Processing; Machine Learning; and Information Extraction and Sentiment Analysis in Financial Reports and Tweets",
+      "snippet": "Alumni. NLP Research Scientist, Bloomberg (PhD '16) Opinion Mining and Sentiment Analysis; Natural Language Processing; Machine Learning; and Information Extraction and Sentiment Analysis in Financial Reports and Tweets",
+      "priority": 64
+    },
+    {
+      "id": "person-ravi-desai",
+      "title": "Ravi Desai \u2014 Alumni",
+      "url": "people.html#person-ravi-desai",
+      "category": "Faculty & People",
+      "keywords": "Ravi Desai Alumni Manager, Oleoline (MS '02)",
+      "snippet": "Alumni. Manager, Oleoline (MS '02)",
+      "priority": 64
+    },
+    {
+      "id": "person-benoit-desjardins",
+      "title": "Benoit Desjardins \u2014 Alumni",
+      "url": "people.html#person-benoit-desjardins",
+      "category": "Faculty & People",
+      "keywords": "Benoit Desjardins Alumni Professor, Hospital of the University of Pennsylvania",
+      "snippet": "Alumni. Professor, Hospital of the University of Pennsylvania",
+      "priority": 64
+    },
+    {
+      "id": "person-yaohan-ding",
+      "title": "Yaohan Ding \u2014 Graduate students",
+      "url": "people.html#person-yaohan-ding",
+      "category": "Faculty & People",
+      "keywords": "Yaohan Ding Graduate students PhD Student",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-marek-druzdzel",
+      "title": "Marek Druzdzel \u2014 Emeriti faculty",
+      "url": "people.html#person-marek-druzdzel",
+      "category": "Faculty & People",
+      "keywords": "Marek Druzdzel Emeriti faculty Professor Emertius Department of Informatics and Networked Systems Decision Making Under Uncertainty; Decision-Theoretic Methods in Intelligent Systems; User Interfaces to Decision Support Systems",
+      "snippet": "Emeriti faculty. Professor Emertius Department of Informatics and Networked Systems Decision Making Under Uncertainty; Decision-Theoretic Methods in Intelligent Systems; User Interfaces to Decision Support Systems",
+      "priority": 64
+    },
+    {
+      "id": "person-na-du",
+      "title": "Na Du \u2014 Faculty",
+      "url": "people.html#person-na-du",
+      "category": "Faculty & People",
+      "keywords": "Na Du Faculty Assistant Professor Department of Informatics and Networked Systems School of Computing and Information Informatics and Networked Systems Human-computer interaction Human-Computer Interaction/Human Factors; Computational Modeling of Human Behavior; and Human-Centered Design Na Du is an Assistant Professor in the Department of Informatics and Networked Systems. Her research aims to improve human performance, safety, and well-being by applying human factors and data analytics to the analysis, design, and evaluation of technologies.",
+      "snippet": "Faculty. Assistant Professor Department of Informatics and Networked Systems Schools: School of Computing and Information. Research topics: Human-computer interaction. Human-Computer Interaction/Human Factors; Computational Modeling of Human Behavior; and Huma",
+      "priority": 88
+    },
+    {
+      "id": "person-jessi-espino",
+      "title": "Jessi Espino \u2014 Alumni",
+      "url": "people.html#person-jessi-espino",
+      "category": "Faculty & People",
+      "keywords": "Jessi Espino Alumni Senior Research Scientist, Department of Biomedical Informatics, University of Pittsburgh (MS '12)",
+      "snippet": "Alumni. Senior Research Scientist, Department of Biomedical Informatics, University of Pittsburgh (MS '12)",
+      "priority": 64
+    },
+    {
+      "id": "person-yao-fan",
+      "title": "Yao Fan \u2014 Alumni",
+      "url": "people.html#person-yao-fan",
+      "category": "Faculty & People",
+      "keywords": "Yao Fan Alumni Masters (SCI '23) Learning and Decision Making in Multi-Agent Systems; Bayesian Games (esp. Bayesian Persuasion); Information Aggregation; Online Reinforcement Learning",
+      "snippet": "Alumni. Masters (SCI '23) Learning and Decision Making in Multi-Agent Systems; Bayesian Games (esp. Bayesian Persuasion); Information Aggregation; Online Reinforcement Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-nya-feinstein",
+      "title": "Nya Feinstein \u2014 Graduate students",
+      "url": "people.html#person-nya-feinstein",
+      "category": "Faculty & People",
+      "keywords": "Nya Feinstein Graduate students PhD Student Nya Feinstein is a PhD student in Intelligent Systems at the University of Pittsburgh working within the Pitt Computational Social Dynamics Lab and advised by Prof. Yu-Ru Lin. With a focus on multilingual and international analysis, her research centers around how networks of communication reveal narratives which impact, shape, and explain\u2026",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-donald-freeman",
+      "title": "Donald Freeman \u2014 Alumni",
+      "url": "people.html#person-donald-freeman",
+      "category": "Faculty & People",
+      "keywords": "Donald Freeman Alumni Psychiatrist and Psychologist, Donald T Freeman MD, Inc.",
+      "snippet": "Alumni. Psychiatrist and Psychologist, Donald T Freeman MD, Inc.",
+      "priority": 64
+    },
+    {
+      "id": "person-madhavi-ganapathiraju",
+      "title": "Madhavi Ganapathiraju \u2014 Faculty",
+      "url": "people.html#person-madhavi-ganapathiraju",
+      "category": "Faculty & People",
+      "keywords": "Madhavi Ganapathiraju Faculty Associate Professor Department of Biomedical Informatics School of Medicine Biomedical Informatics Machine learning and reasoning Health and biomedicine Active Machine Learning; Systems Biology (Protein Interactions) and Structural Biology; Genomics of Diseases",
+      "snippet": "Faculty. Associate Professor Department of Biomedical Informatics Schools: School of Medicine. Research topics: Machine learning and reasoning, Health and biomedicine. Active Machine Learning; Systems Biology (Protein Interactions) and Structural Biology; Geno",
+      "priority": 88
+    },
+    {
+      "id": "person-philip-ganchev",
+      "title": "Philip Ganchev \u2014 Alumni",
+      "url": "people.html#person-philip-ganchev",
+      "category": "Faculty & People",
+      "keywords": "Philip Ganchev Alumni Machine Learning Researcher, NTENT (PhD '10)",
+      "snippet": "Alumni. Machine Learning Researcher, NTENT (PhD '10)",
+      "priority": 64
+    },
+    {
+      "id": "person-fengyi-gao",
+      "title": "Fengyi Gao \u2014 Graduate students",
+      "url": "people.html#person-fengyi-gao",
+      "category": "Faculty & People",
+      "keywords": "Fengyi Gao Graduate students PhD Student Fengyi Gao is a first-year PhD student in the Intelligent Systems Program. She is a researcher affiliated with the HexAI Research Laboratory and the Computational Pathology & AI Center of Excellence (CPACE). Her research focuses on advancing artificial intelligence to address real-world medical and scientific problems, with an emphasis on\u2026",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-ilya-goldin",
+      "title": "Ilya Goldin \u2014 Alumni",
+      "url": "people.html#person-ilya-goldin",
+      "category": "Faculty & People",
+      "keywords": "Ilya Goldin Alumni Principal Data Scientist, Phenom (PhD '11) Dissertation topic: Computer-supported peer review in education. Improving Educational Outcomes Using Intelligent Tutoring Systems; and Educational Data Mining",
+      "snippet": "Alumni. Principal Data Scientist, Phenom (PhD '11) Dissertation topic: Computer-supported peer review in education. Improving Educational Outcomes Using Intelligent Tutoring Systems; and Educational Data Mining",
+      "priority": 64
+    },
+    {
+      "id": "person-zhiwei-gong",
+      "title": "Zhiwei Gong \u2014 Graduate students",
+      "url": "people.html#person-zhiwei-gong",
+      "category": "Faculty & People",
+      "keywords": "Zhiwei Gong Graduate students PhD Student",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-matthias-grabmair",
+      "title": "Matthias Grabmair \u2014 Alumni",
+      "url": "people.html#person-matthias-grabmair",
+      "category": "Faculty & People",
+      "keywords": "Matthias Grabmair Alumni Assistant Professor, Department of Informatics, Technical University of Munich Artificial Intelligence and Law; Computational Models of Argumentation; and Knowledge Representation",
+      "snippet": "Alumni. Assistant Professor, Department of Informatics, Technical University of Munich Artificial Intelligence and Law; Computational Models of Argumentation; and Knowledge Representation",
+      "priority": 64
+    },
+    {
+      "id": "person-morgan-gray",
+      "title": "Morgan A. Gray \u2014 Graduate students",
+      "url": "people.html#person-morgan-gray",
+      "category": "Faculty & People",
+      "keywords": "Morgan A. Gray Graduate students PhD Student My research focuses on natural language processing and machine learning, with a focus in text analytics in the legal domain. I am specifically interested in criminal law and procedure.",
+      "snippet": "Graduate students. PhD Student My research focuses on natural language processing and machine learning, with a focus in text analytics in the legal domain. I am specifically interested in criminal law and procedure.",
+      "priority": 64
+    },
+    {
+      "id": "person-werner-hager",
+      "title": "Werner Hager \u2014 Graduate students",
+      "url": "people.html#person-werner-hager",
+      "category": "Faculty & People",
+      "keywords": "Werner Hager Graduate students PhD Student Physics Informed Machine Learning; Computer Vision; Anomaly Detection; Reinforcement Learning",
+      "snippet": "Graduate students. PhD Student Physics Informed Machine Learning; Computer Vision; Anomaly Detection; Reinforcement Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-teng-han",
+      "title": "Teng Han \u2014 Alumni",
+      "url": "people.html#person-teng-han",
+      "category": "Faculty & People",
+      "keywords": "Teng Han Alumni Human-Computer Interaction",
+      "snippet": "Alumni. Alumni Human-Computer Interaction",
+      "priority": 64
+    },
+    {
+      "id": "person-degan-hao",
+      "title": "Degan Hao \u2014 Alumni",
+      "url": "people.html#person-degan-hao",
+      "category": "Faculty & People",
+      "keywords": "Degan Hao Alumni PhD Student",
+      "snippet": "Alumni. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-anthony-harris",
+      "title": "Anthony Harris \u2014 Alumni",
+      "url": "people.html#person-anthony-harris",
+      "category": "Faculty & People",
+      "keywords": "Anthony Harris Alumni Physician, Multicare (PhD '97)",
+      "snippet": "Alumni. Physician, Multicare (PhD '97)",
+      "priority": 64
+    },
+    {
+      "id": "person-homa-baradaran-hashemi",
+      "title": "Homa Baradaran Hashemi \u2014 Alumni",
+      "url": "people.html#person-homa-baradaran-hashemi",
+      "category": "Faculty & People",
+      "keywords": "Homa Baradaran Hashemi Alumni Applied Scientist, Microsoft (PhD '17) Natural Language Processing; Information Retrieval; and Data Mining",
+      "snippet": "Alumni. Applied Scientist, Microsoft (PhD '17) Natural Language Processing; Information Retrieval; and Data Mining",
+      "priority": 64
+    },
+    {
+      "id": "person-milos-hauskrecht",
+      "title": "Milos Hauskrecht \u2014 Faculty",
+      "url": "people.html#person-milos-hauskrecht",
+      "category": "Faculty & People",
+      "keywords": "Milos Hauskrecht Faculty Professor Department of Computer Science School of Computing and Information Computer Science Machine learning and reasoning Health and biomedicine Planning, Reasoning, and Optimization in the Presence of Uncertainty; Machine Learning and Data Mining; Applications of AI in Medicine and Finance",
+      "snippet": "Faculty. Professor Department of Computer Science Schools: School of Computing and Information. Research topics: Machine learning and reasoning, Health and biomedicine. Planning, Reasoning, and Optimization in the Presence of Uncertainty; Machine Learning and ",
+      "priority": 88
+    },
+    {
+      "id": "person-daqing-he",
+      "title": "Daqing He \u2014 Faculty",
+      "url": "people.html#person-daqing-he",
+      "category": "Faculty & People",
+      "keywords": "Daqing He Faculty Professor Department of Informatics and Networked Systems School of Computing and Information Informatics and Networked Systems Language and information retrieval Machine learning and reasoning Information Retrieval; Natural Language Processing; Machine Learning Professor He is interested in, and actively working on, various sub-topics areas of Information Retrieval and Natural Language Processing, which include adaptive and interactive information retrieval, text extraction and generation, and seeking and managing of information and data on the Web. The goal of Prof. He's research is to develop\u2026",
+      "snippet": "Faculty. Professor Department of Informatics and Networked Systems Schools: School of Computing and Information. Research topics: Language and information retrieval, Machine learning and reasoning. Information Retrieval; Natural Language Processing; Machine Le",
+      "priority": 88
+    },
+    {
+      "id": "person-daniel-hennessy",
+      "title": "Daniel Hennessy \u2014 Alumni",
+      "url": "people.html#person-daniel-hennessy",
+      "category": "Faculty & People",
+      "keywords": "Daniel Hennessy Alumni Systems Architect, MDT Software (PhD '03)",
+      "snippet": "Alumni. Systems Architect, MDT Software (PhD '03)",
+      "priority": 64
+    },
+    {
+      "id": "person-gerardina-hernandez",
+      "title": "Gerardina Hernandez \u2014 Alumni",
+      "url": "people.html#person-gerardina-hernandez",
+      "category": "Faculty & People",
+      "keywords": "Gerardina Hernandez Alumni (PhD '01)",
+      "snippet": "Alumni. (PhD '01)",
+      "priority": 64
+    },
+    {
+      "id": "person-stephen-hirtle",
+      "title": "Stephen Hirtle \u2014 Emeriti faculty",
+      "url": "people.html#person-stephen-hirtle",
+      "category": "Faculty & People",
+      "keywords": "Stephen Hirtle Emeriti faculty Professor Emeritus Department of Informatics and Networked Systems Spatial Cognition; Geographic Information Science; Human-Computer Interaction",
+      "snippet": "Emeriti faculty. Professor Emeritus Department of Informatics and Networked Systems Spatial Cognition; Geographic Information Science; Human-Computer Interaction",
+      "priority": 64
+    },
+    {
+      "id": "person-harry-hochheiser",
+      "title": "Harry Hochheiser \u2014 Faculty",
+      "url": "people.html#person-harry-hochheiser",
+      "category": "Faculty & People",
+      "keywords": "Harry Hochheiser Faculty Professor Department of Biomedical Informatics School of Medicine Biomedical Informatics Human-computer interaction Health and biomedicine Language and information retrieval Design and Evaluation of Interactive Systems for Exploring and Interpreting Clinical and Research Data; Clinical Informatics; Natural Language Processing",
+      "snippet": "Faculty. Professor Department of Biomedical Informatics Schools: School of Medicine. Research topics: Human-computer interaction, Health and biomedicine, Language and information retrieval. Design and Evaluation of Interactive Systems for Exploring and Interpr",
+      "priority": 88
+    },
+    {
+      "id": "person-paul-hoffmann",
+      "title": "Paul Hoffmann \u2014 Alumni",
+      "url": "people.html#person-paul-hoffmann",
+      "category": "Faculty & People",
+      "keywords": "Paul Hoffmann Alumni (MS '06)",
+      "snippet": "Alumni. (MS '06)",
+      "priority": 64
+    },
+    {
+      "id": "person-william-hogan",
+      "title": "William Hogan \u2014 Alumni",
+      "url": "people.html#person-william-hogan",
+      "category": "Faculty & People",
+      "keywords": "William Hogan Alumni Director, Division of Biomedical Informatics, Department of Health Outcomes and Biomedical Informatics, University of Florida (MS '99)",
+      "snippet": "Alumni. Director, Division of Biomedical Informatics, Department of Health Outcomes and Biomedical Informatics, University of Florida (MS '99)",
+      "priority": 64
+    },
+    {
+      "id": "person-roya-hosseini",
+      "title": "Roya Hosseini \u2014 Alumni",
+      "url": "people.html#person-roya-hosseini",
+      "category": "Faculty & People",
+      "keywords": "Roya Hosseini Alumni Adaptive Systems; Educational Data mining; and Intelligent Tutoring Systems",
+      "snippet": "Alumni. Alumni Adaptive Systems; Educational Data mining; and Intelligent Tutoring Systems",
+      "priority": 64
+    },
+    {
+      "id": "person-yufei-huang",
+      "title": "Yufei Huang \u2014 Faculty",
+      "url": "people.html#person-yufei-huang",
+      "category": "Faculty & People",
+      "keywords": "Yufei Huang Faculty Professor, Department of Medicine Leader, AI Research, UPMC Hillman Cancer Center School of Medicine Medicine Health and biomedicine m6A methylation and its role in cancer AI for precision oncology",
+      "snippet": "Faculty. Professor, Department of Medicine Leader, AI Research, UPMC Hillman Cancer Center Schools: School of Medicine. Research topics: Health and biomedicine. m6A methylation and its role in cancer AI for precision oncology",
+      "priority": 88
+    },
+    {
+      "id": "person-yun-huang",
+      "title": "Yun Huang \u2014 Alumni",
+      "url": "people.html#person-yun-huang",
+      "category": "Faculty & People",
+      "keywords": "Yun Huang Alumni (PhD '18) User Modeling; Educational Data Mining; Intelligent Tutoring System; and the Application of Machine Learning in Computer Education",
+      "snippet": "Alumni. (PhD '18) User Modeling; Educational Data Mining; Intelligent Tutoring System; and the Application of Machine Learning in Computer Education",
+      "priority": 64
+    },
+    {
+      "id": "person-fattaneh-jabbari",
+      "title": "Fattaneh Jabbari \u2014 Alumni",
+      "url": "people.html#person-fattaneh-jabbari",
+      "category": "Faculty & People",
+      "keywords": "Fattaneh Jabbari Alumni Machine Learning and Pattern Recognition; Speech Technology; and Statistical Natural Language Processing",
+      "snippet": "Alumni. Alumni Machine Learning and Pattern Recognition; Speech Technology; and Statistical Natural Language Processing",
+      "priority": 64
+    },
+    {
+      "id": "person-pam-jordan",
+      "title": "Pam Jordan \u2014 Alumni",
+      "url": "people.html#person-pam-jordan",
+      "category": "Faculty & People",
+      "keywords": "Pam Jordan Alumni Research Associate, Learning Research and Development Center, University of Pittsburgh (PhD '00)",
+      "snippet": "Alumni. Research Associate, Learning Research and Development Center, University of Pittsburgh (PhD '00)",
+      "priority": 64
+    },
+    {
+      "id": "person-david-joslin",
+      "title": "David Joslin \u2014 Alumni",
+      "url": "people.html#person-david-joslin",
+      "category": "Faculty & People",
+      "keywords": "David Joslin Alumni (PhD '96)",
+      "snippet": "Alumni. (PhD '96)",
+      "priority": 64
+    },
+    {
+      "id": "person-sung-young-jung",
+      "title": "Sung-Young Jung \u2014 Alumni",
+      "url": "people.html#person-sung-young-jung",
+      "category": "Faculty & People",
+      "keywords": "Sung-Young Jung Alumni (PhD '11) Natural-Language Knowledge Representation for Intelligent Tutoring Systems; and ITS Developer Support Tools for Domain Experts",
+      "snippet": "Alumni. (PhD '11) Natural-Language Knowledge Representation for Intelligent Tutoring Systems; and ITS Developer Support Tools for Domain Experts",
+      "priority": 64
+    },
+    {
+      "id": "person-tushar-kansal",
+      "title": "Tushar Kansal \u2014 Alumni",
+      "url": "people.html#person-tushar-kansal",
+      "category": "Faculty & People",
+      "keywords": "Tushar Kansal Alumni (MS '22) Computer Vision; Natural Language Processing; Machine Learning",
+      "snippet": "Alumni. (MS '22) Computer Vision; Natural Language Processing; Machine Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-omid-kashefi",
+      "title": "Omid Kashefi \u2014 Alumni",
+      "url": "people.html#person-omid-kashefi",
+      "category": "Faculty & People",
+      "keywords": "Omid Kashefi Alumni (PhD '22) Natural Language Processing; Machine Learning; Artificial Neural Networks",
+      "snippet": "Alumni. (PhD '22) Natural Language Processing; Machine Learning; Artificial Neural Networks",
+      "priority": 64
+    },
+    {
+      "id": "person-anoosh-katibshahidi",
+      "title": "Anoosh Katibshahidi \u2014 Alumni",
+      "url": "people.html#person-anoosh-katibshahidi",
+      "category": "Faculty & People",
+      "keywords": "Anoosh Katibshahidi Alumni",
+      "snippet": "Alumni. Alumni",
+      "priority": 64
+    },
+    {
+      "id": "person-mehmet-kayaalp",
+      "title": "Mehmet Kayaalp \u2014 Alumni",
+      "url": "people.html#person-mehmet-kayaalp",
+      "category": "Faculty & People",
+      "keywords": "Mehmet Kayaalp Alumni Staff Scientist, Lister Hill National Center for Biomedical Communications, National Institutes of Health (PhD '03)",
+      "snippet": "Alumni. Staff Scientist, Lister Hill National Center for Biomedical Communications, National Institutes of Health (PhD '03)",
+      "priority": 64
+    },
+    {
+      "id": "person-manurag-khullar",
+      "title": "Manurag Khullar \u2014 Graduate students",
+      "url": "people.html#person-manurag-khullar",
+      "category": "Faculty & People",
+      "keywords": "Manurag Khullar Graduate students PhD Student AI for Good, LLM Agents for Healthcare, Multilingual LLMs",
+      "snippet": "Graduate students. PhD Student AI for Good, LLM Agents for Healthcare, Multilingual LLMs",
+      "priority": 64
+    },
+    {
+      "id": "person-xiaohui-kong",
+      "title": "Xiaohui Kong \u2014 Alumni",
+      "url": "people.html#person-xiaohui-kong",
+      "category": "Faculty & People",
+      "keywords": "Xiaohui Kong Alumni Co-Founder, Telle AI (PhD '09)",
+      "snippet": "Alumni. Co-Founder, Telle AI (PhD '09)",
+      "priority": 64
+    },
+    {
+      "id": "person-adriana-kovashka",
+      "title": "Adriana Kovashka \u2014 Faculty",
+      "url": "people.html#person-adriana-kovashka",
+      "category": "Faculty & People",
+      "keywords": "Adriana Kovashka Faculty Assistant Professor Department of Computer Science School of Computing and Information Computer Science Computer vision Language and information retrieval Computer Vision; Attribute-Based Recognition; Image Retrieval; Human-Machine Communication for Improved Recognition; Exploring the Interactions Between Vision and Language Dr. Kovashka received her BA degrees in Computer Science and Media Studies from Pomona College, in 2008, and her PhD in Computer Science from The University of Texas in Austin, in 2014. She joined Pitt\u2019s Computer Science department in January 2015.",
+      "snippet": "Faculty. Assistant Professor Department of Computer Science Schools: School of Computing and Information. Research topics: Computer vision, Language and information retrieval. Computer Vision; Attribute-Based Recognition; Image Retrieval; Human-Machine Communi",
+      "priority": 88
+    },
+    {
+      "id": "person-branislav-kveton",
+      "title": "Branislav Kveton \u2014 Alumni",
+      "url": "people.html#person-branislav-kveton",
+      "category": "Faculty & People",
+      "keywords": "Branislav Kveton Alumni Principal Scientist, Amazon (PhD, 06)",
+      "snippet": "Alumni. Principal Scientist, Amazon (PhD, 06)",
+      "priority": 64
+    },
+    {
+      "id": "person-alan-lesgold",
+      "title": "Alan Lesgold \u2014 Emeriti faculty",
+      "url": "people.html#person-alan-lesgold",
+      "category": "Faculty & People",
+      "keywords": "Alan Lesgold Emeriti faculty Professor Emeritus School of Education Assessment; Cognitive Psychology; Education Reform; Learning Science; Policy and Policy Analysis; Problem-Based Learning; Technology; Urban Education Alan Lesgold is professor and former Ren\u00e9e and Richard Goldman Dean (2000-2016) of the School of Education at the University of Pittsburgh and also is professor of psychology and intelligent systems. He received his Ph.D. in psychology from Stanford University in 1971 and also holds an honorary doctorate from the Open University of the\u2026",
+      "snippet": "Emeriti faculty. Professor Emeritus School of Education Assessment; Cognitive Psychology; Education Reform; Learning Science; Policy and Policy Analysis; Problem-Based Learning; Technology; Urban Education",
+      "priority": 64
+    },
+    {
+      "id": "person-michael-lewis",
+      "title": "Michael Lewis \u2014 Faculty",
+      "url": "people.html#person-michael-lewis",
+      "category": "Faculty & People",
+      "keywords": "Michael Lewis Faculty Professor Department of Informatics and Networked Systems School of Computing and Information Informatics and Networked Systems Human-computer interaction Language and information retrieval Intelligent Agents in Human Teams; Visual Information Retrieval Interfaces; Ecological Cognition in Visualization Michael Lewis is a professor of Informatics and Distributed Systems and Intelligent Systems Program at the University of Pittsburgh. His research focuses on human interaction with intelligent automation. Since conducting research in modeling human operators for his dissertation at Georgia Tech he has studied visualization- based control\u2026",
+      "snippet": "Faculty. Professor Department of Informatics and Networked Systems Schools: School of Computing and Information. Research topics: Human-computer interaction, Language and information retrieval. Intelligent Agents in Human Teams; Visual Information Retrieval In",
+      "priority": 88
+    },
+    {
+      "id": "person-huao-li",
+      "title": "Huao Li \u2014 Alumni",
+      "url": "people.html#person-huao-li",
+      "category": "Faculty & People",
+      "keywords": "Huao Li Alumni PhD Student Intelligent Agents in Human Teams, Computational Modeling of Human Behavior, Explainable AI",
+      "snippet": "Alumni. PhD Student Intelligent Agents in Human Teams, Computational Modeling of Human Behavior, Explainable AI",
+      "priority": 64
+    },
+    {
+      "id": "person-jiren-li",
+      "title": "Jiren Li \u2014 Graduate students",
+      "url": "people.html#person-jiren-li",
+      "category": "Faculty & People",
+      "keywords": "Jiren Li Graduate students PhD Student AI for medical imaging, especially uncertainty quantification in medical AI to assist and improve clinical decision making.",
+      "snippet": "Graduate students. PhD Student AI for medical imaging, especially uncertainty quantification in medical AI to assist and improve clinical decision making.",
+      "priority": 64
+    },
+    {
+      "id": "person-lorraine-xiang-li",
+      "title": "Lorraine Xiang Li \u2014 Faculty",
+      "url": "people.html#person-lorraine-xiang-li",
+      "category": "Faculty & People",
+      "keywords": "Lorraine Xiang Li Faculty Assistant Professor School of Computing and Information Computer Science Language and information retrieval Machine learning and reasoning The intersection of NLP, commonsense reasoning, knowledge representation, and ML. More specifically, I'm interested in designing models powered by background knowledge to enhance model robustness and safety. To this end, I've worked on analyzing model behavior, designing evaluation methods, and proposing new model structures. Xiang Lorraine Li is an assistant professor in the Department of Computer Science at the University of Pittsburgh. Before joining Pitt, she worked as a young investigator with the Mosaic team at AI2. Previously, she defended her Ph.D. in Computer Science from UMass Amherst in August 2022, working with Andrew McCallum. She obtained an M.S. in\u2026",
+      "snippet": "Faculty. Assistant Professor Schools: School of Computing and Information. Research topics: Language and information retrieval, Machine learning and reasoning. The intersection of NLP, commonsense reasoning, knowledge representation, and ML. More specifically,",
+      "priority": 88
+    },
+    {
+      "id": "person-yu-ru-lin",
+      "title": "Yu-Ru Lin \u2014 Faculty",
+      "url": "people.html#person-yu-ru-lin",
+      "category": "Faculty & People",
+      "keywords": "Yu-Ru Lin Faculty Associate Professor Department of Informatics and Networked Systems School of Computing and Information Informatics and Networked Systems Social computing Computational Social Science; Big Data; Network Science; Social Media and Social Networks Yu-Ru Lin is an associate professor at School of Computing and Information, University of Pittsburgh. Dr. Lin is interested in studying social and political networks, as well as computational and visualization methods for understanding network data.",
+      "snippet": "Faculty. Associate Professor Department of Informatics and Networked Systems Schools: School of Computing and Information. Research topics: Social computing. Computational Social Science; Big Data; Network Science; Social Media and Social Networks",
+      "priority": 88
+    },
+    {
+      "id": "person-diane-litman",
+      "title": "Diane Litman \u2014 Faculty",
+      "url": "people.html#person-diane-litman",
+      "category": "Faculty & People",
+      "keywords": "Diane Litman Faculty Professor Department of Computer Science School of Computing and Information Computer Science Language and information retrieval Learning and education Computational Linguistics; Spoken Language Processing; Artificial Intelligence in Education; Argumentation Diane Litman received her A.B. degree in Mathematics and Computer Science from the College of William and Mary in Virginia in 1980, and her M.S. and PhD degrees in Computer Science from the University of Rochester in 1982 and 1986, respectively.",
+      "snippet": "Faculty. Professor Department of Computer Science Schools: School of Computing and Information. Research topics: Language and information retrieval, Learning and education. Computational Linguistics; Spoken Language Processing; Artificial Intelligence in Educa",
+      "priority": 88
+    },
+    {
+      "id": "person-nick-littlefield",
+      "title": "Nick Littlefield \u2014 Graduate students",
+      "url": "people.html#person-nick-littlefield",
+      "category": "Faculty & People",
+      "keywords": "Nick Littlefield Graduate students PhD Student",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-janet-liu",
+      "title": "Janet Liu \u2014 Faculty",
+      "url": "people.html#person-janet-liu",
+      "category": "Faculty & People",
+      "keywords": "Janet Liu Faculty Assistant Professor Dietrich School of Arts and Sciences Linguistics Language and information retrieval Computational linguistics, NLP, corpus linguistics, discourse and pragmatics, linguistic annotation and evaluation, interpretability of (L)LMs for discourse-level linguistic phenomena and generalization, NLG, summarization for genre-diverse texts",
+      "snippet": "Faculty. Assistant Professor Schools: Dietrich School of Arts and Sciences. Research topics: Language and information retrieval. Computational linguistics, NLP, corpus linguistics, discourse and pragmatics, linguistic annotation and evaluation, interpretabilit",
+      "priority": 88
+    },
+    {
+      "id": "person-tsai-ching-lu",
+      "title": "Tsai-Ching Lu \u2014 Alumni",
+      "url": "people.html#person-tsai-ching-lu",
+      "category": "Faculty & People",
+      "keywords": "Tsai-Ching Lu Alumni Senior Research Scientist, HRL Laboratories, LLC (PhD ' 03)",
+      "snippet": "Alumni. Senior Research Scientist, HRL Laboratories, LLC (PhD ' 03)",
+      "priority": 64
+    },
+    {
+      "id": "person-xinghua-lu",
+      "title": "Xinghua Lu \u2014 Faculty",
+      "url": "people.html#person-xinghua-lu",
+      "category": "Faculty & People",
+      "keywords": "Xinghua Lu Faculty Professor Department of Biomedical Informatics School of Medicine Biomedical Informatics Health and biomedicine Language and information retrieval Computational Methods for Identifying Signaling Pathways Underlying Biological Process and Diseases; Statistical Methods for Acquiring Knowledge from Biomedical Literature; Translational Bioinformatics and Systems/Computational Biology; Natural Language Processing and Text Mining",
+      "snippet": "Faculty. Professor Department of Biomedical Informatics Schools: School of Medicine. Research topics: Health and biomedicine, Language and information retrieval. Computational Methods for Identifying Signaling Pathways Underlying Biological Process and Disease",
+      "priority": 88
+    },
+    {
+      "id": "person-jun-luo",
+      "title": "Jun Luo \u2014 Alumni",
+      "url": "people.html#person-jun-luo",
+      "category": "Faculty & People",
+      "keywords": "Jun Luo Alumni PhD Student Federated learning; curriculum learning; machine learning; computer vision",
+      "snippet": "Alumni. PhD Student Federated learning; curriculum learning; machine learning; computer vision",
+      "priority": 64
+    },
+    {
+      "id": "person-collin-f-lynch",
+      "title": "Collin F. Lynch \u2014 Alumni",
+      "url": "people.html#person-collin-f-lynch",
+      "category": "Faculty & People",
+      "keywords": "Collin F. Lynch Alumni Assistant Professor, Department of Computer Science, North Carolina State University (PhD '14) Artificial Intelligence and the Law; Intelligent Tutoring for Legal Argumentation; Intelligent Tutoring in Ill-Defined Domains; and Graphical Models of Argument",
+      "snippet": "Alumni. Assistant Professor, Department of Computer Science, North Carolina State University (PhD '14) Artificial Intelligence and the Law; Intelligent Tutoring for Legal Argumentation; Intelligent Tutoring in Ill-Defined Domains; and Graphical Models of Argum",
+      "priority": 64
+    },
+    {
+      "id": "person-haiyi-ma",
+      "title": "Haiyi Ma \u2014 Graduate students",
+      "url": "people.html#person-haiyi-ma",
+      "category": "Faculty & People",
+      "keywords": "Haiyi Ma Graduate students PhD Student",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-lili-ma",
+      "title": "Lili Ma \u2014 Alumni",
+      "url": "people.html#person-lili-ma",
+      "category": "Faculty & People",
+      "keywords": "Lili Ma Alumni Senior Software Manager, SAS (MS '03)",
+      "snippet": "Alumni. Senior Software Manager, SAS (MS '03)",
+      "priority": 64
+    },
+    {
+      "id": "person-tristan-maidment",
+      "title": "Tristan Maidment \u2014 Alumni",
+      "url": "people.html#person-tristan-maidment",
+      "category": "Faculty & People",
+      "keywords": "Tristan Maidment Alumni PhD Student Computer Vision; Machine Learning; Reinforcement Learning",
+      "snippet": "Alumni. PhD Student Computer Vision; Machine Learning; Reinforcement Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-subramani-mani",
+      "title": "Subramani Mani \u2014 Alumni",
+      "url": "people.html#person-subramani-mani",
+      "category": "Faculty & People",
+      "keywords": "Subramani Mani Alumni (PhD '05)",
+      "snippet": "Alumni. (PhD '05)",
+      "priority": 64
+    },
+    {
+      "id": "person-noboru-matsuda",
+      "title": "Noboru Matsuda \u2014 Alumni",
+      "url": "people.html#person-noboru-matsuda",
+      "category": "Faculty & People",
+      "keywords": "Noboru Matsuda Alumni Associate Professor, Department of Computer Science, North Carolina State University (PhD '04)",
+      "snippet": "Alumni. Associate Professor, Department of Computer Science, North Carolina State University (PhD '04)",
+      "priority": 64
+    },
+    {
+      "id": "person-john-mcintyre",
+      "title": "John McIntyre \u2014 Graduate students",
+      "url": "people.html#person-john-mcintyre",
+      "category": "Faculty & People",
+      "keywords": "John McIntyre Graduate students Master's Student intelligent systems I\u2019m currently working with Professor Hatice Ulku Osmanbeyoglu on protein expressions",
+      "snippet": "Graduate students. Master's Student intelligent systems",
+      "priority": 64
+    },
+    {
+      "id": "person-bruce-mclaren",
+      "title": "Bruce McLaren \u2014 Alumni",
+      "url": "people.html#person-bruce-mclaren",
+      "category": "Faculty & People",
+      "keywords": "Bruce McLaren Alumni Associate Research Professor, Human-Computer Interaction Institute, Carnegie Mellon University",
+      "snippet": "Alumni. Associate Research Professor, Human-Computer Interaction Institute, Carnegie Mellon University",
+      "priority": 64
+    },
+    {
+      "id": "person-zeyuan-meng",
+      "title": "Zeyuan Meng \u2014 Graduate students",
+      "url": "people.html#person-zeyuan-meng",
+      "category": "Faculty & People",
+      "keywords": "Zeyuan Meng Graduate students PhD Student Spatial proteomics and transcriptomics",
+      "snippet": "Graduate students. PhD Student Spatial proteomics and transcriptomics",
+      "priority": 64
+    },
+    {
+      "id": "person-thahir-p-mohamed",
+      "title": "Thahir P. Mohamed \u2014 Alumni",
+      "url": "people.html#person-thahir-p-mohamed",
+      "category": "Faculty & People",
+      "keywords": "Thahir P. Mohamed Alumni (MS '10)",
+      "snippet": "Alumni. (MS '10)",
+      "priority": 64
+    },
+    {
+      "id": "person-behrang-mohit",
+      "title": "Behrang Mohit \u2014 Alumni",
+      "url": "people.html#person-behrang-mohit",
+      "category": "Faculty & People",
+      "keywords": "Behrang Mohit Alumni Principle Research Engineer, Apple (PhD '10)",
+      "snippet": "Alumni. Principle Research Engineer, Apple (PhD '10)",
+      "priority": 64
+    },
+    {
+      "id": "person-stefano-monti",
+      "title": "Stefano Monti \u2014 Alumni",
+      "url": "people.html#person-stefano-monti",
+      "category": "Faculty & People",
+      "keywords": "Stefano Monti Alumni Associate Professor, Boston University of Medicine (PhD '99)",
+      "snippet": "Alumni. Associate Professor, Boston University of Medicine (PhD '99)",
+      "priority": 64
+    },
+    {
+      "id": "person-neil-kunal-munjal",
+      "title": "Neil Kunal Munjal \u2014 Alumni",
+      "url": "people.html#person-neil-kunal-munjal",
+      "category": "Faculty & People",
+      "keywords": "Neil Kunal Munjal Alumni (MS '22) Multimodal ICU Real-Time Neuromonitoring; Predictive Analytics; Causal Modeling",
+      "snippet": "Alumni. (MS '22) Multimodal ICU Real-Time Neuromonitoring; Predictive Analytics; Causal Modeling",
+      "priority": 64
+    },
+    {
+      "id": "person-paul-munro",
+      "title": "Paul Munro \u2014 Emeriti faculty",
+      "url": "people.html#person-paul-munro",
+      "category": "Faculty & People",
+      "keywords": "Paul Munro Emeriti faculty Associate Professor Department of Informatics and Networked Systems Neural Networks; Neurobiological Models; Data Compression and Error Correction",
+      "snippet": "Emeriti faculty. Associate Professor Department of Informatics and Networked Systems Neural Networks; Neurobiological Models; Data Compression and Error Correction",
+      "priority": 64
+    },
+    {
+      "id": "person-nihal-murali",
+      "title": "Nihal Murali \u2014 Graduate students",
+      "url": "people.html#person-nihal-murali",
+      "category": "Faculty & People",
+      "keywords": "Nihal Murali Graduate students PhD Student Computer Vision; Deep Learning; Biomedical Image Analysis",
+      "snippet": "Graduate students. PhD Student Computer Vision; Deep Learning; Biomedical Image Analysis",
+      "priority": 64
+    },
+    {
+      "id": "person-chas-murray",
+      "title": "Chas Murray \u2014 Alumni",
+      "url": "people.html#person-chas-murray",
+      "category": "Faculty & People",
+      "keywords": "Chas Murray Alumni Systems/Software Engineer, School of Computer Science, Carnegie Mellon University (PhD '05)",
+      "snippet": "Alumni. Systems/Software Engineer, School of Computer Science, Carnegie Mellon University (PhD '05)",
+      "priority": 64
+    },
+    {
+      "id": "person-mahdi-pakadaman-naeini",
+      "title": "Mahdi Pakadaman Naeini \u2014 Alumni",
+      "url": "people.html#person-mahdi-pakadaman-naeini",
+      "category": "Faculty & People",
+      "keywords": "Mahdi Pakadaman Naeini Alumni (PhD '16) Machine Learning; Bioinformatics; Natural Language Processing; Game Theory; Graph Theory and Algorithms",
+      "snippet": "Alumni. (PhD '16) Machine Learning; Bioinformatics; Natural Language Processing; Game Theory; Graph Theory and Algorithms",
+      "priority": 64
+    },
+    {
+      "id": "person-abhay-nandiraju",
+      "title": "Abhay Nandiraju \u2014 Graduate students",
+      "url": "people.html#person-abhay-nandiraju",
+      "category": "Faculty & People",
+      "keywords": "Abhay Nandiraju Graduate students PhD Student Abhay is a PhD Student in the Intelligent Systems Program at the University of Pittsburgh, advised by Dr. Shandong Wu. His research interests lie at the intersection of multimodal learning, representation learning, and foundation models, specifically focusing on biomedical images and text.",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-arun-balajiee-lekshmi-narayanan",
+      "title": "Arun Balajiee Lekshmi Narayanan \u2014 Graduate students",
+      "url": "people.html#person-arun-balajiee-lekshmi-narayanan",
+      "category": "Faculty & People",
+      "keywords": "Arun Balajiee Lekshmi Narayanan Graduate students PhD Student Human Computer Interaction; Artificial Intelligence in Education Technologies; Intelligent Tutoring Systems",
+      "snippet": "Graduate students. PhD Student Human Computer Interaction; Artificial Intelligence in Education Technologies; Intelligent Tutoring Systems",
+      "priority": 64
+    },
+    {
+      "id": "person-giacomo-nebbia",
+      "title": "Giacomo Nebbia \u2014 Alumni",
+      "url": "people.html#person-giacomo-nebbia",
+      "category": "Faculty & People",
+      "keywords": "Giacomo Nebbia Alumni PhD Student AI Applied to the Clinical Practice; Clinical Decision Support Systems",
+      "snippet": "Alumni. PhD Student AI Applied to the Clinical Practice; Clinical Decision Support Systems",
+      "priority": 64
+    },
+    {
+      "id": "person-hatice-osmanbeyoglu",
+      "title": "Hatice Osmanbeyoglu \u2014 Faculty",
+      "url": "people.html#person-hatice-osmanbeyoglu",
+      "category": "Faculty & People",
+      "keywords": "Hatice Osmanbeyoglu Faculty Assistant Professor, Department of Biomedical Informatics School of Medicine Biomedical Informatics",
+      "snippet": "Faculty. Assistant Professor, Department of Biomedical Informatics Schools: School of Medicine.",
+      "priority": 88
+    },
+    {
+      "id": "person-nathaniel-paine",
+      "title": "Nathaniel Paine \u2014 Graduate students",
+      "url": "people.html#person-nathaniel-paine",
+      "category": "Faculty & People",
+      "keywords": "Nathaniel Paine Graduate students Master's Student biomedical informatics",
+      "snippet": "Graduate students. Master's Student biomedical informatics",
+      "priority": 64
+    },
+    {
+      "id": "person-anandeep-pannu",
+      "title": "Anandeep Pannu \u2014 Alumni",
+      "url": "people.html#person-anandeep-pannu",
+      "category": "Faculty & People",
+      "keywords": "Anandeep Pannu Alumni Technical Program Manager, Amazon Web Services (MS '94)",
+      "snippet": "Alumni. Technical Program Manager, Amazon Web Services (MS '94)",
+      "priority": 64
+    },
+    {
+      "id": "person-massimo-paolucci",
+      "title": "Massimo Paolucci \u2014 Alumni",
+      "url": "people.html#person-massimo-paolucci",
+      "category": "Faculty & People",
+      "keywords": "Massimo Paolucci Alumni Patent Engineer, Viering Jentschura Parners (MS '98)",
+      "snippet": "Alumni. Patent Engineer, Viering Jentschura Parners (MS '98)",
+      "priority": 64
+    },
+    {
+      "id": "person-hyung-jung-hj-park",
+      "title": "Hyung Jung (H.J.) Park \u2014 Faculty",
+      "url": "people.html#person-hyung-jung-hj-park",
+      "category": "Faculty & People",
+      "keywords": "Hyung Jung (H.J.) Park Faculty Assistant Professor, Department of Human Genetics School of Public Health Human Genetics Health and biomedicine Machine learning and reasoning Develops machine learning and causal inference for precision medicine, computational models of RNA regulation, and methods for exposome and multi-omics analysis. Contributions to Public Health",
+      "snippet": "Faculty. Assistant Professor, Department of Human Genetics Schools: School of Public Health. Research topics: Health and biomedicine, Machine learning and reasoning. Develops machine learning and causal inference for precision medicine, computational models of",
+      "priority": 88
+    },
+    {
+      "id": "person-richard-pelikan",
+      "title": "Richard Pelikan \u2014 Alumni",
+      "url": "people.html#person-richard-pelikan",
+      "category": "Faculty & People",
+      "keywords": "Richard Pelikan Alumni (PhD '11) Use of machine learning techniques to support the analysis of biomedical information. Methods for the incorporation of heterogenous data types into analyses for resolution of uncertainty in biological causal models.",
+      "snippet": "Alumni. (PhD '11) Use of machine learning techniques to support the analysis of biomedical information. Methods for the incorporation of heterogenous data types into analyses for resolution of uncertainty in biological causal models.",
+      "priority": 64
+    },
+    {
+      "id": "person-ellie-sagheb-hossein-pour",
+      "title": "Ellie Sagheb Hossein Pour \u2014 Graduate students",
+      "url": "people.html#person-ellie-sagheb-hossein-pour",
+      "category": "Faculty & People",
+      "keywords": "Ellie Sagheb Hossein Pour Graduate students PhD Student Artificial Intelligence, Machine Learning, Natural Language Processing, Computational Biology, and EHR/Patient Data Analytics, with a focus on clinical and biomedical applications",
+      "snippet": "Graduate students. PhD Student Artificial Intelligence, Machine Learning, Natural Language Processing, Computational Biology, and EHR/Patient Data Analytics, with a focus on clinical and biomedical applications",
+      "priority": 64
+    },
+    {
+      "id": "person-jialan-que",
+      "title": "Jialan Que \u2014 Alumni",
+      "url": "people.html#person-jialan-que",
+      "category": "Faculty & People",
+      "keywords": "Jialan Que Alumni Analytic Science Director, FICO (PhD '12) Public Health Surveillance; Anomaly Detection;Clinical Privacy; Data Sharing",
+      "snippet": "Alumni. Analytic Science Director, FICO (PhD '12) Public Health Surveillance; Anomaly Detection;Clinical Privacy; Data Sharing",
+      "priority": 64
+    },
+    {
+      "id": "person-john-rafla",
+      "title": "John Rafla \u2014 Graduate students",
+      "url": "people.html#person-john-rafla",
+      "category": "Faculty & People",
+      "keywords": "John Rafla Graduate students Master's Student John's research focuses on machine translation, multilingual NLP, and computational neuroscience. His work explores the use of neural activity and vision/language models for reverse engineering and decoding unintelligible speech produced by aphasia.",
+      "snippet": "Graduate students. Master's Student John's research focuses on machine translation, multilingual NLP, and computational neuroscience. His work explores the use of neural activity and vision/language models for reverse engineering and decoding unintelligible sp",
+      "priority": 64
+    },
+    {
+      "id": "person-matthew-ragoza",
+      "title": "Matthew Ragoza \u2014 Graduate students",
+      "url": "people.html#person-matthew-ragoza",
+      "category": "Faculty & People",
+      "keywords": "Matthew Ragoza Graduate students PhD Student I am interested in developing methods that enable artificial intelligence to augment the scientific process, both in basic research and important practical applications like drug discovery and medicine. My current approach is to improve the generalizability and interpretability of deep learning models by incorporating prior knowledge and constraints from the natural sciences.",
+      "snippet": "Graduate students. PhD Student I am interested in developing methods that enable artificial intelligence to augment the scientific process, both in basic research and important practical applications like drug discovery and medicine. My current approach is to ",
+      "priority": 64
+    },
+    {
+      "id": "person-zahra-rahimi",
+      "title": "Zahra Rahimi \u2014 Alumni",
+      "url": "people.html#person-zahra-rahimi",
+      "category": "Faculty & People",
+      "keywords": "Zahra Rahimi Alumni (PhD '19) Automatic Essay Assessment; Natural Language Processing; Spoken Dialogue Systems; Text Mining",
+      "snippet": "Alumni. (PhD '19) Automatic Essay Assessment; Natural Language Processing; Spoken Dialogue Systems; Text Mining",
+      "priority": 64
+    },
+    {
+      "id": "person-amin-rahimian",
+      "title": "Amin Rahimian \u2014 Faculty",
+      "url": "people.html#person-amin-rahimian",
+      "category": "Faculty & People",
+      "keywords": "Amin Rahimian Faculty Assistant Professor Swanson School of Engineering, Industrial Engineering Department Swanson School of Engineering Industrial Engineering Machine learning and reasoning Social computing Applied Probability, Applied Statistics, Social and Economic Networks, Decision and Control Amin Rahimian joined Pitt IE as an assistant professor in the fall of 2020. Prior to that, he was a postdoc with joint appointments at MIT Institute for Data, Systems, and Society (IDSS) and MIT Sloan School of Management. He received his PhD in Electrical and Systems Engineering from the University of Pennsylvania, and Master\u2019s in Statistics from\u2026",
+      "snippet": "Faculty. Assistant Professor Swanson School of Engineering, Industrial Engineering Department Schools: Swanson School of Engineering. Research topics: Machine learning and reasoning, Social computing. Applied Probability, Applied Statistics, Social and Economi",
+      "priority": 88
+    },
+    {
+      "id": "person-sailesh-ramakrishnan",
+      "title": "Sailesh Ramakrishnan \u2014 Alumni",
+      "url": "people.html#person-sailesh-ramakrishnan",
+      "category": "Faculty & People",
+      "keywords": "Sailesh Ramakrishnan Alumni Partner, rocketship.vc (MS '00)",
+      "snippet": "Alumni. Partner, rocketship.vc (MS '00)",
+      "priority": 64
+    },
+    {
+      "id": "person-shuangxia-ren",
+      "title": "Shuangxia Ren \u2014 Alumni",
+      "url": "people.html#person-shuangxia-ren",
+      "category": "Faculty & People",
+      "keywords": "Shuangxia Ren Alumni PhD Student",
+      "snippet": "Alumni. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-michael-ringenberg",
+      "title": "Michael Ringenberg \u2014 Alumni",
+      "url": "people.html#person-michael-ringenberg",
+      "category": "Faculty & People",
+      "keywords": "Michael Ringenberg Alumni Senior Research Programmer, Carnegie Mellon University (MS '10) Intelligent Tutoring Systems",
+      "snippet": "Alumni. Senior Research Programmer, Carnegie Mellon University (MS '10) Intelligent Tutoring Systems",
+      "priority": 64
+    },
+    {
+      "id": "person-yagil-ronen",
+      "title": "Yagil Ronen \u2014 Alumni",
+      "url": "people.html#person-yagil-ronen",
+      "category": "Faculty & People",
+      "keywords": "Yagil Ronen Alumni (MS '95)",
+      "snippet": "Alumni. (MS '95)",
+      "priority": 64
+    },
+    {
+      "id": "person-jonathan-rubin",
+      "title": "Jonathan Rubin \u2014 Alumni",
+      "url": "people.html#person-jonathan-rubin",
+      "category": "Faculty & People",
+      "keywords": "Jonathan Rubin Alumni Engineering Manager, Google (MS '95)",
+      "snippet": "Alumni. Engineering Manager, Google (MS '95)",
+      "priority": 64
+    },
+    {
+      "id": "person-shaghayegh-sherry-sahebi",
+      "title": "Shaghayegh (Sherry) Sahebi \u2014 Alumni",
+      "url": "people.html#person-shaghayegh-sherry-sahebi",
+      "category": "Faculty & People",
+      "keywords": "Shaghayegh (Sherry) Sahebi Alumni Assistant Professor, Department of Computer Science, State University of New York at Albany (PhD ' 16) Studies of User Behavior and Social Interactions; Design of Effective Recommender Systems; and Use of Social Links and External User Profiles in Recommendation Systems",
+      "snippet": "Alumni. Assistant Professor, Department of Computer Science, State University of New York at Albany (PhD ' 16) Studies of User Behavior and Social Interactions; Design of Effective Recommender Systems; and Use of Social Links and External User Profiles in Reco",
+      "priority": 64
+    },
+    {
+      "id": "person-jaromir-savelka",
+      "title": "Jaromir Savelka \u2014 Alumni",
+      "url": "people.html#person-jaromir-savelka",
+      "category": "Faculty & People",
+      "keywords": "Jaromir Savelka Alumni Post Doctoral Fellow, Carnegie Mellon University (PhD '20) Artificial Intelligence and Law; Legal Information Retrieval; Automatic Legal Documents Drafting; and Knowledge Representation",
+      "snippet": "Alumni. Post Doctoral Fellow, Carnegie Mellon University (PhD '20) Artificial Intelligence and Law; Legal Information Retrieval; Automatic Legal Documents Drafting; and Knowledge Representation",
+      "priority": 64
+    },
+    {
+      "id": "person-christian-schunn",
+      "title": "Christian Schunn \u2014 Faculty",
+      "url": "people.html#person-christian-schunn",
+      "category": "Faculty & People",
+      "keywords": "Christian Schunn Faculty Professor Department of Psychology Dietrich School of Arts and Sciences Psychology Learning and education Machine learning and reasoning Scientific Reasoning and Discovery Learning; Computational Modeling of Strategy Choice; Categorization and Causal Reasoning",
+      "snippet": "Faculty. Professor Department of Psychology Schools: Dietrich School of Arts and Sciences. Research topics: Learning and education, Machine learning and reasoning. Scientific Reasoning and Discovery Learning; Computational Modeling of Strategy Choice; Categori",
+      "priority": 88
+    },
+    {
+      "id": "person-yanna-shen",
+      "title": "Yanna Shen \u2014 Alumni",
+      "url": "people.html#person-yanna-shen",
+      "category": "Faculty & People",
+      "keywords": "Yanna Shen Alumni (PhD '09)",
+      "snippet": "Alumni. (PhD '09)",
+      "priority": 64
+    },
+    {
+      "id": "person-courtney-sheridan",
+      "title": "Courtney Sheridan \u2014 Graduate students",
+      "url": "people.html#person-courtney-sheridan",
+      "category": "Faculty & People",
+      "keywords": "Courtney Sheridan Graduate students Master's Student education",
+      "snippet": "Graduate students. Master's Student education",
+      "priority": 64
+    },
+    {
+      "id": "person-lanfei-shi",
+      "title": "Lanfei Shi \u2014 Alumni",
+      "url": "people.html#person-lanfei-shi",
+      "category": "Faculty & People",
+      "keywords": "Lanfei Shi Alumni Assistant Professor, McIntire School of Commerce, University of Virginia (MS '13)",
+      "snippet": "Alumni. Assistant Professor, McIntire School of Commerce, University of Virginia (MS '13)",
+      "priority": 64
+    },
+    {
+      "id": "person-ryan-shi",
+      "title": "Ryan Shi \u2014 Faculty",
+      "url": "people.html#person-ryan-shi",
+      "category": "Faculty & People",
+      "keywords": "Ryan Shi Faculty Assistant Professor School of Computing and Information Computer Science Social computing Machine learning and reasoning Uses AI to address food security, conservation, and public health with nonprofit organizations; studies game theory and online and reinforcement learning. Before joining SCI, Ryan Shi was a Ph.D. candidate of Societal Computing in the School of Computer Science at Carnegie Mellon University. He works with nonprofit organizations to address societal challenges in food security, environmental conservation, and public health using AI. His research has been deployed at these organizations worldwide. Shi\u2026",
+      "snippet": "Faculty. Assistant Professor Schools: School of Computing and Information. Research topics: Social computing, Machine learning and reasoning. Uses AI to address food security, conservation, and public health with nonprofit organizations; studies game theory an",
+      "priority": 88
+    },
+    {
+      "id": "person-harsh-sinha",
+      "title": "Harsh Sinha \u2014 Alumni",
+      "url": "people.html#person-harsh-sinha",
+      "category": "Faculty & People",
+      "keywords": "Harsh Sinha Alumni PhD Student Domain Adaptation; Hyperspectral Imaging; Computer Vision",
+      "snippet": "Alumni. PhD Student Domain Adaptation; Hyperspectral Imaging; Computer Vision",
+      "priority": 64
+    },
+    {
+      "id": "person-sonish-sivarajkumar",
+      "title": "Sonish Sivarajkumar \u2014 Alumni",
+      "url": "people.html#person-sonish-sivarajkumar",
+      "category": "Faculty & People",
+      "keywords": "Sonish Sivarajkumar Alumni PhD Student Clinical Natural Language Processing(NLP), Deep Learning, Machine Learning, and Knowledge Representation",
+      "snippet": "Alumni. PhD Student Clinical Natural Language Processing(NLP), Deep Learning, Machine Learning, and Knowledge Representation",
+      "priority": 64
+    },
+    {
+      "id": "person-amy-soller",
+      "title": "Amy Soller \u2014 Alumni",
+      "url": "people.html#person-amy-soller",
+      "category": "Faculty & People",
+      "keywords": "Amy Soller Alumni (PhD '02)",
+      "snippet": "Alumni. (PhD '02)",
+      "priority": 64
+    },
+    {
+      "id": "person-thomas-spalthoff",
+      "title": "Thomas Spalthoff \u2014 Alumni",
+      "url": "people.html#person-thomas-spalthoff",
+      "category": "Faculty & People",
+      "keywords": "Thomas Spalthoff Alumni Strategic Account Executive, iPipeline (MS '96)",
+      "snippet": "Alumni. Strategic Account Executive, iPipeline (MS '96)",
+      "priority": 64
+    },
+    {
+      "id": "person-daniel-steinberg",
+      "title": "Daniel Steinberg \u2014 Alumni",
+      "url": "people.html#person-daniel-steinberg",
+      "category": "Faculty & People",
+      "keywords": "Daniel Steinberg Alumni PhD Student Machine Learning; Data Mining; Cognitive Science",
+      "snippet": "Alumni. PhD Student Machine Learning; Data Mining; Cognitive Science",
+      "priority": 64
+    },
+    {
+      "id": "person-matthew-stokes",
+      "title": "Matthew Stokes \u2014 Alumni",
+      "url": "people.html#person-matthew-stokes",
+      "category": "Faculty & People",
+      "keywords": "Matthew Stokes Alumni (PhD '14) Statistical Analysis of Large-Scale Bioinformatics Datasets; Identification of Gene Interactions and Biomarker Discovery; and Development of Predictive Genetic Models",
+      "snippet": "Alumni. (PhD '14) Statistical Analysis of Large-Scale Bioinformatics Datasets; Identification of Gene Interactions and Biomarker Discovery; and Development of Predictive Genetic Models",
+      "priority": 64
+    },
+    {
+      "id": "person-jeffrey-sullivan",
+      "title": "Jeffrey Sullivan \u2014 Alumni",
+      "url": "people.html#person-jeffrey-sullivan",
+      "category": "Faculty & People",
+      "keywords": "Jeffrey Sullivan Alumni Chief Technology Officer, Consensus Unit, j2 Global (MS '89)",
+      "snippet": "Alumni. Chief Technology Officer, Consensus Unit, j2 Global (MS '89)",
+      "priority": 64
+    },
+    {
+      "id": "person-li-sun",
+      "title": "Li Sun \u2014 Alumni",
+      "url": "people.html#person-li-sun",
+      "category": "Faculty & People",
+      "keywords": "Li Sun Alumni (MS '22)",
+      "snippet": "Alumni. (MS '22)",
+      "priority": 64
+    },
+    {
+      "id": "person-yuriy-sverchkov",
+      "title": "Yuriy Sverchkov \u2014 Alumni",
+      "url": "people.html#person-yuriy-sverchkov",
+      "category": "Faculty & People",
+      "keywords": "Yuriy Sverchkov Alumni Assistant Scientist, University of Wisconsin-Madison (PhD '14) Stochastic Processes; Machine Learning Methods; and Probability and Statistical Theory",
+      "snippet": "Alumni. Assistant Scientist, University of Wisconsin-Madison (PhD '14) Stochastic Processes; Machine Learning Methods; and Probability and Statistical Theory",
+      "priority": 64
+    },
+    {
+      "id": "person-ahmad-p-tafti",
+      "title": "Ahmad P Tafti \u2014 Faculty",
+      "url": "people.html#person-ahmad-p-tafti",
+      "category": "Faculty & People",
+      "keywords": "Ahmad P Tafti Faculty Assistant Professor SHRS/Health Information Management School of Health and Rehabilitation Sciences Health Information Management Computer vision Health and biomedicine Machine learning and reasoning Deep Learning Computer Vision, Medical Image Analysis; Artificial Intelligence; Machine Learning; and Explainable AI Ahmad P. Tafti is an Assistant Professor of Health Informatics in the Department of Health Information Management within the School of Health and Rehabilitation Sciences at the University of Pittsburgh , with a secondary appointment at the Intelligent Systems Program (ISP) . He is also leading the Pitt HexAI Research Laboratory . Dr. Tafti is also\u2026",
+      "snippet": "Faculty. Assistant Professor SHRS/Health Information Management Schools: School of Health and Rehabilitation Sciences. Research topics: Computer vision, Health and biomedicine, Machine learning and reasoning. Deep Learning Computer Vision, Medical Image Analys",
+      "priority": 88
+    },
+    {
+      "id": "person-mohammadamin-tajgardoon",
+      "title": "Mohammadamin Tajgardoon \u2014 Alumni",
+      "url": "people.html#person-mohammadamin-tajgardoon",
+      "category": "Faculty & People",
+      "keywords": "Mohammadamin Tajgardoon Alumni PhD Student Ontology-Based Information Retrieval",
+      "snippet": "Alumni. PhD Student Ontology-Based Information Retrieval",
+      "priority": 64
+    },
+    {
+      "id": "person-sanya-bathla-taneja",
+      "title": "Sanya Bathla Taneja \u2014 Alumni",
+      "url": "people.html#person-sanya-bathla-taneja",
+      "category": "Faculty & People",
+      "keywords": "Sanya Bathla Taneja Alumni PhD Student",
+      "snippet": "Alumni. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-khushboo-thaker",
+      "title": "Khushboo Thaker \u2014 Alumni",
+      "url": "people.html#person-khushboo-thaker",
+      "category": "Faculty & People",
+      "keywords": "Khushboo Thaker Alumni PhD Student Natural Language Processing; Machine Learning; Education Data Mining; Learner Modeling",
+      "snippet": "Alumni. PhD Student Natural Language Processing; Machine Learning; Education Data Mining; Learner Modeling",
+      "priority": 64
+    },
+    {
+      "id": "person-mahbaneh-eshaghzadeh-torbati",
+      "title": "Mahbaneh Eshaghzadeh Torbati \u2014 Alumni",
+      "url": "people.html#person-mahbaneh-eshaghzadeh-torbati",
+      "category": "Faculty & People",
+      "keywords": "Mahbaneh Eshaghzadeh Torbati Alumni PhD Student Biomedical Informatics; Natural Language Processing; Transfer Learning",
+      "snippet": "Alumni. PhD Student Biomedical Informatics; Natural Language Processing; Transfer Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-jozsef-toth",
+      "title": "Jozsef Toth \u2014 Alumni",
+      "url": "people.html#person-jozsef-toth",
+      "category": "Faculty & People",
+      "keywords": "Jozsef Toth Alumni",
+      "snippet": "Alumni. Alumni",
+      "priority": 64
+    },
+    {
+      "id": "person-gaurav-trivedi",
+      "title": "Gaurav Trivedi \u2014 Alumni",
+      "url": "people.html#person-gaurav-trivedi",
+      "category": "Faculty & People",
+      "keywords": "Gaurav Trivedi Alumni Senior Software Engineer, Philips (PhD '19) Intelligent Interfaces; Human-Computer Interaction; and Biomedical Informatics",
+      "snippet": "Alumni. Senior Software Engineer, Philips (PhD '19) Intelligent Interfaces; Human-Computer Interaction; and Biomedical Informatics",
+      "priority": 64
+    },
+    {
+      "id": "person-ioannis-tsamardinos",
+      "title": "Ioannis Tsamardinos \u2014 Alumni",
+      "url": "people.html#person-ioannis-tsamardinos",
+      "category": "Faculty & People",
+      "keywords": "Ioannis Tsamardinos Alumni Professor, Department of Computer Science, Univerity of Crete",
+      "snippet": "Alumni. Professor, Department of Computer Science, Univerity of Crete",
+      "priority": 64
+    },
+    {
+      "id": "person-dana-l-tudorascu",
+      "title": "Dana L Tudorascu \u2014 Faculty",
+      "url": "people.html#person-dana-l-tudorascu",
+      "category": "Faculty & People",
+      "keywords": "Dana L Tudorascu Faculty Associate Professor Psychiatry School of Medicine Psychiatry Health and biomedicine Neuroimaging studies of age-related pathology; Statistical methods for multimodal imaging studies; Alzheimer's disease Dr. Tudorascu\u2019s research focuses on improving brain tissue classification in presence of white matter lesions and atrophy in neuroimaging studies of people with age-related pathology or Alzheimer\u2019s disease. She is also interested in developing methods for data harmonization for multi scanner, multi center neuroimaging studies. She is currently\u2026",
+      "snippet": "Faculty. Associate Professor Psychiatry Schools: School of Medicine. Research topics: Health and biomedicine. Neuroimaging studies of age-related pathology; Statistical methods for multimodal imaging studies; Alzheimer's disease",
+      "priority": 88
+    },
+    {
+      "id": "person-deniz-sonmez-unal",
+      "title": "Deniz Sonmez Unal \u2014 Alumni",
+      "url": "people.html#person-deniz-sonmez-unal",
+      "category": "Faculty & People",
+      "keywords": "Deniz Sonmez Unal Alumni PhD Student Educational Data Mining and Human Computer Interaction",
+      "snippet": "Alumni. PhD Student Educational Data Mining and Human Computer Interaction",
+      "priority": 64
+    },
+    {
+      "id": "person-sigalit-ur",
+      "title": "Sigalit Ur \u2014 Alumni",
+      "url": "people.html#person-sigalit-ur",
+      "category": "Faculty & People",
+      "keywords": "Sigalit Ur Alumni Educational Staff, Galilee Foundation for Value Education (MS '93)",
+      "snippet": "Alumni. Educational Staff, Galilee Foundation for Value Education (MS '93)",
+      "priority": 64
+    },
+    {
+      "id": "person-shyam-visweswaran",
+      "title": "Shyam Visweswaran \u2014 Faculty, Alumni",
+      "url": "people.html#person-shyam-visweswaran",
+      "category": "Faculty & People",
+      "keywords": "Shyam Visweswaran Faculty, Alumni Professor Department of Biomedical Informatics School of Medicine Biomedical Informatics Health and biomedicine Machine learning and reasoning Artificial Intelligence and Machine Learning (AI/ML) Based Clinical Decision Support; Precision Medicine and Personalized Modeling; Data Mining and Causal Discovery from Biomedical Data; Research Data Warehousing",
+      "snippet": "Faculty, Alumni. Professor Department of Biomedical Informatics Schools: School of Medicine. Research topics: Health and biomedicine, Machine learning and reasoning. Artificial Intelligence and Machine Learning (AI/ML) Based Clinical Decision Support; Precisio",
+      "priority": 88
+    },
+    {
+      "id": "person-michael-wagner",
+      "title": "Michael Wagner \u2014 Alumni, Emeriti faculty",
+      "url": "people.html#person-michael-wagner",
+      "category": "Faculty & People",
+      "keywords": "Michael Wagner Alumni, Emeriti faculty Associate Professor Emeritus Department of Biomedical Informatics Construction of Decision-Theoretic Reminder Systems; Computer-Assisted Medical Decision Making; Data Accuracy in Computer-Based Medical Records",
+      "snippet": "Alumni, Emeriti faculty. Associate Professor Emeritus Department of Biomedical Informatics Construction of Decision-Theoretic Reminder Systems; Computer-Assisted Medical Decision Making; Data Accuracy in Computer-Based Medical Records",
+      "priority": 64
+    },
+    {
+      "id": "person-erin-walker",
+      "title": "Erin Walker \u2014 Faculty",
+      "url": "people.html#person-erin-walker",
+      "category": "Faculty & People",
+      "keywords": "Erin Walker Faculty Associate Professor Department of Computer Science School of Computing and Information Computer Science Learning and education Human-computer interaction Intelligent tutoring systems, computer-supported collaboration, tangible and embodied learning environments, human-robot interaction, technology for the developing world, personalized learning environments, learning technologies, human-computer interaction",
+      "snippet": "Faculty. Associate Professor Department of Computer Science Schools: School of Computing and Information. Research topics: Learning and education, Human-computer interaction. Intelligent tutoring systems, computer-supported collaboration, tangible and embodied",
+      "priority": 88
+    },
+    {
+      "id": "person-phillip-walker",
+      "title": "Phillip Walker \u2014 Alumni",
+      "url": "people.html#person-phillip-walker",
+      "category": "Faculty & People",
+      "keywords": "Phillip Walker Alumni Researcher, SIFT (PhD '17) Human-Robot Interaction, and Human Control Over Autonomous Robotic Swarms; Robotic Exploration and Search and Rescue; and Optimizing Search-Strategies for Multi-Robot Teams",
+      "snippet": "Alumni. Researcher, SIFT (PhD '17) Human-Robot Interaction, and Human Control Over Autonomous Robotic Swarms; Robotic Exploration and Search and Rescue; and Optimizing Search-Strategies for Multi-Robot Teams",
+      "priority": 64
+    },
+    {
+      "id": "person-haiqin-wang",
+      "title": "Haiqin Wang \u2014 Alumni",
+      "url": "people.html#person-haiqin-wang",
+      "category": "Faculty & People",
+      "keywords": "Haiqin Wang Alumni Principal Data Scientist, Haimanda Consulting, LLC (PhD '04)",
+      "snippet": "Alumni. Principal Data Scientist, Haimanda Consulting, LLC (PhD '04)",
+      "priority": 64
+    },
+    {
+      "id": "person-mengdi-wang",
+      "title": "Mengdi Wang \u2014 Alumni",
+      "url": "people.html#person-mengdi-wang",
+      "category": "Faculty & People",
+      "keywords": "Mengdi Wang Alumni PhD Student Social Networks; Data Mining",
+      "snippet": "Alumni. PhD Student Social Networks; Data Mining",
+      "priority": 64
+    },
+    {
+      "id": "person-shuguang-wang",
+      "title": "Shuguang Wang \u2014 Alumni",
+      "url": "people.html#person-shuguang-wang",
+      "category": "Faculty & People",
+      "keywords": "Shuguang Wang Alumni Data Science Manager, The Washington Post Question Answering (Event-based Retrieval); Machine Translation (Evaluation Metric & Arabic Morphology Segmentation); Speech Recognition (Speaker Adaptive Recognition); Database Indexing (High-Dimensional Indexing); Image Processing (OCR/Logo Detection); Automatic Extraction of Models from Text Corpora and Use of Models for Text Retrieval and Bioinformatics",
+      "snippet": "Alumni. Data Science Manager, The Washington Post Question Answering (Event-based Retrieval); Machine Translation (Evaluation Metric & Arabic Morphology Segmentation); Speech Recognition (Speaker Adaptive Recognition); Database Indexing (High-Dimensional Index",
+      "priority": 64
+    },
+    {
+      "id": "person-wei-wang",
+      "title": "Wei Wang \u2014 Alumni",
+      "url": "people.html#person-wei-wang",
+      "category": "Faculty & People",
+      "keywords": "Wei Wang Alumni",
+      "snippet": "Alumni. Alumni",
+      "priority": 64
+    },
+    {
+      "id": "person-yanshan-wang",
+      "title": "Yanshan Wang \u2014 Faculty",
+      "url": "people.html#person-yanshan-wang",
+      "category": "Faculty & People",
+      "keywords": "Yanshan Wang Faculty Associate Professor, Vice Chair of Research Department of Biomedical Informatics School of Medicine Biomedical Informatics Health and biomedicine Language and information retrieval Machine learning and reasoning Clinical Natural Language Processing; Artificial Intelligence; Machine Learning; and Deep Learning Yanshan Wang is an Assistant Professor of Department of Biomedical Informatics and Intelligent Systems Program at the University of Pittsburgh. His research interests focus on clinical natural language processing (NLP), artificial intelligence, machine learning, and deep learning using electronic health records (EHRs). His research goal is to\u2026",
+      "snippet": "Faculty. Associate Professor, Vice Chair of Research Department of Biomedical Informatics Schools: School of Medicine. Research topics: Health and biomedicine, Language and information retrieval, Machine learning and reasoning. Clinical Natural Language Proces",
+      "priority": 88
+    },
+    {
+      "id": "person-arthur-ward",
+      "title": "Arthur Ward \u2014 Alumni",
+      "url": "people.html#person-arthur-ward",
+      "category": "Faculty & People",
+      "keywords": "Arthur Ward Alumni (PhD '10)",
+      "snippet": "Alumni. (PhD '10)",
+      "priority": 64
+    },
+    {
+      "id": "person-chuck-webster",
+      "title": "Chuck Webster \u2014 Alumni",
+      "url": "people.html#person-chuck-webster",
+      "category": "Faculty & People",
+      "keywords": "Chuck Webster Alumni President, EHR Workflow Inc.",
+      "snippet": "Alumni. President, EHR Workflow Inc.",
+      "priority": 64
+    },
+    {
+      "id": "person-eric-williams",
+      "title": "Eric Williams \u2014 Alumni",
+      "url": "people.html#person-eric-williams",
+      "category": "Faculty & People",
+      "keywords": "Eric Williams Alumni (PhD '13) Machine Learning; Data Mining; Computational Scientific Discovery; Computational Biology; Biomedical Informatics; and Protein X-ray Crystallography",
+      "snippet": "Alumni. (PhD '13) Machine Learning; Data Mining; Computational Scientific Discovery; Computational Biology; Biomedical Informatics; and Protein X-ray Crystallography",
+      "priority": 64
+    },
+    {
+      "id": "person-theresa-wilson",
+      "title": "Theresa Wilson \u2014 Alumni",
+      "url": "people.html#person-theresa-wilson",
+      "category": "Faculty & People",
+      "keywords": "Theresa Wilson Alumni Director of End-to-End Business Architecture, NRG Energy (PhD ' 08)",
+      "snippet": "Alumni. Director of End-to-End Business Architecture, NRG Energy (PhD ' 08)",
+      "priority": 64
+    },
+    {
+      "id": "person-quinn-wolter",
+      "title": "Quinn Wolter \u2014 Graduate students",
+      "url": "people.html#person-quinn-wolter",
+      "category": "Faculty & People",
+      "keywords": "Quinn Wolter Graduate students PhD Student Quinn K Wolter is a PhD student in the Intelligent Systems Program at the University of Pittsburgh, co-advised and working with the PAWS Lab under Professor Peter Brusilovsky and the PICSO Lab under Professor Yu-Ru Lin. His research focuses on designing accessible, human-centered data systems that help diverse audiences make sense of complex\u2026",
+      "snippet": "Graduate students. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-ian-wong",
+      "title": "Ian Wong \u2014 Alumni",
+      "url": "people.html#person-ian-wong",
+      "category": "Faculty & People",
+      "keywords": "Ian Wong Alumni Medical Instructor, Department of Medicine, Duke University (PhD '16) Genomics; Public Health; and Clinical Decision Support",
+      "snippet": "Alumni. Medical Instructor, Department of Medicine, Duke University (PhD '16) Genomics; Public Health; and Clinical Decision Support",
+      "priority": 64
+    },
+    {
+      "id": "person-shandong-wu",
+      "title": "Shandong Wu \u2014 Faculty",
+      "url": "people.html#person-shandong-wu",
+      "category": "Faculty & People",
+      "keywords": "Shandong Wu Faculty Professor Departments of Radiology, Biomedical Informatics, and Bioengineering School of Medicine Swanson School of Engineering Radiology, Biomedical Informatics, and Bioengineering Computer vision Health and biomedicine Machine learning and reasoning Computational Biomedical Imaging Analysis; Big (Health) Data Coupled with Machine/Deep Learning; Artificial Intelligence in Clinical Informatics/Workflows; Radiomics/Radiogenomics; Imaging-Based Clinical Studies; Computer Vision",
+      "snippet": "Faculty. Professor Departments of Radiology, Biomedical Informatics, and Bioengineering Schools: School of Medicine; Swanson School of Engineering. Research topics: Computer vision, Health and biomedicine, Machine learning and reasoning. Computational Biomedic",
+      "priority": 88
+    },
+    {
+      "id": "person-huihui-xu",
+      "title": "Huihui Xu \u2014 Alumni",
+      "url": "people.html#person-huihui-xu",
+      "category": "Faculty & People",
+      "keywords": "Huihui Xu Alumni PhD Student",
+      "snippet": "Alumni. PhD Student",
+      "priority": 64
+    },
+    {
+      "id": "person-yanwu-xu",
+      "title": "Yanwu Xu \u2014 Alumni",
+      "url": "people.html#person-yanwu-xu",
+      "category": "Faculty & People",
+      "keywords": "Yanwu Xu Alumni (MS '22)",
+      "snippet": "Alumni. (MS '22)",
+      "priority": 64
+    },
+    {
+      "id": "person-diyang-xue",
+      "title": "Diyang Xue \u2014 Alumni",
+      "url": "people.html#person-diyang-xue",
+      "category": "Faculty & People",
+      "keywords": "Diyang Xue Alumni (PhD '22) Medical Informatics; Clinical Decision Support; Machine Learning",
+      "snippet": "Alumni. (PhD '22) Medical Informatics; Clinical Decision Support; Machine Learning",
+      "priority": 64
+    },
+    {
+      "id": "person-yang-ye",
+      "title": "Yang Ye \u2014 Graduate students",
+      "url": "people.html#person-yang-ye",
+      "category": "Faculty & People",
+      "keywords": "Yang Ye Graduate students PhD Student Machine Learning, Computational Biology, Biomedical informatics, Spatial omics",
+      "snippet": "Graduate students. PhD Student Machine Learning, Computational Biology, Biomedical informatics, Spatial omics",
+      "priority": 64
+    },
+    {
+      "id": "person-ye-ye",
+      "title": "Ye Ye \u2014 Alumni",
+      "url": "people.html#person-ye-ye",
+      "category": "Faculty & People",
+      "keywords": "Ye Ye Alumni Postdoc Associate, Department of Biomedical Informatics, University of Pittsburgh (PhD '18) Public Health Informatics; Outbreak Detection; and Decision Support Systems",
+      "snippet": "Alumni. Postdoc Associate, Department of Biomedical Informatics, University of Pittsburgh (PhD '18) Public Health Informatics; Outbreak Detection; and Decision Support Systems",
+      "priority": 64
+    },
+    {
+      "id": "person-changwon-yoo",
+      "title": "Changwon Yoo \u2014 Alumni",
+      "url": "people.html#person-changwon-yoo",
+      "category": "Faculty & People",
+      "keywords": "Changwon Yoo Alumni Associate Professor, Florida International University (PhD '03)",
+      "snippet": "Alumni. Associate Professor, Florida International University (PhD '03)",
+      "priority": 64
+    },
+    {
+      "id": "person-jonathan-young",
+      "title": "Jonathan Young \u2014 Alumni",
+      "url": "people.html#person-jonathan-young",
+      "category": "Faculty & People",
+      "keywords": "Jonathan Young Alumni (PhD '20) Deep Learning; and Bioinformatics",
+      "snippet": "Alumni. (PhD '20) Deep Learning; and Bioinformatics",
+      "priority": 64
+    },
+    {
+      "id": "person-r-michael-young",
+      "title": "R. Michael Young \u2014 Alumni",
+      "url": "people.html#person-r-michael-young",
+      "category": "Faculty & People",
+      "keywords": "R. Michael Young Alumni Professor, North Carolina State University (PhD '97)",
+      "snippet": "Alumni. Professor, North Carolina State University (PhD '97)",
+      "priority": 64
+    },
+    {
+      "id": "person-ke-yu",
+      "title": "Ke Yu \u2014 Alumni",
+      "url": "people.html#person-ke-yu",
+      "category": "Faculty & People",
+      "keywords": "Ke Yu Alumni PhD Student Machine Learning in Healthcare; Deep Learning; Statistical Modeling",
+      "snippet": "Alumni. PhD Student Machine Learning in Healthcare; Deep Learning; Statistical Modeling",
+      "priority": 64
+    },
+    {
+      "id": "person-changhe-yuan",
+      "title": "Changhe Yuan \u2014 Alumni",
+      "url": "people.html#person-changhe-yuan",
+      "category": "Faculty & People",
+      "keywords": "Changhe Yuan Alumni Associate Professor, Department of Computer Science, Queens College (PhD '06)",
+      "snippet": "Alumni. Associate Professor, Department of Computer Science, Queens College (PhD '06)",
+      "priority": 64
+    },
+    {
+      "id": "person-hang-zhang",
+      "title": "Hang Zhang \u2014 Graduate students",
+      "url": "people.html#person-hang-zhang",
+      "category": "Faculty & People",
+      "keywords": "Hang Zhang Graduate students PhD Student AI agent, AI in healthcare Hang Zhang is a PhD student of the Intelligent Systems Program at the University of Pittsburgh, advised by Dr. Yanshan Wang. His research focuses on AI Agent and AI in healthcare. His work explores how we can improve the accuracy, reliability, and practical applicability of Agentic AI systems in real-world medical and clinical settings.",
+      "snippet": "Graduate students. PhD Student AI agent, AI in healthcare",
+      "priority": 64
+    },
+    {
+      "id": "person-jun-zhang",
+      "title": "Jun Zhang \u2014 Alumni",
+      "url": "people.html#person-jun-zhang",
+      "category": "Faculty & People",
+      "keywords": "Jun Zhang Alumni Senior Developer, Nome Holding, LLC (MS '03)",
+      "snippet": "Alumni. Senior Developer, Nome Holding, LLC (MS '03)",
+      "priority": 64
+    },
+    {
+      "id": "person-li-zhang",
+      "title": "Li Zhang \u2014 Graduate students",
+      "url": "people.html#person-li-zhang",
+      "category": "Faculty & People",
+      "keywords": "Li Zhang Graduate students PhD Student AI and Law",
+      "snippet": "Graduate students. PhD Student AI and Law",
+      "priority": 64
+    },
+    {
+      "id": "person-leming-zhou",
+      "title": "Leming Zhou \u2014 Faculty",
+      "url": "people.html#person-leming-zhou",
+      "category": "Faculty & People",
+      "keywords": "Leming Zhou Faculty Professor SHRS/Health Information Management School of Health and Rehabilitation Sciences Health Information Management Machine learning and reasoning Security and privacy Machine learning, big data analytics, mobile app development and evaluation, information security and privacy, systems modeling",
+      "snippet": "Faculty. Professor SHRS/Health Information Management Schools: School of Health and Rehabilitation Sciences. Research topics: Machine learning and reasoning, Security and privacy. Machine learning, big data analytics, mobile app development and evaluation, inf",
+      "priority": 88
+    },
+    {
+      "id": "person-zhengbo-zhou",
+      "title": "Zhengbo Zhou \u2014 Graduate students",
+      "url": "people.html#person-zhengbo-zhou",
+      "category": "Faculty & People",
+      "keywords": "Zhengbo Zhou Graduate students PhD Student Medical Image Analysis",
+      "snippet": "Graduate students. PhD Student Medical Image Analysis",
+      "priority": 64
+    },
+    {
+      "id": "imported-research--ai-and-society-group",
+      "title": "AI and Society Group",
+      "url": "research--ai-and-society-group.html",
+      "category": "Research",
+      "keywords": "AI and Society Group research",
+      "snippet": "AI and Society Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--artificial-intelligence-and-law-group",
+      "title": "Artificial Intelligence and Law Group",
+      "url": "research--artificial-intelligence-and-law-group.html",
+      "category": "Research",
+      "keywords": "Artificial Intelligence and Law Group research",
+      "snippet": "Artificial Intelligence and Law Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--biomedical-informatics-group",
+      "title": "Biomedical Informatics Group",
+      "url": "research--biomedical-informatics-group.html",
+      "category": "Research",
+      "keywords": "Biomedical Informatics Group research",
+      "snippet": "Biomedical Informatics Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--centers-and-institutions",
+      "title": "Centers and Institutions",
+      "url": "research--centers-and-institutions.html",
+      "category": "Research",
+      "keywords": "Centers and Institutions research",
+      "snippet": "Centers and Institutions (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--computer-vision-group",
+      "title": "Computer Vision and Image Analysis Group",
+      "url": "research--computer-vision-group.html",
+      "category": "Research",
+      "keywords": "Computer Vision and Image Analysis Group research",
+      "snippet": "Computer Vision and Image Analysis Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--intelligent-tutoring-systems-and-educational-technology-group",
+      "title": "Intelligent Tutoring Systems and Educational Technology Group",
+      "url": "research--intelligent-tutoring-systems-and-educational-technology-group.html",
+      "category": "Research",
+      "keywords": "Intelligent Tutoring Systems and Educational Technology Group research",
+      "snippet": "Intelligent Tutoring Systems and Educational Technology Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--machine-learning-and-decision-making-group",
+      "title": "Machine Learning and Decision Making Group",
+      "url": "research--machine-learning-and-decision-making-group.html",
+      "category": "Research",
+      "keywords": "Machine Learning and Decision Making Group research",
+      "snippet": "Machine Learning and Decision Making Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-research--natural-language-processing-and-information-retreival-group",
+      "title": "Natural Language Processing and Information Retrieval Group",
+      "url": "research--natural-language-processing-and-information-retreival-group.html",
+      "category": "Research",
+      "keywords": "Natural Language Processing and Information Retrieval Group research",
+      "snippet": "Natural Language Processing and Information Retrieval Group (Research archive page).",
+      "priority": 83
+    },
+    {
+      "id": "imported-news--adriana-kovashka-receives-nsf-career-award",
+      "title": "Adriana Kovashka Receives NSF CAREER Award",
+      "url": "news--adriana-kovashka-receives-nsf-career-award.html",
+      "category": "Research",
+      "keywords": "Adriana Kovashka Receives NSF CAREER Award news",
+      "snippet": "Adriana Kovashka Receives NSF CAREER Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--adriana-kovashka-selected-amazon-research-award",
+      "title": "Adriana Kovashka Selected for Amazon Research Award",
+      "url": "news--adriana-kovashka-selected-amazon-research-award.html",
+      "category": "Research",
+      "keywords": "Adriana Kovashka Selected for Amazon Research Award news",
+      "snippet": "Adriana Kovashka Selected for Amazon Research Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--empowering-smallholder-farmers-global-south-through-agriculture-chatbots",
+      "title": "Empowering smallholder farmers in the Global South through agriculture chatbots",
+      "url": "news--empowering-smallholder-farmers-global-south-through-agriculture-chatbots.html",
+      "category": "Research",
+      "keywords": "Empowering smallholder farmers in the Global South through agriculture chatbots news",
+      "snippet": "Empowering smallholder farmers in the Global South through agriculture chatbots (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--fourth-edition-isp-yearly-newsletter-published",
+      "title": "Fourth Edition of ISP Yearly Newsletter is Published",
+      "url": "news--fourth-edition-isp-yearly-newsletter-published.html",
+      "category": "Research",
+      "keywords": "Fourth Edition of ISP Yearly Newsletter is Published news",
+      "snippet": "Fourth Edition of ISP Yearly Newsletter is Published (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--intraface-research-receives-test-time-award-2026-ieee-conference",
+      "title": "IntraFace Research Receives Test of Time Award at 2026 IEEE Conference",
+      "url": "news--intraface-research-receives-test-time-award-2026-ieee-conference.html",
+      "category": "Research",
+      "keywords": "IntraFace Research Receives Test of Time Award at 2026 IEEE Conference news",
+      "snippet": "IntraFace Research Receives Test of Time Award at 2026 IEEE Conference (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-alum-and-isp-faculty-member-nominated-2019-amia-doctoral-dissertation-award",
+      "title": "ISP Alum and ISP Faculty Member Nominated for 2019 AMIA Doctoral Dissertation Award",
+      "url": "news--isp-alum-and-isp-faculty-member-nominated-2019-amia-doctoral-dissertation-award.html",
+      "category": "Research",
+      "keywords": "ISP Alum and ISP Faculty Member Nominated for 2019 AMIA Doctoral Dissertation Award news",
+      "snippet": "ISP Alum and ISP Faculty Member Nominated for 2019 AMIA Doctoral Dissertation Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-alumni-and-isp-faculty-member-receive-acl-test-time-award",
+      "title": "ISP Alumni and ISP Faculty Member Receive ACL Test-of-Time Award",
+      "url": "news--isp-alumni-and-isp-faculty-member-receive-acl-test-time-award.html",
+      "category": "Research",
+      "keywords": "ISP Alumni and ISP Faculty Member Receive ACL Test-of-Time Award news",
+      "snippet": "ISP Alumni and ISP Faculty Member Receive ACL Test-of-Time Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-alumnus-receives-fullbright-scholarship-further-educational-technology-chile",
+      "title": "ISP Alumnus Receives Fullbright Scholarship to Further Educational Technology in Chile",
+      "url": "news--isp-alumnus-receives-fullbright-scholarship-further-educational-technology-chile.html",
+      "category": "Research",
+      "keywords": "ISP Alumnus Receives Fullbright Scholarship to Further Educational Technology in Chile news",
+      "snippet": "ISP Alumnus Receives Fullbright Scholarship to Further Educational Technology in Chile (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-alumnus-vincent-aleven-receives-lrdcs-distinguished-alumni-award",
+      "title": "ISP Alumnus Vincent Aleven Receives LRDC's Distinguished Alumni Award",
+      "url": "news--isp-alumnus-vincent-aleven-receives-lrdcs-distinguished-alumni-award.html",
+      "category": "Research",
+      "keywords": "ISP Alumnus Vincent Aleven Receives LRDC's Distinguished Alumni Award news",
+      "snippet": "ISP Alumnus Vincent Aleven Receives LRDC's Distinguished Alumni Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-director-peter-brusilovsky-selected-2023-chancellors-distinguished-research-award",
+      "title": "ISP Director Peter Brusilovsky Selected for 2023 Chancellor\u2019s Distinguished Research Award",
+      "url": "news--isp-director-peter-brusilovsky-selected-2023-chancellors-distinguished-research-award.html",
+      "category": "Research",
+      "keywords": "ISP Director Peter Brusilovsky Selected for 2023 Chancellor\u2019s Distinguished Research Award news",
+      "snippet": "ISP Director Peter Brusilovsky Selected for 2023 Chancellor\u2019s Distinguished Research Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-director-peter-brusilovsky-speak-keynote-36th-acm-conference-hypertext-and-social-media",
+      "title": "ISP Director Peter Brusilovsky to Speak as a Keynote for 36th ACM Conference on Hypertext and Social Media",
+      "url": "news--isp-director-peter-brusilovsky-speak-keynote-36th-acm-conference-hypertext-and-social-media.html",
+      "category": "Research",
+      "keywords": "ISP Director Peter Brusilovsky to Speak as a Keynote for 36th ACM Conference on Hypertext and Social Media news",
+      "snippet": "ISP Director Peter Brusilovsky to Speak as a Keynote for 36th ACM Conference on Hypertext and Social Media (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-director-vanathi-gopalakrishnan-contributes-ai-magazine",
+      "title": "ISP Director Vanathi Gopalakrishnan Contributes to AI Magazine",
+      "url": "news--isp-director-vanathi-gopalakrishnan-contributes-ai-magazine.html",
+      "category": "Research",
+      "keywords": "ISP Director Vanathi Gopalakrishnan Contributes to AI Magazine news",
+      "snippet": "ISP Director Vanathi Gopalakrishnan Contributes to AI Magazine (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-emeritus-professor-received-sustained-accomplishment-award-icmi-2026",
+      "title": "ISP Emeritus Professor Received Sustained Accomplishment Award at ICMI 2026",
+      "url": "news--isp-emeritus-professor-received-sustained-accomplishment-award-icmi-2026.html",
+      "category": "Research",
+      "keywords": "ISP Emeritus Professor Received Sustained Accomplishment Award at ICMI 2026 news",
+      "snippet": "ISP Emeritus Professor Received Sustained Accomplishment Award at ICMI 2026 (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-and-isp-student-win-jurix-2019-best-student-paper-award",
+      "title": "ISP Faculty Member and ISP Student Win Jurix 2019 Best Student Paper Award",
+      "url": "news--isp-faculty-member-and-isp-student-win-jurix-2019-best-student-paper-award.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member and ISP Student Win Jurix 2019 Best Student Paper Award news",
+      "snippet": "ISP Faculty Member and ISP Student Win Jurix 2019 Best Student Paper Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-appointed-interim-chair-department-biomedical-informatics",
+      "title": "ISP Faculty Member Appointed Interim Chair of Department of Biomedical Informatics",
+      "url": "news--isp-faculty-member-appointed-interim-chair-department-biomedical-informatics.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member Appointed Interim Chair of Department of Biomedical Informatics news",
+      "snippet": "ISP Faculty Member Appointed Interim Chair of Department of Biomedical Informatics (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-appointed-nih-study-section",
+      "title": "ISP Faculty Member Appointed to NIH Study Section",
+      "url": "news--isp-faculty-member-appointed-nih-study-section.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member Appointed to NIH Study Section news",
+      "snippet": "ISP Faculty Member Appointed to NIH Study Section (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-be-inducted-acmi-fellow",
+      "title": "ISP Faculty Member to be Inducted into the ACMI as a Fellow",
+      "url": "news--isp-faculty-member-be-inducted-acmi-fellow.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member to be Inducted into the ACMI as a Fellow news",
+      "snippet": "ISP Faculty Member to be Inducted into the ACMI as a Fellow (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-dr-ahmad-p-tafti-contributes-scientific-efforts-cpace",
+      "title": "ISP Faculty Member Dr. Ahmad P. Tafti Contributes to Scientific Efforts at CPACE",
+      "url": "news--isp-faculty-member-dr-ahmad-p-tafti-contributes-scientific-efforts-cpace.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member Dr. Ahmad P. Tafti Contributes to Scientific Efforts at CPACE news",
+      "snippet": "ISP Faculty Member Dr. Ahmad P. Tafti Contributes to Scientific Efforts at CPACE (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-leming-zhou-promoted-full-professor",
+      "title": "ISP Faculty Member Leming Zhou Promoted to Full Professor",
+      "url": "news--isp-faculty-member-leming-zhou-promoted-full-professor.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member Leming Zhou Promoted to Full Professor news",
+      "snippet": "ISP Faculty Member Leming Zhou Promoted to Full Professor (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-receives-2026-ohdsi-titan-award",
+      "title": "ISP Faculty Member Receives 2026 OHDSI Titan Award",
+      "url": "news--isp-faculty-member-receives-2026-ohdsi-titan-award.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member Receives 2026 OHDSI Titan Award news",
+      "snippet": "ISP Faculty Member Receives 2026 OHDSI Titan Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-member-receives-oracle-2023-excellence-award",
+      "title": "ISP Faculty Member Receives Oracle 2023 Excellence Award",
+      "url": "news--isp-faculty-member-receives-oracle-2023-excellence-award.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Member Receives Oracle 2023 Excellence Award news",
+      "snippet": "ISP Faculty Member Receives Oracle 2023 Excellence Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-members-ranked-among-top-2-scientists",
+      "title": "ISP Faculty Members Ranked Among Top 2% of Scientists",
+      "url": "news--isp-faculty-members-ranked-among-top-2-scientists.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Members Ranked Among Top 2% of Scientists news",
+      "snippet": "ISP Faculty Members Ranked Among Top 2% of Scientists (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-faculty-receive-pitt-momentum-funds",
+      "title": "ISP Faculty Receive Pitt Momentum Funds",
+      "url": "news--isp-faculty-receive-pitt-momentum-funds.html",
+      "category": "Research",
+      "keywords": "ISP Faculty Receive Pitt Momentum Funds news",
+      "snippet": "ISP Faculty Receive Pitt Momentum Funds (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-founding-co-director-and-professor-emeritus-alan-lesgold-authors-book",
+      "title": "ISP Founding Co-Director and Professor Emeritus Alan Lesgold Authors Book",
+      "url": "news--isp-founding-co-director-and-professor-emeritus-alan-lesgold-authors-book.html",
+      "category": "Research",
+      "keywords": "ISP Founding Co-Director and Professor Emeritus Alan Lesgold Authors Book news",
+      "snippet": "ISP Founding Co-Director and Professor Emeritus Alan Lesgold Authors Book (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-phd-student-receives-best-poster-award-aied2023",
+      "title": "ISP PhD Student Receives Best Poster Award at AIED2023",
+      "url": "news--isp-phd-student-receives-best-poster-award-aied2023.html",
+      "category": "Research",
+      "keywords": "ISP PhD Student Receives Best Poster Award at AIED2023 news",
+      "snippet": "ISP PhD Student Receives Best Poster Award at AIED2023 (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-student-huao-lis-paper-accepted-neurips-2024",
+      "title": "ISP Student Huao Li's paper accepted by NeurIPS 2024",
+      "url": "news--isp-student-huao-lis-paper-accepted-neurips-2024.html",
+      "category": "Research",
+      "keywords": "ISP Student Huao Li's paper accepted by NeurIPS 2024 news",
+      "snippet": "ISP Student Huao Li's paper accepted by NeurIPS 2024 (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-student-receives-summer-research-internship-nlm",
+      "title": "ISP Student Receives Summer Research Internship with NLM",
+      "url": "news--isp-student-receives-summer-research-internship-nlm.html",
+      "category": "Research",
+      "keywords": "ISP Student Receives Summer Research Internship with NLM news",
+      "snippet": "ISP Student Receives Summer Research Internship with NLM (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--isp-student-wins-magna-cum-laude-science-poster-award-rsna-2025-research-developing-advanced",
+      "title": "ISP Student Wins Magna Cum Laude Science Poster Award at RSNA 2025 for Research on Developing Advanced AI Models for Medical Imaging",
+      "url": "news--isp-student-wins-magna-cum-laude-science-poster-award-rsna-2025-research-developing-advanced.html",
+      "category": "Research",
+      "keywords": "ISP Student Wins Magna Cum Laude Science Poster Award at RSNA 2025 for Research on Developing Advanced AI Models for Medical Imaging news",
+      "snippet": "ISP Student Wins Magna Cum Laude Science Poster Award at RSNA 2025 for Research on Developing Advanced AI Models for Medical Imaging (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--mahbaneh-torbati-and-khushboo-thaker-receive-provost-predoctoral-fellowships",
+      "title": "Mahbaneh Torbati and Khushboo Thaker Receive Provost Predoctoral Fellowships",
+      "url": "news--mahbaneh-torbati-and-khushboo-thaker-receive-provost-predoctoral-fellowships.html",
+      "category": "Research",
+      "keywords": "Mahbaneh Torbati and Khushboo Thaker Receive Provost Predoctoral Fellowships news",
+      "snippet": "Mahbaneh Torbati and Khushboo Thaker Receive Provost Predoctoral Fellowships (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--meet-incoming-isp-student-anthony-sicilia",
+      "title": "Meet Incoming ISP Student Anthony Sicilia",
+      "url": "news--meet-incoming-isp-student-anthony-sicilia.html",
+      "category": "Research",
+      "keywords": "Meet Incoming ISP Student Anthony Sicilia news",
+      "snippet": "Meet Incoming ISP Student Anthony Sicilia (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--mohammadamin-tajgardoon-and-omid-kashefi-win-provost-predoctoral-fellowships-2020",
+      "title": "Mohammadamin Tajgardoon and Omid Kashefi Win Provost Predoctoral Fellowships for 2020",
+      "url": "news--mohammadamin-tajgardoon-and-omid-kashefi-win-provost-predoctoral-fellowships-2020.html",
+      "category": "Research",
+      "keywords": "Mohammadamin Tajgardoon and Omid Kashefi Win Provost Predoctoral Fellowships for 2020 news",
+      "snippet": "Mohammadamin Tajgardoon and Omid Kashefi Win Provost Predoctoral Fellowships for 2020 (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--peter-brusilovsky-director-isp-receives-nsf-grant-develop-learning-system-computer-science",
+      "title": "Peter Brusilovsky, Director of ISP, receives NSF grant to develop a learning system for computer science education",
+      "url": "news--peter-brusilovsky-director-isp-receives-nsf-grant-develop-learning-system-computer-science.html",
+      "category": "Research",
+      "keywords": "Peter Brusilovsky, Director of ISP, receives NSF grant to develop a learning system for computer science education news",
+      "snippet": "Peter Brusilovsky, Director of ISP, receives NSF grant to develop a learning system for computer science education (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--peter-brusilovsky-elected-chair-acm-sigweb",
+      "title": "Peter Brusilovsky Elected Chair of ACM Sigweb",
+      "url": "news--peter-brusilovsky-elected-chair-acm-sigweb.html",
+      "category": "Research",
+      "keywords": "Peter Brusilovsky Elected Chair of ACM Sigweb news",
+      "snippet": "Peter Brusilovsky Elected Chair of ACM Sigweb (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--peter-brusilovsky-receives-aminers-most-influential-scholar-award",
+      "title": "Peter Brusilovsky Receives AMiner's Most Influential Scholar Award",
+      "url": "news--peter-brusilovsky-receives-aminers-most-influential-scholar-award.html",
+      "category": "Research",
+      "keywords": "Peter Brusilovsky Receives AMiner's Most Influential Scholar Award news",
+      "snippet": "Peter Brusilovsky Receives AMiner's Most Influential Scholar Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--professor-diane-litman-receives-nsf-grant-reflection-informed-stem-learning-and-instruction",
+      "title": "Professor Diane Litman Receives NSF Grant for Reflection-Informed STEM Learning and Instruction",
+      "url": "news--professor-diane-litman-receives-nsf-grant-reflection-informed-stem-learning-and-instruction.html",
+      "category": "Research",
+      "keywords": "Professor Diane Litman Receives NSF Grant for Reflection-Informed STEM Learning and Instruction news",
+      "snippet": "Professor Diane Litman Receives NSF Grant for Reflection-Informed STEM Learning and Instruction (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--recent-phd-graduate-sci-professor-receive-best-paper-award-edm-2026",
+      "title": "Recent PhD Graduate, SCI Professor Receive Best Paper Award at EDM 2026",
+      "url": "news--recent-phd-graduate-sci-professor-receive-best-paper-award-edm-2026.html",
+      "category": "Research",
+      "keywords": "Recent PhD Graduate, SCI Professor Receive Best Paper Award at EDM 2026 news",
+      "snippet": "Recent PhD Graduate, SCI Professor Receive Best Paper Award at EDM 2026 (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--remembering-professor-janyce-wiebe",
+      "title": "Remembering Professor Janyce Wiebe",
+      "url": "news--remembering-professor-janyce-wiebe.html",
+      "category": "Research",
+      "keywords": "Remembering Professor Janyce Wiebe news",
+      "snippet": "Remembering Professor Janyce Wiebe (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--sera-linardi-and-yu-ru-lin-receive-pitt-momentum-seed-grant",
+      "title": "Sera Linardi and Yu-Ru Lin Receive Pitt Momentum Seed Grant",
+      "url": "news--sera-linardi-and-yu-ru-lin-receive-pitt-momentum-seed-grant.html",
+      "category": "Research",
+      "keywords": "Sera Linardi and Yu-Ru Lin Receive Pitt Momentum Seed Grant news",
+      "snippet": "Sera Linardi and Yu-Ru Lin Receive Pitt Momentum Seed Grant (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--sera-linardi-receives-pitt-partnerships-distinction-award",
+      "title": "Sera Linardi Receives Pitt Partnerships of Distinction Award",
+      "url": "news--sera-linardi-receives-pitt-partnerships-distinction-award.html",
+      "category": "Research",
+      "keywords": "Sera Linardi Receives Pitt Partnerships of Distinction Award news",
+      "snippet": "Sera Linardi Receives Pitt Partnerships of Distinction Award (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--sera-linardi-recognized-harvard-center-research-and-computation-society",
+      "title": "Sera Linardi Recognized by Harvard Center for Research and Computation for Society",
+      "url": "news--sera-linardi-recognized-harvard-center-research-and-computation-society.html",
+      "category": "Research",
+      "keywords": "Sera Linardi Recognized by Harvard Center for Research and Computation for Society news",
+      "snippet": "Sera Linardi Recognized by Harvard Center for Research and Computation for Society (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--three-isp-faculty-members-awarded-pitt-innovator-awards-innovation-institute",
+      "title": "Three ISP Faculty Members Awarded Pitt Innovator Awards from the Innovation Institute",
+      "url": "news--three-isp-faculty-members-awarded-pitt-innovator-awards-innovation-institute.html",
+      "category": "Research",
+      "keywords": "Three ISP Faculty Members Awarded Pitt Innovator Awards from the Innovation Institute news",
+      "snippet": "Three ISP Faculty Members Awarded Pitt Innovator Awards from the Innovation Institute (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--tribute-professor-janyce-wiebe-her-nlp-family",
+      "title": "A Tribute to Professor Janyce Wiebe from her NLP Family",
+      "url": "news--tribute-professor-janyce-wiebe-her-nlp-family.html",
+      "category": "Research",
+      "keywords": "A Tribute to Professor Janyce Wiebe from her NLP Family news",
+      "snippet": "A Tribute to Professor Janyce Wiebe from her NLP Family (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--two-isp-faculty-and-one-student-receive-pitt-cyber-accelerator-grants",
+      "title": "Two ISP Faculty and One Student Receive Pitt Cyber Accelerator Grants",
+      "url": "news--two-isp-faculty-and-one-student-receive-pitt-cyber-accelerator-grants.html",
+      "category": "Research",
+      "keywords": "Two ISP Faculty and One Student Receive Pitt Cyber Accelerator Grants news",
+      "snippet": "Two ISP Faculty and One Student Receive Pitt Cyber Accelerator Grants (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--two-isp-faculty-win-provost-faculty-awards",
+      "title": "Two ISP Faculty Win Provost Faculty Awards",
+      "url": "news--two-isp-faculty-win-provost-faculty-awards.html",
+      "category": "Research",
+      "keywords": "Two ISP Faculty Win Provost Faculty Awards news",
+      "snippet": "Two ISP Faculty Win Provost Faculty Awards (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--welcome-new-isp-students-fall-21",
+      "title": "Welcome New ISP Students for Fall '21",
+      "url": "news--welcome-new-isp-students-fall-21.html",
+      "category": "Research",
+      "keywords": "Welcome New ISP Students for Fall '21 news",
+      "snippet": "Welcome New ISP Students for Fall '21 (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--what-will-2020s-bring-artificial-intelligence",
+      "title": "What Will the 2020s Bring for Artificial Intelligence?",
+      "url": "news--what-will-2020s-bring-artificial-intelligence.html",
+      "category": "Research",
+      "keywords": "What Will the 2020s Bring for Artificial Intelligence? news",
+      "snippet": "What Will the 2020s Bring for Artificial Intelligence? (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--yanshan-wang-receives-6-million-nih-award-advance-generative-ai-healthcare",
+      "title": "Yanshan Wang Receives $6 Million NIH Award to Advance Generative AI in Healthcare",
+      "url": "news--yanshan-wang-receives-6-million-nih-award-advance-generative-ai-healthcare.html",
+      "category": "Research",
+      "keywords": "Yanshan Wang Receives $6 Million NIH Award to Advance Generative AI in Healthcare news",
+      "snippet": "Yanshan Wang Receives $6 Million NIH Award to Advance Generative AI in Healthcare (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-news--yu-ru-lin-receives-funding-adobe-research",
+      "title": "Yu-Ru Lin Receives Funding from Adobe Research",
+      "url": "news--yu-ru-lin-receives-funding-adobe-research.html",
+      "category": "Research",
+      "keywords": "Yu-Ru Lin Receives Funding from Adobe Research news",
+      "snippet": "Yu-Ru Lin Receives Funding from Adobe Research (News archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-past-events--past-events-2018",
+      "title": "Past Events - 2018",
+      "url": "past-events--past-events-2018.html",
+      "category": "Research",
+      "keywords": "Past Events - 2018 events",
+      "snippet": "Past Events - 2018 (Events archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-past-events--past-events-2019",
+      "title": "Past Events - 2019",
+      "url": "past-events--past-events-2019.html",
+      "category": "Research",
+      "keywords": "Past Events - 2019 events",
+      "snippet": "Past Events - 2019 (Events archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-past-events--past-events-2020",
+      "title": "Past Events - 2020",
+      "url": "past-events--past-events-2020.html",
+      "category": "Research",
+      "keywords": "Past Events - 2020 events",
+      "snippet": "Past Events - 2020 (Events archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-past-events--past-events-2021",
+      "title": "Past Events - 2021",
+      "url": "past-events--past-events-2021.html",
+      "category": "Research",
+      "keywords": "Past Events - 2021 events",
+      "snippet": "Past Events - 2021 (Events archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-past-events--past-events-2022",
+      "title": "Past Events - 2022",
+      "url": "past-events--past-events-2022.html",
+      "category": "Research",
+      "keywords": "Past Events - 2022 events",
+      "snippet": "Past Events - 2022 (Events archive page).",
+      "priority": 68
+    },
+    {
+      "id": "imported-resources--2017-publications",
+      "title": "2017 Publications",
+      "url": "resources--2017-publications.html",
+      "category": "Pages & Requirements",
+      "keywords": "2017 Publications resources",
+      "snippet": "2017 Publications (Resources archive page).",
+      "priority": 65
+    },
+    {
+      "id": "imported-resources--2018-publications",
+      "title": "2018 Publications",
+      "url": "resources--2018-publications.html",
+      "category": "Pages & Requirements",
+      "keywords": "2018 Publications resources",
+      "snippet": "2018 Publications (Resources archive page).",
+      "priority": 65
+    },
+    {
+      "id": "imported-resources--2019-publications",
+      "title": "2019 Publications",
+      "url": "resources--2019-publications.html",
+      "category": "Pages & Requirements",
+      "keywords": "2019 Publications resources",
+      "snippet": "2019 Publications (Resources archive page).",
+      "priority": 65
+    },
+    {
+      "id": "imported-resources--isp-secondary-faculty-appointment",
+      "title": "ISP Secondary Faculty Appointment",
+      "url": "resources--isp-secondary-faculty-appointment.html",
+      "category": "Pages & Requirements",
+      "keywords": "ISP Secondary Faculty Appointment resources",
+      "snippet": "ISP Secondary Faculty Appointment (Resources archive page).",
+      "priority": 65
+    },
+    {
+      "id": "imported-resources--reading-and-research-groups",
+      "title": "Reading and Research Groups",
+      "url": "resources--reading-and-research-groups.html",
+      "category": "Pages & Requirements",
+      "keywords": "Reading and Research Groups resources",
+      "snippet": "Reading and Research Groups (Resources archive page).",
+      "priority": 65
+    }
+  ]
+}

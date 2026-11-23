@@ -62,8 +62,8 @@ class PeopleTests(unittest.TestCase):
 
     def test_all_core_pages_have_on_this_page_jump_indicators_pointing_to_valid_ids(self):
         core_pages = [
-            'index', 'about', 'academics', 'admissions', 'ms', 'phd',
-            'people', 'research', 'events', 'news', 'resources',
+            'index', 'about', 'academics', 'courses', 'funding', 'admissions', 'ms', 'phd',
+            'people', 'research', 'events', 'news', 'resources', 'search',
         ]
         for slug in core_pages:
             with self.subTest(page=slug):
@@ -81,6 +81,12 @@ class PeopleTests(unittest.TestCase):
         markup = render()
         nodes = list(Tree(markup).root.walk())
         self.assertTrue(any(n.attrs.get('id') == 'people-hidden-banner' for n in nodes))
+        self.assertTrue(any(n.attrs.get('id') == 'people-name' for n in nodes))
+        self.assertTrue(any(n.attrs.get('id') == 'people-topic-search' for n in nodes))
+        scope_tabs = [n for n in nodes if n.tag == 'button' and n.attrs.get('class') == 'scope-tab']
+        self.assertEqual(len(scope_tabs), 6)
+        topic_chips = [n for n in nodes if n.tag == 'button' and n.attrs.get('class') == 'topic-chip']
+        self.assertGreaterEqual(len(topic_chips), 10)
         cat_select = next(n for n in nodes if n.attrs.get('id') == 'people-category')
         options = [n.text() for n in cat_select.walk() if n.tag == 'option']
         self.assertTrue(any('All people (' in opt for opt in options))
