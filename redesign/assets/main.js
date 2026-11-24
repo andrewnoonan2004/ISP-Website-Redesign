@@ -1,16 +1,162 @@
 const stickyShell = document.getElementById('sticky-nav-shell');
+const pageJumps = document.querySelector('nav.page-jumps[aria-label="On this page"]');
 const menu = document.querySelector('.menu');
 const navigation = document.querySelector('#main-navigation');
-const academicsToggle = document.getElementById('academics-submenu-toggle');
-const academicsMenu = document.getElementById('nav-academics-menu');
+const navGroups = [...document.querySelectorAll('#main-navigation .nav-group')];
 
-function syncStickyNavHeight() {
-  if (!stickyShell) return;
-  const h = Math.max(48, Math.ceil(stickyShell.getBoundingClientRect().height));
-  document.documentElement.style.setProperty('--sticky-nav-height', `${h}px`);
+let stickyNavHeight = 48;
+let stickyOffsetHeight = 48;
+
+function syncStickyHeights() {
+  if (stickyShell) {
+    stickyNavHeight = Math.max(40, Math.floor(stickyShell.getBoundingClientRect().height));
+    document.documentElement.style.setProperty('--sticky-nav-height', `${stickyNavHeight}px`);
+  }
+  const jumpsHeight = pageJumps
+    ? Math.ceil(pageJumps.getBoundingClientRect().height)
+    : 0;
+  stickyOffsetHeight = stickyNavHeight + jumpsHeight;
+  document.documentElement.style.setProperty('--sticky-jumps-height', `${jumpsHeight}px`);
+  document.documentElement.style.setProperty('--sticky-offset-height', `${stickyOffsetHeight}px`);
 }
-syncStickyNavHeight();
-window.addEventListener('resize', syncStickyNavHeight);
+syncStickyHeights();
+window.addEventListener('resize', syncStickyHeights);
+window.addEventListener('load', syncStickyHeights);
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(syncStickyHeights).catch(() => {});
+}
+if (typeof ResizeObserver === 'function') {
+  const ro = new ResizeObserver(syncStickyHeights);
+  if (stickyShell) ro.observe(stickyShell);
+  if (pageJumps) ro.observe(pageJumps);
+}
+
+// Multi-tab accessible category submenus (hover-intent on desktop + click/keyboard everywhere).
+const submenuControllers = [];
+
+function closeAllSubmenus(exceptController = null) {
+  submenuControllers.forEach((ctrl) => {
+    if (ctrl !== exceptController && ctrl.isOpen()) {
+      ctrl.setExpanded(false, '');
+    }
+  });
+}
+
+function getOpenSubmenuController() {
+  return submenuControllers.find((ctrl) => ctrl.isOpen()) || null;
+}
+
+navGroups.forEach((group) => {
+  const toggle = group.querySelector('.nav-submenu-toggle');
+  const panel = group.querySelector('.nav-submenu');
+  if (!toggle || !panel) return;
+
+  let openReason = '';
+  let hoverOpenTimer = null;
+  let hoverCloseTimer = null;
+
+  const clearTimers = () => {
+    if (hoverOpenTimer) {
+      clearTimeout(hoverOpenTimer);
+      hoverOpenTimer = null;
+    }
+    if (hoverCloseTimer) {
+      clearTimeout(hoverCloseTimer);
+      hoverCloseTimer = null;
+    }
+  };
+
+  const controller = {
+    group,
+    toggle,
+    panel,
+    isOpen: () => toggle.getAttribute('aria-expanded') === 'true',
+    setExpanded(expanded, reason = '') {
+      clearTimers();
+      if (expanded) {
+        closeAllSubmenus(controller);
+        openReason = reason || 'click';
+      } else {
+        openReason = '';
+      }
+      toggle.setAttribute('aria-expanded', String(expanded));
+      panel.hidden = !expanded;
+    },
+  };
+  submenuControllers.push(controller);
+
+  toggle.addEventListener('click', (event) => {
+    event.stopPropagation();
+    if (!controller.isOpen()) {
+      controller.setExpanded(true, 'click');
+    } else if (openReason === 'hover') {
+      // Promote hover-opened menu to click-pinned instead of closing on first click.
+      openReason = 'click';
+    } else {
+      controller.setExpanded(false, '');
+    }
+  });
+
+  group.addEventListener('pointerenter', (event) => {
+    if (event.pointerType !== 'mouse' || window.innerWidth <= 760) return;
+    clearTimers();
+    if (controller.isOpen()) return;
+    hoverOpenTimer = setTimeout(() => {
+      hoverOpenTimer = null;
+      if (window.innerWidth > 760 && !controller.isOpen()) {
+        controller.setExpanded(true, 'hover');
+      }
+    }, 120);
+  });
+
+  group.addEventListener('pointerleave', (event) => {
+    if (event.pointerType !== 'mouse' || window.innerWidth <= 760) return;
+    clearTimers();
+    if (controller.isOpen() && openReason === 'hover') {
+      hoverCloseTimer = setTimeout(() => {
+        hoverCloseTimer = null;
+        if (controller.isOpen() && openReason === 'hover') {
+          controller.setExpanded(false, '');
+        }
+      }, 180);
+    }
+  });
+
+  group.addEventListener('focusout', (event) => {
+    if (!controller.isOpen()) return;
+    const nextFocus = event.relatedTarget;
+    if (nextFocus && !group.contains(nextFocus)) {
+      controller.setExpanded(false, '');
+    }
+  });
+
+  panel.addEventListener('click', (event) => {
+    if (event.target.closest('a[href]')) {
+      controller.setExpanded(false, '');
+      if (menu && menu.getAttribute('aria-expanded') === 'true') {
+        menu.setAttribute('aria-expanded', 'false');
+        menu.textContent = 'Menu';
+        if (navigation) navigation.classList.remove('open');
+      }
+    }
+  });
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape') return;
+  const openCtrl = getOpenSubmenuController();
+  if (openCtrl) {
+    event.stopPropagation();
+    openCtrl.setExpanded(false, '');
+    openCtrl.toggle.focus();
+  }
+});
+
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.nav-group')) {
+    closeAllSubmenus();
+  }
+});
 
 if (menu && navigation) {
   // Collapse mobile navigation only after its controls are available.
@@ -21,7 +167,8 @@ if (menu && navigation) {
     menu.setAttribute('aria-expanded', String(expanded));
     menu.textContent = expanded ? 'Close menu' : 'Menu';
     navigation.classList.toggle('open', expanded);
-    syncStickyNavHeight();
+    if (!expanded) closeAllSubmenus();
+    syncStickyHeights();
   }
 
   menu.addEventListener('click', () => {
@@ -33,7 +180,7 @@ if (menu && navigation) {
     if (
       event.key === 'Escape' &&
       menu.getAttribute('aria-expanded') === 'true' &&
-      (!academicsToggle || academicsToggle.getAttribute('aria-expanded') !== 'true')
+      !getOpenSubmenuController()
     ) {
       setMenuExpanded(false);
       menu.focus();
@@ -51,37 +198,89 @@ if (menu && navigation) {
   });
 }
 
-if (academicsToggle && academicsMenu) {
-  function setAcademicsExpanded(expanded) {
-    academicsToggle.setAttribute('aria-expanded', String(expanded));
-    academicsMenu.hidden = !expanded;
-  }
+// Sticky "On this page" category bar: stuck indicator + active-section scrollspy.
+if (pageJumps) {
+  const jumpEntries = [...pageJumps.querySelectorAll('a[href^="#"]')]
+    .map((link) => {
+      const id = decodeURIComponent((link.getAttribute('href') || '').slice(1));
+      const target = id ? document.getElementById(id) : null;
+      return target ? { id, link, target } : null;
+    })
+    .filter(Boolean);
 
-  academicsToggle.addEventListener('click', (event) => {
-    event.stopPropagation();
-    const expanded = academicsToggle.getAttribute('aria-expanded') === 'true';
-    setAcademicsExpanded(!expanded);
-  });
+  let activeLink = null;
+  let scrollTicking = false;
 
-  document.addEventListener('keydown', (event) => {
-    if (
-      event.key === 'Escape' &&
-      academicsToggle.getAttribute('aria-expanded') === 'true'
-    ) {
-      event.stopPropagation();
-      setAcademicsExpanded(false);
-      academicsToggle.focus();
+  const updatePageJumpsState = () => {
+    scrollTicking = false;
+    const jumpsRect = pageJumps.getBoundingClientRect();
+    const isStuck = window.scrollY > 8 && jumpsRect.top <= stickyNavHeight + 2;
+    pageJumps.classList.toggle('is-stuck', isStuck);
+
+    if (!jumpEntries.length) return;
+
+    const threshold = stickyOffsetHeight + 48;
+    const atBottom =
+      window.scrollY > 40 &&
+      window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 24;
+
+    let current = null;
+    if (atBottom) {
+      current = jumpEntries[jumpEntries.length - 1];
+    } else {
+      for (const entry of jumpEntries) {
+        if (entry.target.getBoundingClientRect().top <= threshold) {
+          current = entry;
+        }
+      }
+      if (!current && isStuck) {
+        current = jumpEntries[0];
+      }
+      if (!current && location.hash.length > 1) {
+        const hashId = decodeURIComponent(location.hash.slice(1));
+        current = jumpEntries.find((e) => e.id === hashId) || null;
+      }
     }
-  });
 
-  document.addEventListener('click', (event) => {
-    if (
-      academicsToggle.getAttribute('aria-expanded') === 'true' &&
-      !event.target.closest('.nav-academics')
-    ) {
-      setAcademicsExpanded(false);
+    const nextLink = current ? current.link : null;
+    if (nextLink !== activeLink) {
+      jumpEntries.forEach(({ link }) => {
+        const isCurrent = link === nextLink;
+        link.classList.toggle('is-active', isCurrent);
+        if (isCurrent) {
+          link.setAttribute('aria-current', 'location');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      });
+      activeLink = nextLink;
+
+      if (activeLink && pageJumps.scrollWidth > pageJumps.clientWidth + 4) {
+        const linkLeft = activeLink.offsetLeft;
+        const linkRight = linkLeft + activeLink.offsetWidth;
+        const viewLeft = pageJumps.scrollLeft;
+        const viewRight = viewLeft + pageJumps.clientWidth;
+        if (linkLeft < viewLeft + 16 || linkRight > viewRight - 16) {
+          pageJumps.scrollLeft = Math.max(0, linkLeft - 24);
+        }
+      }
     }
+  };
+
+  const scheduleUpdate = () => {
+    if (!scrollTicking) {
+      scrollTicking = true;
+      window.requestAnimationFrame(updatePageJumpsState);
+    }
+  };
+
+  window.addEventListener('scroll', scheduleUpdate, { passive: true });
+  window.addEventListener('resize', () => {
+    syncStickyHeights();
+    scheduleUpdate();
   });
+  window.addEventListener('hashchange', scheduleUpdate);
+  updatePageJumpsState();
 }
 
 // Open a linked resource so its instructions are immediately available.

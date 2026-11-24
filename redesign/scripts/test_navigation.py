@@ -116,6 +116,38 @@ class NavigationTests(unittest.TestCase):
                 if u.hostname in {'www.isp.pitt.edu', 'isp.pitt.edu'}:
                     self.assertFalse(u.path.endswith('.html'), f'{path.name}: {href}')
 
+    def test_unified_navbar_and_all_top_level_category_submenus(self):
+        markup = (ROOT / 'index.html').read_text()
+        self.assertNotIn('class="sticky-brand"', markup)
+        self.assertNotIn('class="sticky-controls"', markup)
+        self.assertIn('class="sticky-site-name"', markup)
+        self.assertIn('id="site-search-open"', markup)
+        self.assertIn('id="mobile-menu-toggle"', markup)
+        nodes = list(content.Tree(markup).root.walk())
+        by_id = {n.attrs['id']: n for n in nodes if 'id' in n.attrs}
+        expected_tabs = (
+            'about',
+            'academics',
+            'courses',
+            'funding',
+            'admissions',
+            'people',
+            'research',
+            'events',
+            'news',
+            'resources',
+        )
+        for slug in expected_tabs:
+            with self.subTest(tab=slug):
+                toggle = by_id.get(f'{slug}-submenu-toggle')
+                panel = by_id.get(f'nav-{slug}-menu')
+                self.assertIsNotNone(toggle, f'Missing submenu toggle for {slug}')
+                self.assertIsNotNone(panel, f'Missing submenu panel for {slug}')
+                self.assertEqual(toggle.attrs.get('aria-expanded'), 'false')
+                self.assertEqual(toggle.attrs.get('aria-controls'), f'nav-{slug}-menu')
+                links = [n.attrs.get('href', '') for n in panel.walk() if n.tag == 'a']
+                self.assertGreaterEqual(len(links), 2, f'Expected >=2 category links in {slug} submenu')
+
 
 if __name__ == '__main__':
     unittest.main()

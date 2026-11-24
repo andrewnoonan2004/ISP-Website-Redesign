@@ -53,23 +53,87 @@ NAV_LABELS = {
 }
 
 
+NAV_SUBMENUS = {
+    'about': [
+        ('about.html#leadership', 'Leadership & contacts'),
+        ('about.html#spaces', 'Spaces & location'),
+        ('about.html#directors', 'Program directors (1986–present)'),
+        ('about.html#review-notes', 'Prototype review notes'),
+    ],
+    'academics': [
+        ('academics.html#requirements', 'Degree requirements (MS & PhD)'),
+        ('ms.html#requirements', 'MS requirements (30 credits)'),
+        ('phd.html#requirements', 'PhD requirements (72 credits)'),
+        ('academics.html#compare', 'Compare degrees'),
+        ('courses.html', 'Courses & prerequisites'),
+        ('funding.html', 'Scholarships & funding'),
+        ('academics.html#catalog-guidance', 'Catalog & live schedules'),
+    ],
+    'courses': [
+        ('courses.html#live-availability', 'Live availability & PeopleSoft'),
+        ('courses.html#course-explorer', 'Filterable course catalog (47)'),
+        ('courses.html#catalog-changes', '2026–2027 catalog updates'),
+        ('courses.html#permission-numbers', 'Permission numbers & cross-registration'),
+    ],
+    'funding': [
+        ('funding.html#funding-overview', 'At a glance'),
+        ('funding.html#phd-funding', 'PhD fellowships & assistantships'),
+        ('funding.html#ms-funding', 'MS scholarships & Pitt2Pitt'),
+        ('funding.html#travel-grants', 'Conference travel grants ($750–$1,000)'),
+        ('funding.html#external-and-university-aid', 'External fellowships & Pitt portals'),
+    ],
+    'admissions': [
+        ('admissions.html#steps', 'Application steps (4)'),
+        ('admissions.html#funding', 'Scholarships, fellowships & financial aid'),
+        ('admissions.html#contact-admissions', 'Ask about your application'),
+    ],
+    'people': [
+        ('people.html#explorer-title', 'Search by name or topic'),
+        ('people.html#topic-chip-bar', 'Research topic filters (10)'),
+        ('people.html#people-results', 'Faculty & people directory (190)'),
+        ('people.html#directory-notes', 'About this information'),
+    ],
+    'research': [
+        ('research.html#faculty-explorer', 'Faculty directory'),
+        ('research.html#areas', 'Research groups & centers (8)'),
+    ],
+    'events': [
+        ('events.html#upcoming-events', 'Upcoming calendar'),
+        ('events.html#forums', 'ISP forums'),
+        ('events.html#archive', 'Past events archive (2022–2018)'),
+    ],
+    'news': [
+        ('news.html#featured-news', 'Featured stories (3)'),
+        ('news.html#archive', 'News archive (48 stories)'),
+    ],
+    'resources': [
+        ('resources.html#advising-guides', 'Registration & policies (8 guides)'),
+        ('resources.html#funding-resources', 'Scholarships, funding & travel grants'),
+        ('resources.html#campus-links', 'Campus spaces & links'),
+        ('resources.html#archive', 'Additional ISP archives (5)'),
+    ],
+}
+NAV_END_ALIGNED = {'research', 'events', 'news', 'resources'}
+
+
 def build_nav_html(active_slug: str) -> str:
     parts = []
     for s in NAV:
         current = ' aria-current="page"' if s == active_slug else ''
         label = html.escape(NAV_LABELS[s])
-        if s == 'academics':
+        items = NAV_SUBMENUS.get(s, [])
+        if items:
+            end_cls = ' nav-submenu-end' if s in NAV_END_ALIGNED else ''
+            links_html = ''.join(
+                f'<a href="{html.escape(href)}">{html.escape(text)}</a>'
+                for href, text in items
+            )
             parts.append(
-                f'<div class="nav-group nav-academics">'
-                f'<a href="academics.html"{current}>{label}</a>'
-                f'<button type="button" class="nav-submenu-toggle" id="academics-submenu-toggle" aria-expanded="false" aria-controls="nav-academics-menu" aria-label="Academics menu"><span aria-hidden="true">▾</span></button>'
-                f'<div class="nav-submenu" id="nav-academics-menu" hidden>'
-                f'<a href="academics.html#requirements">Degree requirements (MS &amp; PhD)</a>'
-                f'<a href="ms.html#requirements">MS requirements (30 credits)</a>'
-                f'<a href="phd.html#requirements">PhD requirements (72 credits)</a>'
-                f'<a href="courses.html">Courses &amp; prerequisites</a>'
-                f'<a href="funding.html">Scholarships &amp; funding</a>'
-                f'</div></div>'
+                f'<div class="nav-group nav-{s}{end_cls}">'
+                f'<a href="{s}.html"{current}>{label}</a>'
+                f'<button type="button" class="nav-submenu-toggle" id="{s}-submenu-toggle" aria-expanded="false" aria-controls="nav-{s}-menu" aria-label="{label} sections"><span aria-hidden="true">▾</span></button>'
+                f'<div class="nav-submenu" id="nav-{s}-menu" hidden>{links_html}</div>'
+                f'</div>'
             )
         else:
             parts.append(f'<a href="{s}.html"{current}>{label}</a>')
